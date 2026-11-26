@@ -2362,5 +2362,113 @@
     "onlineSource": "source/20-brut-chart.js",
     "zip": "20-brut-chart.zip",
     "interaction": true
+  },
+  {
+    "note": 21,
+    "id": "21-diffuse-dial",
+    "name": "阻尼刻度",
+    "implementation": "定稿绘制函数、原镜头动画和真实输入",
+    "durationSeconds": 3.1333,
+    "tools": "定稿使用 React 19.2.3、Remotion 4.0.539、Canvas 2D 和 Three.js 0.180.0。场间飞行经 cannon-es 0.20.0 预计算，Chromium 取帧、FFmpeg 编码。独立包内含 Three.js，浏览器直接绘制，可离线运行。",
+    "sourceFile": "effect.js",
+    "onlineSource": "source/21-diffuse-dial.js",
+    "zip": "21-diffuse-dial.zip",
+    "interaction": true
+  },
+  {
+    "note": 21,
+    "id": "21-diffuse-charge",
+    "name": "蓄力发送",
+    "implementation": "定稿绘制函数、原镜头动画和真实输入",
+    "durationSeconds": 3.3,
+    "tools": "定稿使用 React 19.2.3、Remotion 4.0.539、Canvas 2D 和 Three.js 0.180.0。场间飞行经 cannon-es 0.20.0 预计算，Chromium 取帧、FFmpeg 编码。独立包内含 Three.js，浏览器直接绘制，可离线运行。",
+    "sourceFile": "effect.js",
+    "onlineSource": "source/21-diffuse-charge.js",
+    "zip": "21-diffuse-charge.zip",
+    "interaction": true
+  },
+  {
+    "note": 21,
+    "id": "21-diffuse-player",
+    "name": "波形播放器",
+    "implementation": "定稿绘制函数、原镜头动画和真实输入",
+    "durationSeconds": 2.6667,
+    "tools": "定稿使用 React 19.2.3、Remotion 4.0.539、Canvas 2D 和 Three.js 0.180.0。场间飞行经 cannon-es 0.20.0 预计算，Chromium 取帧、FFmpeg 编码。独立包内含 Three.js，浏览器直接绘制，可离线运行。 本机试听调用 HTMLAudioElement；内置曲名和封面展示切歌动作。",
+    "sourceFile": "effect.js",
+    "onlineSource": "source/21-diffuse-player.js",
+    "zip": "21-diffuse-player.zip",
+    "interaction": true
+  },
+  {
+    "note": 21,
+    "id": "21-diffuse-pass",
+    "name": "全息通行证",
+    "implementation": "定稿绘制函数、原镜头动画和真实输入",
+    "durationSeconds": 3.0667,
+    "tools": "定稿使用 React 19.2.3、Remotion 4.0.539、Canvas 2D 和 Three.js 0.180.0。场间飞行经 cannon-es 0.20.0 预计算，Chromium 取帧、FFmpeg 编码。独立包内含 Three.js，浏览器直接绘制，可离线运行。",
+    "sourceFile": "effect.js",
+    "onlineSource": "source/21-diffuse-pass.js",
+    "zip": "21-diffuse-pass.zip",
+    "interaction": true
+  },
+  {
+    "note": 21,
+    "id": "21-diffuse-dock",
+    "name": "光标导航",
+    "implementation": "定稿绘制函数、原镜头动画和真实输入",
+    "durationSeconds": 2.65,
+    "tools": "定稿使用 React 19.2.3、Remotion 4.0.539、Canvas 2D 和 Three.js 0.180.0。场间飞行经 cannon-es 0.20.0 预计算，Chromium 取帧、FFmpeg 编码。独立包内含 Three.js，浏览器直接绘制，可离线运行。",
+    "sourceFile": "effect.js",
+    "onlineSource": "source/21-diffuse-dock.js",
+    "zip": "21-diffuse-dock.zip",
+    "interaction": true
+  },
+  {
+    "note": 21,
+    "id": "21-diffuse-code",
+    "name": "验证码",
+    "implementation": "定稿绘制函数、原镜头动画和真实输入",
+    "durationSeconds": 5.1,
+    "tools": "定稿使用 React 19.2.3、Remotion 4.0.539、Canvas 2D 和 Three.js 0.180.0。场间飞行经 cannon-es 0.20.0 预计算，Chromium 取帧、FFmpeg 编码。独立包内含 Three.js，浏览器直接绘制，可离线运行。 验证码采用 Web Audio 在本机合成六个高音，沿用定稿的音高和入点。",
+    "sourceFile": "effect.js",
+    "onlineSource": "source/21-diffuse-code.js",
+    "zip": "21-diffuse-code.zip",
+    "interaction": true
+  },
+  {
+    "note": 21,
+    "id": "21-diffuse-notices",
+    "name": "通知堆叠",
+    "implementation": "定稿绘制函数、原镜头动画和真实输入",
+    "durationSeconds": 2.5333,
+    "tools": "定稿使用 React 19.2.3、Remotion 4.0.539、Canvas 2D 和 Three.js 0.180.0。场间飞行经 cannon-es 0.20.0 预计算，Chromium 取帧、FFmpeg 编码。独立包内含 Three.js，浏览器直接绘制，可离线运行。",
+    "sourceFile": "effect.js",
+    "onlineSource": "source/21-diffuse-notices.js",
+    "zip": "21-diffuse-notices.zip",
+    "interaction": true
+  },
+  {
+    "note": 21,
+    "id": "21-diffuse-sync",
+    "name": "同步光环",
+    "implementation": "定稿绘制函数、原镜头动画和真实输入",
+    "durationSeconds": 3.0333,
+    "tools": "定稿使用 React 19.2.3、Remotion 4.0.539、Canvas 2D 和 Three.js 0.180.0。场间飞行经 cannon-es 0.20.0 预计算，Chromium 取帧、FFmpeg 编码。独立包内含 Three.js，浏览器直接绘制，可离线运行。",
+    "sourceFile": "effect.js",
+    "onlineSource": "source/21-diffuse-sync.js",
+    "zip": "21-diffuse-sync.zip",
+    "interaction": true
+  },
+  {
+    "note": 21,
+    "id": "21-diffuse-like",
+    "name": "心动反馈",
+    "implementation": "定稿绘制函数、原镜头动画和真实输入",
+    "durationSeconds": 2.9333,
+    "tools": "定稿使用 React 19.2.3、Remotion 4.0.539、Canvas 2D 和 Three.js 0.180.0。场间飞行经 cannon-es 0.20.0 预计算，Chromium 取帧、FFmpeg 编码。独立包内含 Three.js，浏览器直接绘制，可离线运行。",
+    "sourceFile": "effect.js",
+    "onlineSource": "source/21-diffuse-like.js",
+    "zip": "21-diffuse-like.zip",
+    "interaction": true
   }
 ]
