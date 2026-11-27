@@ -2470,5 +2470,65 @@
     "onlineSource": "source/21-diffuse-like.js",
     "zip": "21-diffuse-like.zip",
     "interaction": true
+  },
+  {
+    "note": 22,
+    "id": "22-keyboard-typewriter",
+    "name": "高定复古打字机",
+    "implementation": "定稿绘制函数、60fps 回放与键鼠真实输入",
+    "durationSeconds": 3.5,
+    "tools": "HTML5 Canvas 2D、Web Audio 实时拟音，零外部依赖可离线运行；定稿由 React / Remotion 与 60 fps 确定性渲染器生成。",
+    "sourceFile": "effect.js",
+    "onlineSource": "source/22-keyboard-typewriter.js",
+    "zip": "22-keyboard-typewriter.zip",
+    "interaction": true
+  },
+  {
+    "note": 22,
+    "id": "22-keyboard-cat",
+    "name": "小猫陪打字",
+    "implementation": "定稿绘制函数、60fps 回放与键鼠真实输入",
+    "durationSeconds": 3.9,
+    "tools": "HTML5 Canvas 2D、Web Audio 实时拟音，零外部依赖可离线运行；定稿由 React / Remotion 与 60 fps 确定性渲染器生成。",
+    "sourceFile": "effect.js",
+    "onlineSource": "source/22-keyboard-cat.js",
+    "zip": "22-keyboard-cat.zip",
+    "interaction": true
+  },
+  {
+    "note": 22,
+    "id": "22-keyboard-garden",
+    "name": "字母花园",
+    "implementation": "定稿绘制函数、60fps 回放与键鼠真实输入",
+    "durationSeconds": 4.1,
+    "tools": "HTML5 Canvas 2D、Web Audio 实时拟音，零外部依赖可离线运行；定稿由 React / Remotion 与 60 fps 确定性渲染器生成。",
+    "sourceFile": "effect.js",
+    "onlineSource": "source/22-keyboard-garden.js",
+    "zip": "22-keyboard-garden.zip",
+    "interaction": true
+  },
+  {
+    "note": 22,
+    "id": "22-keyboard-melody",
+    "name": "旋律键盘",
+    "implementation": "定稿绘制函数、60fps 回放与键鼠真实输入",
+    "durationSeconds": 3.5,
+    "tools": "HTML5 Canvas 2D、Web Audio 实时拟音，零外部依赖可离线运行；定稿由 React / Remotion 与 60 fps 确定性渲染器生成。",
+    "sourceFile": "effect.js",
+    "onlineSource": "source/22-keyboard-melody.js",
+    "zip": "22-keyboard-melody.zip",
+    "interaction": true
+  },
+  {
+    "note": 22,
+    "id": "22-keyboard-laser",
+    "name": "激光输入框",
+    "implementation": "定稿绘制函数、60fps 回放与键鼠真实输入",
+    "durationSeconds": 3.0,
+    "tools": "HTML5 Canvas 2D、Web Audio 实时拟音，零外部依赖可离线运行；定稿由 React / Remotion 与 60 fps 确定性渲染器生成。",
+    "sourceFile": "effect.js",
+    "onlineSource": "source/22-keyboard-laser.js",
+    "zip": "22-keyboard-laser.zip",
+    "interaction": true
   }
 ]
