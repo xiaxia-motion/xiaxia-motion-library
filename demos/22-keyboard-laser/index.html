@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>激光输入框 · 5种创意键盘 UI</title>
+  <link rel="stylesheet" href="style.css" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23F5EFE4' stroke='%23CC371F' stroke-width='2'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="../../embed-stage.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>激光输入框</h1>
+      <span class="sub">VibeCoding · 5种创意键盘 UI · 离线交互源码包</span>
+    </header>
+    <div class="stage">
+      <canvas id="stage" width="1440" height="1080" tabindex="0" role="img" aria-label="激光输入框可交互键盘画布"></canvas>
+    </div>
+    <fieldset id="panel" disabled aria-label="预览与操作">
+      <button id="mode" type="button" aria-pressed="false">自己操作</button>
+      <div id="timeline">
+        <button id="play" type="button">播放</button>
+        <button id="restart" type="button">从头播放</button>
+        <input type="range" id="time" aria-label="演示时间" />
+        <output id="readout"></output>
+      </div>
+      <div id="actions" hidden><button type="button" data-act="boom">发射 BOOM</button><button type="button" data-act="sweep">扫描锁字</button><button type="button" data-act="clear">清空屏幕</button></div>
+      <button id="sound" type="button" aria-pressed="false">开启声音</button>
+    </fieldset>
+    <p id="status" role="status" aria-live="polite"></p>
+  </main>
+  <script src="settings.js"></script>
+  <script src="sound.js"></script>
+  <script src="effect.js"></script>
+  <script src="viewer.js"></script>
+<script src="../../embed-stage.js" defer></script>
+</body>
+</html>

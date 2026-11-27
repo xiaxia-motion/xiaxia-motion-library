@@ -1,0 +1,12 @@
+:root{color-scheme:light;font:16px/1.55 system-ui,sans-serif;color:#222;background:#fafafa}*{box-sizing:border-box}
+body{margin:0}main{max-width:840px;margin:clamp(15px,5vw,49px) auto;padding:0 16px}
+header,footer{display:flex;align-items:center;gap:13px;flex-wrap:wrap}header{justify-content:space-between}
+h1{margin:0;font-size:clamp(22px,4vw,32px)}a{color:inherit;text-underline-offset:.22em}button,input{font:inherit}
+figure{margin:20px 0;padding:clamp(10px,3vw,30px);border:1px solid #c9ccce;border-radius:13px;min-height:250px;display:grid;place-items:center;background:#fafafa}
+svg{width:100%;max-width:690px;height:auto;max-height:430px;display:block;overflow:visible}
+body.ice figure{background:#edf5fa;border-color:#bccdd6}body.ice{color:#163d50}
+svg text{font-family:system-ui,sans-serif;text-rendering:geometricPrecision}
+body.ice svg text{fill:#123e52;font-weight:400}body.ice .bold{font-weight:700}body.ice .caption{fill:#49697e}body.ice .icon{fill:none;stroke:#174e67;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+body.ice #overview text{fill:#0c3348}body.ice .flow text{fill:#072b40}body.ice .flow .field-value{fill:#edfcff}
+svg[tabindex]{touch-action:none;cursor:pointer}button{border:1px solid #666;background:white;color:inherit;border-radius:5px;padding:5px 15px;cursor:pointer}
+:focus-visible{outline:3px solid #467aa1;outline-offset:3px}#scrub{flex:1;min-width:80px}#clock{font-variant-numeric:tabular-nums}#feedback{display:block;min-height:1.6em}fieldset{margin:10px 0;border:1px solid #999}fieldset label{display:inline-block;margin-right:14px}#query{width:min(20em,100%)}label{max-width:100%}

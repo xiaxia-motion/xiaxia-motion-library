@@ -1,0 +1,1842 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>夏夏的AI灵感 · 暖纸交互动效画刊</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23F5EFE4' stroke='%23CC371F' stroke-width='2'/%3E%3Crect x='7' y='7' width='18' height='3' rx='1' fill='%23CC371F'/%3E%3Crect x='7' y='14' width='18' height='11' rx='3' fill='%231C1A17'/%3E%3C/svg%3E">
+<meta name="description" content="夏夏的AI灵感公开动效画刊：22 期往期视频主题、211 组开源独立动效，一屏免滑直接试玩、支持打汉字与开启音效、一键复制提示词与下载源码 ZIP。">
+<style>
+  /* 夏夏的AI灵感 · 官方 A 版「暖纸刊物」视觉系统（同一刊物里的不同世界） */
+  :root {
+    --paper: #F5EFE4;
+    --paper-card: #FBF8F1;
+    --paper-well: #ECE4D6;
+    --paper-hover: #F2E9DA;
+    --ink: #1C1A17;
+    --ink-2: #554E45;
+    --ink-3: #857C70;
+    --vermilion: #CC371F;
+    --vermilion-hover: #AF2B16;
+    --vermilion-soft: rgba(204, 55, 31, 0.09);
+    --vermilion-line: rgba(204, 55, 31, 0.28);
+    --jade: #1F6F54;
+    --jade-soft: rgba(31, 111, 84, 0.10);
+    --line: #DDD4C3;
+    --line-strong: #C4B7A1;
+    --radius-xl: 18px;
+    --radius-lg: 14px;
+    --radius-md: 10px;
+    --radius-sm: 7px;
+    --font-serif: "Songti SC", "Source Han Serif SC", "Noto Serif SC", "STSong", "SimSun", Georgia, serif;
+    --font-sans: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  }
+
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--paper);
+    /* 极克制棉纸肌理（纯 SVG data URI，零外部网络请求） */
+    background-image: radial-gradient(rgba(120, 96, 68, 0.045) 1px, transparent 0);
+    background-size: 22px 22px;
+    color: var(--ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.55;
+    overflow-x: hidden;
+  }
+  a { color: inherit; text-decoration: none; }
+  button { font-family: inherit; cursor: pointer; }
+  button:focus-visible, a:focus-visible, input:focus-visible {
+    outline: 2px solid var(--vermilion);
+    outline-offset: 2px;
+  }
+
+  /* 顶部刊头栏（紧贴官方封面：左上刊名 + 下沿 2px 朱红刊头细线） */
+  .masthead-bar {
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    background: rgba(245, 239, 228, 0.94);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--line);
+  }
+  .masthead-inner {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 12px 24px 10px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .brand {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+  .brand-name {
+    font-family: var(--font-serif);
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+  }
+  .brand-tag {
+    font-size: 12px;
+    color: var(--vermilion);
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: var(--vermilion-soft);
+  }
+
+  .search-wrap {
+    flex: 1;
+    max-width: 420px;
+    margin-left: auto;
+    position: relative;
+  }
+  .search-input {
+    width: 100%;
+    height: 36px;
+    padding: 0 36px 0 36px;
+    border: 1px solid var(--line-strong);
+    border-radius: 999px;
+    background: var(--paper-card);
+    color: var(--ink);
+    font-size: 13.5px;
+    transition: border-color .15s, background .15s;
+  }
+  .search-input:focus {
+    outline: none;
+    border-color: var(--vermilion);
+    background: #FFFDF9;
+  }
+  .search-input::placeholder { color: var(--ink-3); }
+  .search-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    color: var(--ink-3);
+    pointer-events: none;
+  }
+  .search-clear {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 22px;
+    height: 22px;
+    border: 0;
+    border-radius: 50%;
+    background: var(--paper-well);
+    color: var(--ink-2);
+    font-size: 14px;
+    line-height: 1;
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .search-clear.visible { display: inline-flex; }
+
+  .repo-btn {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    height: 36px;
+    padding: 0 14px;
+    border-radius: 999px;
+    border: 1px solid var(--line-strong);
+    background: var(--paper-card);
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--ink);
+    transition: border-color .15s, background .15s, transform .08s;
+  }
+  .repo-btn:hover { border-color: var(--ink); background: #FFFDF9; }
+  .repo-btn:active { transform: translateY(1px); }
+
+  /* 主内容容器 */
+  .page {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 18px 24px 72px;
+  }
+
+  /* 刊头宣言区（官方封面同源：朱红细线 + 炭黑首行 / 朱红次行印刷大标题） */
+  .editorial-head {
+    border-top: 2px solid var(--vermilion);
+    padding: 18px 0 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .editorial-title {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-size: clamp(28px, 3.6vw, 42px);
+    line-height: 1.16;
+    letter-spacing: -0.02em;
+    font-weight: 700;
+  }
+  .editorial-title .line-ink { color: var(--ink); display: block; }
+  .editorial-title .line-red { color: var(--vermilion); display: block; }
+  .editorial-colophon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 6px;
+    text-align: right;
+  }
+  .colophon-nums {
+    font-size: 13.5px;
+    color: var(--ink-2);
+    font-variant-numeric: tabular-nums;
+  }
+  .colophon-nums strong { color: var(--ink); font-weight: 700; }
+  .colophon-tip {
+    font-size: 12.5px;
+    color: var(--ink-3);
+  }
+
+  /* 精选互动展台（左/上：一屏完整展示画框；右/下：刊物策展展签与联动交互控制） */
+  .showcase {
+    background: var(--paper-card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-xl);
+    padding: 16px;
+    margin-bottom: 34px;
+  }
+  .showcase-tabs {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    padding-bottom: 14px;
+    margin-bottom: 14px;
+    border-bottom: 1px solid var(--line);
+  }
+  .tabs-lead {
+    font-size: 12.5px;
+    font-weight: 600;
+    color: var(--ink-3);
+    margin-right: 4px;
+    flex-shrink: 0;
+  }
+  .feat-tab {
+    border: 1px solid var(--line);
+    background: var(--paper);
+    color: var(--ink-2);
+    height: 32px;
+    padding: 0 13px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: background .15s, border-color .15s, color .15s, transform .08s;
+  }
+  .feat-tab:hover { border-color: var(--line-strong); color: var(--ink); background: var(--paper-hover); }
+  .feat-tab:active { transform: translateY(1px); }
+  .feat-tab.active {
+    background: var(--ink);
+    border-color: var(--ink);
+    color: #FBF8F1;
+    font-weight: 600;
+  }
+  .feat-tab .tab-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--vermilion);
+    flex-shrink: 0;
+  }
+  .feat-tab.active .tab-dot { background: #F5A38C; }
+
+  .showcase-body {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 320px;
+    gap: 18px;
+    align-items: stretch;
+  }
+
+  /* 展品画框：强制一屏比例 + 保留作品自身冷暖色彩 + 超长屏显式滚动提示 */
+  .stage-shell {
+    position: relative;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    border: 1px solid var(--line-strong);
+    background: #141416;
+    height: clamp(460px, 64vh, 610px);
+    min-width: 0;
+  }
+  .stage-shell iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+    background: transparent;
+  }
+
+  /* 极少数长屏作品的显式向下滑动提示条 */
+  .scroll-cue {
+    position: absolute;
+    left: 50%;
+    bottom: 12px;
+    transform: translateX(-50%);
+    z-index: 12;
+    display: none;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 14px;
+    border-radius: 999px;
+    border: 1px solid rgba(251, 248, 241, 0.25);
+    background: rgba(28, 26, 23, 0.88);
+    color: #FBF8F1;
+    font-size: 12.5px;
+    font-weight: 500;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.28);
+    animation: cueBob 2s ease-in-out infinite;
+  }
+  .scroll-cue.visible { display: inline-flex; }
+  .scroll-cue:hover { background: var(--vermilion); border-color: var(--vermilion); }
+  @keyframes cueBob {
+    0%, 100% { transform: translateX(-50%) translateY(0); }
+    50% { transform: translateX(-50%) translateY(3px); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .scroll-cue { animation: none; }
+  }
+
+  /* 策展展签（右侧联动面板） */
+  .placard {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    min-width: 0;
+    padding: 4px 2px;
+  }
+  .placard-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    font-size: 12px;
+    color: var(--ink-3);
+  }
+  .issue-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 600;
+    color: var(--vermilion);
+  }
+  .placard-title {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-size: 25px;
+    line-height: 1.25;
+    font-weight: 700;
+    color: var(--ink);
+  }
+  .placard-desc {
+    margin: 0;
+    font-size: 13.5px;
+    color: var(--ink-2);
+    line-height: 1.65;
+  }
+  .cap-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .cap-badge {
+    font-size: 11.5px;
+    font-weight: 600;
+    padding: 3px 9px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: var(--paper);
+    color: var(--ink-2);
+  }
+  .cap-badge.jade {
+    border-color: rgba(31, 111, 84, 0.28);
+    background: var(--jade-soft);
+    color: var(--jade);
+  }
+  .cap-badge.red {
+    border-color: var(--vermilion-line);
+    background: var(--vermilion-soft);
+    color: var(--vermilion);
+  }
+
+  /* 展台核心联动按钮组 */
+  .ctrl-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: auto;
+    padding-top: 10px;
+    border-top: 1px solid var(--line);
+  }
+  .ctrl-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    height: 38px;
+    padding: 0 14px;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--line-strong);
+    background: var(--paper);
+    color: var(--ink);
+    font-size: 13.5px;
+    font-weight: 600;
+    white-space: nowrap;
+    transition: background .14s, border-color .14s, color .14s, transform .08s;
+  }
+  .btn:hover { background: var(--paper-hover); border-color: var(--ink); }
+  .btn:active { transform: translateY(1px); }
+  .btn-primary {
+    background: var(--vermilion);
+    border-color: var(--vermilion);
+    color: #FFFDF9;
+  }
+  .btn-primary:hover { background: var(--vermilion-hover); border-color: var(--vermilion-hover); color: #FFFDF9; }
+  .btn-ink {
+    background: var(--ink);
+    border-color: var(--ink);
+    color: #FBF8F1;
+  }
+  .btn-ink:hover { background: #332F2A; border-color: #332F2A; color: #FFFDF9; }
+  .btn-jade {
+    background: var(--jade);
+    border-color: var(--jade);
+    color: #FFFDF9;
+  }
+  .btn-jade:hover { background: #185A43; border-color: #185A43; color: #FFFDF9; }
+  .btn-soft {
+    background: var(--paper-card);
+    border-color: var(--line);
+    color: var(--ink-2);
+    font-weight: 500;
+  }
+  .btn-soft:hover { color: var(--ink); border-color: var(--line-strong); background: var(--paper-hover); }
+  .btn-sm {
+    height: 32px;
+    padding: 0 11px;
+    font-size: 12.5px;
+    border-radius: var(--radius-sm);
+  }
+  .btn[hidden] { display: none !important; }
+
+  .hint-note {
+    font-size: 12px;
+    color: var(--ink-3);
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  /* 往期视频合集目录区（22 期策展式可展开卷宗，告别 211 张卡片瀑布墙） */
+  .archive-head {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 14px;
+    flex-wrap: wrap;
+    padding-bottom: 14px;
+    border-bottom: 2px solid var(--ink);
+    margin-bottom: 4px;
+  }
+  .archive-title-group {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .archive-title {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--ink);
+  }
+  .archive-sub {
+    font-size: 13px;
+    color: var(--ink-3);
+  }
+  .archive-tools {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .seg {
+    display: inline-flex;
+    background: var(--paper-well);
+    padding: 3px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+  }
+  .seg button {
+    border: 0;
+    background: transparent;
+    color: var(--ink-2);
+    font-size: 12.5px;
+    font-weight: 500;
+    padding: 5px 12px;
+    border-radius: 999px;
+    transition: background .15s, color .15s;
+  }
+  .seg button.active {
+    background: var(--paper-card);
+    color: var(--ink);
+    font-weight: 600;
+    box-shadow: 0 1px 2px rgba(28, 26, 23, 0.08);
+  }
+
+  /* 22 期卷宗条列表 */
+  .issue-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .issue-row {
+    border-bottom: 1px solid var(--line);
+    transition: background .15s;
+  }
+  .issue-row.open {
+    background: rgba(251, 248, 241, 0.55);
+  }
+  .issue-trigger {
+    width: 100%;
+    border: 0;
+    background: transparent;
+    padding: 16px 10px;
+    display: grid;
+    grid-template-columns: 88px minmax(0, 1fr) auto;
+    gap: 16px;
+    align-items: center;
+    text-align: left;
+    color: var(--ink);
+    transition: background .14s;
+  }
+  .issue-trigger:hover { background: var(--paper-hover); }
+  .issue-num-col {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .issue-no {
+    font-family: var(--font-serif);
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--vermilion);
+    font-variant-numeric: tabular-nums;
+    line-height: 1.1;
+  }
+  .issue-date {
+    font-size: 12px;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+  }
+  .issue-main-col {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .issue-title-line {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .issue-name {
+    font-family: var(--font-serif);
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--ink);
+    line-height: 1.3;
+  }
+  .issue-desc {
+    font-size: 13px;
+    color: var(--ink-2);
+    line-height: 1.45;
+  }
+  .issue-preview-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 2px;
+  }
+  .preview-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 9px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: var(--paper-card);
+    font-size: 12px;
+    color: var(--ink-2);
+    transition: border-color .14s, color .14s, background .14s;
+  }
+  .preview-chip:hover {
+    border-color: var(--vermilion);
+    color: var(--vermilion);
+    background: #FFFDF9;
+  }
+  .issue-right-col {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+  .count-pill {
+    font-size: 12px;
+    color: var(--ink-2);
+    background: var(--paper-well);
+    padding: 4px 10px;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+  .count-pill.has-inter {
+    color: var(--jade);
+    background: var(--jade-soft);
+    font-weight: 600;
+  }
+  .expand-cue {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    height: 32px;
+    padding: 0 12px;
+    border-radius: 999px;
+    border: 1px solid var(--line-strong);
+    background: var(--paper-card);
+    font-size: 12.5px;
+    font-weight: 600;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+  .issue-row.open .expand-cue {
+    background: var(--ink);
+    border-color: var(--ink);
+    color: #FBF8F1;
+  }
+
+  /* 折叠展盘动画（grid-template-rows 丝滑展开） */
+  .issue-drawer {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows .22s ease;
+  }
+  .issue-row.open .issue-drawer {
+    grid-template-rows: 1fr;
+  }
+  .issue-drawer-inner {
+    overflow: hidden;
+  }
+  .issue-tray {
+    margin: 2px 10px 18px;
+    padding: 14px;
+    border-radius: var(--radius-lg);
+    background: var(--paper-well);
+    border: 1px solid var(--line);
+  }
+  .tray-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+    font-size: 12.5px;
+    color: var(--ink-2);
+  }
+  .tray-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .tray-link {
+    color: var(--vermilion);
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .tray-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(238px, 1fr));
+    gap: 10px;
+  }
+
+  /* 展开后的单组件标本卡片 */
+  .item-card {
+    background: var(--paper-card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: border-color .14s;
+  }
+  .item-card:hover { border-color: var(--vermilion-line); }
+  .item-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+  }
+  .item-name {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--ink);
+    line-height: 1.3;
+  }
+  .item-tags {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-shrink: 0;
+  }
+  .mini-dot {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--jade);
+    background: var(--jade-soft);
+    padding: 2px 7px;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+  .mini-dot.sound {
+    color: var(--vermilion);
+    background: var(--vermilion-soft);
+  }
+  .item-summary {
+    margin: 0;
+    font-size: 12.5px;
+    color: var(--ink-2);
+    line-height: 1.5;
+    flex: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .item-actions {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding-top: 8px;
+    border-top: 1px solid var(--paper-well);
+  }
+  .item-actions .btn-play-item {
+    flex: 1;
+    height: 31px;
+    padding: 0 10px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--vermilion-line);
+    background: var(--vermilion-soft);
+    color: var(--vermilion);
+    font-size: 12.5px;
+    font-weight: 600;
+    transition: background .14s, color .14s, border-color .14s;
+  }
+  .item-actions .btn-play-item:hover {
+    background: var(--vermilion);
+    border-color: var(--vermilion);
+    color: #FFFDF9;
+  }
+
+  .empty-box {
+    background: var(--paper-card);
+    border: 1px dashed var(--line-strong);
+    border-radius: var(--radius-lg);
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 16px;
+    color: var(--ink-2);
+  }
+  .empty-box p { margin: 0 0 14px; font-size: 14px; }
+
+  /* 沉浸式全屏剧场（暖纸壳 + 一屏无裁切舞台 + 同主题快切 + 声音/模式联动） */
+  .modal-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 80;
+    background: rgba(24, 21, 18, 0.72);
+    backdrop-filter: blur(5px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+  }
+  .modal-backdrop.open { display: flex; }
+  .modal {
+    width: min(1260px, 100%);
+    height: min(840px, 93vh);
+    max-height: 93vh;
+    background: var(--paper-card);
+    border-radius: var(--radius-xl);
+    border: 1px solid var(--line-strong);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 28px 72px rgba(0, 0, 0, 0.32);
+  }
+  .modal-head {
+    padding: 11px 16px;
+    border-bottom: 1px solid var(--line);
+    background: var(--paper);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .modal-title-wrap {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    min-width: 0;
+  }
+  .modal-title {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-size: 19px;
+    font-weight: 700;
+    color: var(--ink);
+  }
+  .modal-sub {
+    font-size: 12.5px;
+    color: var(--vermilion);
+    font-weight: 600;
+  }
+  .modal-controls {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    flex-wrap: wrap;
+  }
+  .modal-body {
+    display: grid;
+    grid-template-columns: minmax(0, 1.6fr) 350px;
+    min-height: 0;
+    flex: 1;
+    overflow: hidden;
+  }
+  .modal-stage-wrap {
+    position: relative;
+    background: #141416;
+    min-height: 440px;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+  }
+  .modal-stage-wrap iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+  }
+  .modal-side {
+    border-left: 1px solid var(--line);
+    padding: 16px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    background: var(--paper-card);
+  }
+  .side-block h3 {
+    margin: 0 0 7px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--ink-3);
+    letter-spacing: 0.02em;
+  }
+  .sibling-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    max-height: 124px;
+    overflow-y: auto;
+    padding-right: 2px;
+  }
+  .sib-btn {
+    border: 1px solid var(--line);
+    background: var(--paper);
+    color: var(--ink-2);
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 500;
+    transition: background .14s, border-color .14s, color .14s;
+  }
+  .sib-btn:hover { border-color: var(--line-strong); color: var(--ink); }
+  .sib-btn.active {
+    background: var(--vermilion);
+    border-color: var(--vermilion);
+    color: #FFFDF9;
+    font-weight: 600;
+  }
+  .prompt-box {
+    margin: 0;
+    padding: 11px 12px;
+    border-radius: var(--radius-md);
+    background: var(--paper);
+    border: 1px solid var(--line);
+    font-size: 13px;
+    line-height: 1.65;
+    color: var(--ink);
+    white-space: pre-wrap;
+    word-break: break-word;
+    max-height: 230px;
+    overflow-y: auto;
+  }
+  .tech-box {
+    margin: 0;
+    font-size: 12.5px;
+    color: var(--ink-2);
+    line-height: 1.6;
+  }
+  .side-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: auto;
+    padding-top: 10px;
+    border-top: 1px solid var(--line);
+  }
+  .side-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  /* 底部刊尾 */
+  .colophon-footer {
+    margin-top: 44px;
+    padding-top: 18px;
+    border-top: 1px solid var(--line);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+    font-size: 12.5px;
+    color: var(--ink-3);
+  }
+
+  /* 轻提示 */
+  .toast {
+    position: fixed;
+    left: 50%;
+    bottom: 24px;
+    transform: translateX(-50%) translateY(16px);
+    background: var(--ink);
+    color: #FBF8F1;
+    padding: 9px 16px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 500;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .18s, transform .18s;
+    z-index: 100;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+  }
+  .toast.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+
+  @media (max-width: 980px) {
+    .showcase-body { grid-template-columns: 1fr; }
+    .stage-shell { height: clamp(420px, 60vh, 560px); }
+    .modal-body { grid-template-columns: 1fr; overflow-y: auto; }
+    .modal-stage-wrap { min-height: 54vh; height: 54vh; flex: 0 0 auto; }
+    .modal-side { border-left: 0; border-top: 1px solid var(--line); overflow-y: visible; }
+  }
+
+  @media (max-width: 640px) {
+    .masthead-inner { padding: 10px 14px; gap: 10px; flex-wrap: wrap; }
+    .brand-name { font-size: 18px; }
+    .brand-tag { display: none; }
+    .repo-btn { margin-left: auto; height: 32px; padding: 0 11px; font-size: 12.5px; }
+    .search-wrap { order: 3; flex: 0 0 100%; max-width: 100%; width: 100%; margin-left: 0; }
+    .page { padding: 12px 14px 52px; }
+    .editorial-head { padding: 14px 0 14px; gap: 10px; }
+    .editorial-colophon { align-items: flex-start; text-align: left; }
+    .showcase { padding: 12px; border-radius: var(--radius-lg); margin-bottom: 24px; }
+    .showcase-tabs { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 10px; margin-bottom: 10px; scrollbar-width: none; }
+    .showcase-tabs::-webkit-scrollbar { display: none; }
+    .feat-tab { flex-shrink: 0; height: 30px; padding: 0 11px; font-size: 12.5px; }
+    .stage-shell { height: 58svh; min-height: 400px; max-height: 490px; }
+    .placard-title { font-size: 21px; }
+    .issue-trigger {
+      grid-template-columns: 60px minmax(0, 1fr);
+      padding: 14px 4px;
+      gap: 10px;
+    }
+    .issue-right-col {
+      grid-column: 1 / -1;
+      justify-content: space-between;
+      padding-top: 4px;
+    }
+    .issue-tray { margin: 2px 0 14px; padding: 10px; }
+    .tray-grid { grid-template-columns: 1fr; }
+    .modal-backdrop { padding: 0; }
+    .modal { height: 100dvh; max-height: 100dvh; border-radius: 0; border: 0; }
+    .modal-head { padding: 10px 12px; }
+    .modal-stage-wrap { height: 56dvh; min-height: 360px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead-bar">
+  <div class="masthead-inner">
+    <a class="brand" href="#top" id="brandHome">
+      <span class="brand-name">夏夏的AI灵感</span>
+      <span class="brand-tag">开源互动动效画刊</span>
+    </a>
+    <div class="search-wrap">
+      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="searchInput" class="search-input" type="search" placeholder="搜期号、视频主题、组件名或提示词…" autocomplete="off" aria-label="搜索动效">
+      <button id="searchClear" class="search-clear" type="button" aria-label="清空搜索">×</button>
+    </div>
+    <a class="repo-btn" id="repoTopLink" href="https://github.com/xiaxia-motion/xiaxia-motion-library" target="_blank" rel="noopener">
+      <span>GitHub 源码库</span>
+    </a>
+  </div>
+</header>
+
+<main class="page" id="top">
+  <section class="editorial-head">
+    <h1 class="editorial-title">
+      <span class="line-ink">把灵感装进代码，</span>
+      <span class="line-red">点开就能直接玩。</span>
+    </h1>
+    <div class="editorial-colophon">
+      <div class="colophon-nums" id="colophonNums">加载中…</div>
+      <div class="colophon-tip">一屏完整呈现 · 支持打汉字与音效 · MIT 开源可自由二创</div>
+    </div>
+  </section>
+
+  <!-- 精选实时互动展台 -->
+  <section class="showcase" aria-label="精选实时互动展台">
+    <div class="showcase-tabs" id="heroTabs">
+      <span class="tabs-lead">本期精选</span>
+    </div>
+    <div class="showcase-body">
+      <div class="stage-shell" id="heroStageShell">
+        <iframe id="heroFrame" title="精选动效实时展台" loading="eager"></iframe>
+        <button id="heroScrollCue" class="scroll-cue" type="button">↓ 此作品为长屏内容 · 向下滑动查看完整效果</button>
+      </div>
+      <aside class="placard">
+        <div class="placard-meta">
+          <span class="issue-chip" id="heroIssueChip">第 22 期</span>
+          <span id="heroTools">Canvas</span>
+        </div>
+        <h2 class="placard-title" id="heroTitle">加载展品中…</h2>
+        <p class="placard-desc" id="heroDesc"></p>
+        <div class="cap-row" id="heroCaps"></div>
+
+        <div class="ctrl-stack">
+          <div class="ctrl-row">
+            <button id="heroSoundBtn" class="btn btn-primary" type="button" hidden>开启声音</button>
+            <button id="heroTheaterBtn" class="btn btn-ink" type="button">全屏剧场</button>
+          </div>
+          <div class="ctrl-row">
+            <button id="heroModeBtn" class="btn btn-soft" type="button">动手试玩</button>
+            <button id="heroImeBtn" class="btn btn-soft" type="button" hidden>打汉字试试</button>
+            <button id="heroRestartBtn" class="btn btn-soft" type="button">重新播放</button>
+          </div>
+          <div class="ctrl-row">
+            <button id="heroCopyBtn" class="btn btn-soft btn-sm" type="button">复制提示词</button>
+            <a id="heroZipBtn" class="btn btn-soft btn-sm" href="#" target="_blank" rel="noopener">下载源码 ZIP</a>
+          </div>
+          <p class="hint-note" id="heroHint">提示：画布与全部操作按钮已自适应一屏完整显示，无需下滑查找。</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- 往期视频合集（按 22 期主题折叠目录，清晰可扩展） -->
+  <section aria-label="往期视频合集目录">
+    <div class="archive-head">
+      <div class="archive-title-group">
+        <h2 class="archive-title">往期视频合集</h2>
+        <span class="archive-sub" id="archiveMeta">按往期视频主题整理 · 点击任意一期展开挑选组件</span>
+      </div>
+      <div class="archive-tools">
+        <div class="seg" role="tablist" aria-label="筛选期数类型">
+          <button type="button" class="active" data-mode="all">全部期数</button>
+          <button type="button" data-mode="interactive">含可互动</button>
+          <button type="button" data-mode="visual">纯视觉动效</button>
+        </div>
+        <button id="toggleAllBtn" class="btn btn-soft btn-sm" type="button">展开全部</button>
+      </div>
+    </div>
+
+    <div id="issueList" class="issue-list"></div>
+    <div id="emptyBox" class="empty-box" hidden>
+      <p>没有找到匹配的期数或动效组件。</p>
+      <button id="resetSearchBtn" class="btn btn-primary btn-sm" type="button">恢复查看全部 22 期</button>
+    </div>
+  </section>
+
+  <footer class="colophon-footer">
+    <span>夏夏的AI灵感 · 开源互动动效画刊 · 全部独立源码采用 MIT 协议</span>
+    <a id="footerRepoLink" href="https://github.com/xiaxia-motion/xiaxia-motion-library" target="_blank" rel="noopener" class="tray-link">前往 GitHub 完整仓库</a>
+  </footer>
+</main>
+
+<!-- 沉浸式全屏剧场弹窗 -->
+<div class="modal-backdrop" id="modalBackdrop" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal">
+    <div class="modal-head">
+      <div class="modal-title-wrap">
+        <span class="modal-sub" id="modalSub">第 22 期</span>
+        <h2 class="modal-title" id="modalTitle">展品标题</h2>
+      </div>
+      <div class="modal-controls">
+        <button id="modalModeBtn" class="btn btn-primary btn-sm" type="button" hidden>动手试玩</button>
+        <button id="modalSoundBtn" class="btn btn-sm" type="button" hidden>开启声音</button>
+        <button id="modalImeBtn" class="btn btn-soft btn-sm" type="button" hidden>打汉字</button>
+        <button id="modalPrevBtn" class="btn btn-soft btn-sm" type="button">上一组</button>
+        <button id="modalNextBtn" class="btn btn-soft btn-sm" type="button">下一组</button>
+        <button id="modalCloseBtn" class="btn btn-ink btn-sm" type="button">关闭</button>
+      </div>
+    </div>
+    <div class="modal-body">
+      <div class="modal-stage-wrap">
+        <iframe id="modalFrame" title="动效全屏剧场舞台"></iframe>
+        <button id="modalScrollCue" class="scroll-cue" type="button">↓ 此作品为长屏内容 · 向下滑动查看完整效果</button>
+      </div>
+      <aside class="modal-side">
+        <div class="side-block">
+          <h3 id="modalSiblingHeading">本期全部组件（点击切换）</h3>
+          <div id="modalSiblings" class="sibling-strip"></div>
+        </div>
+        <div class="side-block">
+          <h3>原片中文提示词</h3>
+          <pre id="modalPrompt" class="prompt-box"></pre>
+        </div>
+        <div class="side-block">
+          <h3>技术说明</h3>
+          <p id="modalTech" class="tech-box"></p>
+        </div>
+        <div class="side-actions">
+          <button id="modalCopyBtn" class="btn btn-primary" type="button">一键复制中文提示词</button>
+          <div class="side-row">
+            <a id="modalZipBtn" class="btn btn-soft btn-sm" href="#" target="_blank" rel="noopener">下载源码 ZIP</a>
+            <a id="modalSrcBtn" class="btn btn-soft btn-sm" href="#" target="_blank" rel="noopener">GitHub 看源码</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const state = {
+    data: null,
+    itemById: new Map(),
+    itemsByNote: new Map(),
+    filterMode: 'all', // all | interactive | visual
+    query: '',
+    expandedNotes: new Set(),
+    issueInterOnly: new Set(),
+    heroId: null,
+    heroSubpageMode: 'demo', // 用于含 interactive/index.html 子页的组件
+    heroLive: { hasMode: false, mode: 'demo', hasSound: false, soundOn: false, supportsChinese: false, scrollable: false, scrollTop: 0, maxScroll: 0 },
+    modalId: null,
+    modalSubpageMode: 'demo',
+    modalLive: { hasMode: false, mode: 'demo', hasSound: false, soundOn: false, supportsChinese: false, scrollable: false, scrollTop: 0, maxScroll: 0 },
+  };
+
+  let toastTimer = null;
+  function showToast(msg) {
+    const el = $('toast');
+    el.textContent = msg;
+    el.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => el.classList.remove('show'), 2200);
+  }
+
+  async function copyText(text, btn, okLabel) {
+    try {
+      await navigator.clipboard.writeText(text);
+    } catch {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.cssText = 'position:fixed;opacity:0;';
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand('copy');
+      ta.remove();
+    }
+    showToast('提示词已复制到剪贴板');
+    if (btn) {
+      const prev = btn.textContent;
+      btn.textContent = okLabel || '✓ 已复制';
+      setTimeout(() => { btn.textContent = prev; }, 1400);
+    }
+  }
+
+  function withEmbed(url, extra) {
+    const sep = url.includes('?') ? '&' : '?';
+    return url + sep + 'embed=1' + (extra ? '&' + extra : '');
+  }
+
+  function sendFrameCmd(frameEl, cmd, value) {
+    try {
+      frameEl.contentWindow && frameEl.contentWindow.postMessage({ type: 'xiaxia-cmd', cmd, value }, '*');
+    } catch {}
+  }
+
+  function updateScrollCue(cueEl, info) {
+    const show = Boolean(info.scrollable && (info.maxScroll - info.scrollTop > 26));
+    cueEl.classList.toggle('visible', show);
+  }
+
+  /* ================= 精选展台 ================= */
+  function syncHeroControls() {
+    const item = state.itemById.get(state.heroId);
+    if (!item) return;
+    const live = state.heroLive;
+    const modeBtn = $('heroModeBtn');
+    const soundBtn = $('heroSoundBtn');
+    const imeBtn = $('heroImeBtn');
+
+    if (item.hasInteractiveSubpage) {
+      modeBtn.hidden = false;
+      const inInter = state.heroSubpageMode === 'interactive';
+      modeBtn.textContent = inInter ? '切回自动演示' : '动手试玩';
+      modeBtn.className = inInter ? 'btn btn-soft' : 'btn btn-primary';
+    } else if (item.interactive || live.hasMode) {
+      modeBtn.hidden = false;
+      const inLive = live.mode === 'live';
+      modeBtn.textContent = inLive ? '切回自动演示' : '动手试玩';
+      modeBtn.className = inLive ? 'btn btn-soft' : 'btn btn-primary';
+    } else {
+      modeBtn.hidden = true;
+    }
+
+    const showSound = item.hasSound || live.hasSound;
+    soundBtn.hidden = !showSound;
+    if (showSound) {
+      const iconSvg = live.soundOn
+        ? '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>'
+        : '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>';
+      soundBtn.innerHTML = iconSvg + '<span>' + (live.soundOn ? '声音已开启' : '开启声音') + '</span>';
+      soundBtn.className = live.soundOn ? 'btn btn-jade' : 'btn btn-primary';
+    }
+
+    const showZh = item.supportsChinese || live.supportsChinese;
+    imeBtn.hidden = !showZh;
+    $('heroRestartBtn').hidden = showZh;
+    $('heroTheaterBtn').style.gridColumn = showSound ? '' : '1 / -1';
+    updateScrollCue($('heroScrollCue'), live);
+
+    if (showZh) {
+      $('heroHint').textContent = '支持直接打汉字与英文，点「动手试玩」或直接敲键盘，点「开启声音」听实时音效。';
+    } else if (item.interactive) {
+      $('heroHint').textContent = '画布与控制栏已一屏适配呈现，点「动手试玩」可直接拖拽、点击或拨动交互。';
+    } else {
+      $('heroHint').textContent = '一屏完整展示原片动效，点「复制提示词」可让 AI 按同款质感二创。';
+    }
+  }
+
+  function setHero(id, startLive) {
+    const item = state.itemById.get(id);
+    if (!item) return;
+    state.heroId = id;
+    state.heroSubpageMode = item.hasInteractiveSubpage ? 'interactive' : 'demo';
+    state.heroLive = {
+      hasMode: item.interactive && !item.hasInteractiveSubpage,
+      mode: startLive ? 'live' : 'demo',
+      hasSound: item.hasSound,
+      soundOn: false,
+      supportsChinese: item.supportsChinese,
+      scrollable: false,
+      scrollTop: 0,
+      maxScroll: 0,
+    };
+
+    $('heroIssueChip').textContent = `第 ${String(item.note).padStart(2, '0')} 期 · ${item.noteTitle}`;
+    const shortTech = /Three\.js|WebGL/i.test(item.tools || '') ? 'WebGL' : /SVG/i.test(item.tools || '') ? 'SVG 矢量' : /Canvas/i.test(item.tools || '') ? 'Canvas 2D' : '纯前端';
+    $('heroTools').textContent = shortTech;
+    $('heroTitle').textContent = item.name;
+    $('heroDesc').textContent = item.summary;
+    $('heroZipBtn').href = item.zipUrl;
+
+    const caps = [];
+    if (item.interactive) caps.push('<span class="cap-badge jade">可动手交互</span>');
+    if (item.supportsChinese) caps.push('<span class="cap-badge red">支持中文打字</span>');
+    if (item.hasSound) caps.push('<span class="cap-badge">自带合成音效</span>');
+    if (!item.interactive) caps.push('<span class="cap-badge">视觉动效演示</span>');
+    $('heroCaps').innerHTML = caps.join('');
+
+    const targetUrl = item.hasInteractiveSubpage
+      ? withEmbed(item.interactiveUrl)
+      : withEmbed(item.demoUrl, startLive ? 'mode=live' : '');
+    $('heroFrame').src = targetUrl;
+
+    document.querySelectorAll('.feat-tab').forEach((btn) => {
+      btn.classList.toggle('active', btn.dataset.id === id);
+    });
+    syncHeroControls();
+  }
+
+  function renderHeroTabs() {
+    const wrap = $('heroTabs');
+    wrap.innerHTML = '<span class="tabs-lead">本期精选</span>';
+    state.data.featuredIds.forEach((fid) => {
+      const it = state.itemById.get(fid);
+      if (!it) return;
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'feat-tab' + (fid === state.heroId ? ' active' : '');
+      btn.dataset.id = fid;
+      btn.innerHTML = `<span class="tab-dot" aria-hidden="true"></span><span>${it.name}</span>`;
+      btn.onclick = () => setHero(fid, false);
+      wrap.appendChild(btn);
+    });
+  }
+
+  /* ================= 22 期折叠目录 ================= */
+  function matchesQuery(item, note, q) {
+    if (!q) return true;
+    const hay = `${item.name} ${item.summary} ${item.prompt} ${item.tools} ${note.title} ${note.desc} 第${note.note}期 ${note.note}`.toLowerCase();
+    return hay.includes(q);
+  }
+
+  function getFilteredArchive() {
+    const q = state.query.trim().toLowerCase();
+    const res = [];
+    state.data.notes.forEach((note) => {
+      if (state.filterMode === 'interactive' && note.interactiveCount === 0) return;
+      if (state.filterMode === 'visual' && note.interactiveCount === note.count) return;
+
+      const allItems = state.itemsByNote.get(note.note) || [];
+      let matched = allItems.filter((it) => {
+        if (state.filterMode === 'interactive' && !it.interactive) return false;
+        if (state.filterMode === 'visual' && it.interactive) return false;
+        return matchesQuery(it, note, q);
+      });
+      if (q && matched.length === 0) return;
+      if (!q && matched.length === 0) return;
+      res.push({ note, items: matched, totalInNote: allItems.length });
+    });
+    return res;
+  }
+
+  function renderArchive() {
+    const entries = getFilteredArchive();
+    const q = state.query.trim();
+    const list = $('issueList');
+    const empty = $('emptyBox');
+
+    const totalMatchedItems = entries.reduce((acc, e) => acc + e.items.length, 0);
+    if (q) {
+      $('archiveMeta').textContent = `搜索「${q}」命中 ${entries.length} 期 · 共 ${totalMatchedItems} 组动效`;
+    } else {
+      $('archiveMeta').textContent = `当前显示 ${entries.length} 期视频主题（共 ${totalMatchedItems} 组）· 点击任意一期展开挑选`;
+    }
+
+    const allOpen = entries.length > 0 && entries.every((e) => state.expandedNotes.has(e.note.note));
+    $('toggleAllBtn').textContent = allOpen ? '全部收起' : '全部展开';
+
+    list.innerHTML = '';
+    if (!entries.length) {
+      empty.hidden = false;
+      return;
+    }
+    empty.hidden = true;
+
+    const frag = document.createDocumentFragment();
+    entries.forEach(({ note, items }) => {
+      const isOpen = Boolean(q) || state.expandedNotes.has(note.note);
+      const onlyInterInTray = state.issueInterOnly.has(note.note);
+      const shownItems = onlyInterInTray ? items.filter((x) => x.interactive) : items;
+
+      const row = document.createElement('article');
+      row.className = 'issue-row' + (isOpen ? ' open' : '');
+      row.dataset.note = String(note.note);
+
+      // 头部卷宗条
+      const trigger = document.createElement('button');
+      trigger.type = 'button';
+      trigger.className = 'issue-trigger';
+      trigger.setAttribute('aria-expanded', String(isOpen));
+
+      const numCol = document.createElement('div');
+      numCol.className = 'issue-num-col';
+      numCol.innerHTML = `<span class="issue-no">No.${String(note.note).padStart(2, '0')}</span><span class="issue-date">${note.date}</span>`;
+
+      const mainCol = document.createElement('div');
+      mainCol.className = 'issue-main-col';
+      const titleLine = document.createElement('div');
+      titleLine.className = 'issue-title-line';
+      titleLine.innerHTML = `<span class="issue-name">${note.title}</span>`;
+      const descLine = document.createElement('div');
+      descLine.className = 'issue-desc';
+      descLine.textContent = note.desc;
+      mainCol.append(titleLine, descLine);
+
+      // 未展开时露出前 4 个代表组件快选胶囊，点一下即可直接试玩
+      if (!isOpen && items.length) {
+        const chipsWrap = document.createElement('div');
+        chipsWrap.className = 'issue-preview-chips';
+        items.slice(0, 4).forEach((it) => {
+          const chip = document.createElement('span');
+          chip.className = 'preview-chip';
+          chip.textContent = it.name;
+          chip.title = `直接试玩：${it.name}`;
+          chip.onclick = (e) => {
+            e.stopPropagation();
+            openModal(it.id);
+          };
+          chipsWrap.appendChild(chip);
+        });
+        if (items.length > 4) {
+          const more = document.createElement('span');
+          more.className = 'preview-chip';
+          more.textContent = `+${items.length - 4} 组`;
+          chipsWrap.appendChild(more);
+        }
+        mainCol.appendChild(chipsWrap);
+      }
+
+      const rightCol = document.createElement('div');
+      rightCol.className = 'issue-right-col';
+      const countText = note.interactiveCount > 0
+        ? (note.interactiveCount === note.count ? `${items.length} 组 · 全部可互动` : `${items.length} 组 · 含 ${note.interactiveCount} 组可互动`)
+        : `${items.length} 组动效`;
+      rightCol.innerHTML = `<span class="count-pill ${note.interactiveCount > 0 ? 'has-inter' : ''}">${countText}</span><span class="expand-cue">${isOpen ? '收起 ▴' : '展开挑选 ▾'}</span>`;
+
+      trigger.append(numCol, mainCol, rightCol);
+      trigger.onclick = () => {
+        if (state.expandedNotes.has(note.note)) state.expandedNotes.delete(note.note);
+        else state.expandedNotes.add(note.note);
+        renderArchive();
+      };
+
+      // 展开抽屉内容（按需渲染，保持 DOM 轻量）
+      const drawer = document.createElement('div');
+      drawer.className = 'issue-drawer';
+      const drawerInner = document.createElement('div');
+      drawerInner.className = 'issue-drawer-inner';
+
+      if (isOpen) {
+        const tray = document.createElement('div');
+        tray.className = 'issue-tray';
+
+        const bar = document.createElement('div');
+        bar.className = 'tray-bar';
+        const infoSpan = document.createElement('span');
+        infoSpan.textContent = `第 ${String(note.note).padStart(2, '0')} 期共 ${shownItems.length} 组可选（点击任意组件进入一屏试玩）`;
+
+        const links = document.createElement('div');
+        links.className = 'tray-links';
+        if (note.interactiveCount > 0 && note.interactiveCount < note.count && state.filterMode === 'all') {
+          const toggleInter = document.createElement('button');
+          toggleInter.type = 'button';
+          toggleInter.className = 'btn btn-soft btn-sm';
+          toggleInter.textContent = onlyInterInTray ? '显示本期全部' : `只看可互动（${note.interactiveCount}）`;
+          toggleInter.onclick = () => {
+            if (state.issueInterOnly.has(note.note)) state.issueInterOnly.delete(note.note);
+            else state.issueInterOnly.add(note.note);
+            renderArchive();
+          };
+          links.appendChild(toggleInter);
+        }
+        const firstNoteUrl = items[0] ? items[0].noteUrl : state.data.repoUrl;
+        const ghLink = document.createElement('a');
+        ghLink.className = 'tray-link';
+        ghLink.href = firstNoteUrl;
+        ghLink.target = '_blank';
+        ghLink.rel = 'noopener';
+        ghLink.textContent = 'GitHub 本期目录';
+        links.appendChild(ghLink);
+
+        bar.append(infoSpan, links);
+        tray.appendChild(bar);
+
+        const grid = document.createElement('div');
+        grid.className = 'tray-grid';
+        shownItems.forEach((it) => {
+          const card = document.createElement('div');
+          card.className = 'item-card';
+
+          const top = document.createElement('div');
+          top.className = 'item-top';
+          const h3 = document.createElement('h3');
+          h3.className = 'item-name';
+          h3.textContent = it.name;
+          const tags = document.createElement('div');
+          tags.className = 'item-tags';
+          if (it.interactive) {
+            const d = document.createElement('span');
+            d.className = 'mini-dot';
+            d.textContent = '可互动';
+            tags.appendChild(d);
+          }
+          if (it.supportsChinese) {
+            const d = document.createElement('span');
+            d.className = 'mini-dot sound';
+            d.textContent = '打汉字';
+            tags.appendChild(d);
+          }
+          top.append(h3, tags);
+
+          const p = document.createElement('p');
+          p.className = 'item-summary';
+          p.textContent = it.summary;
+
+          const acts = document.createElement('div');
+          acts.className = 'item-actions';
+
+          const playBtn = document.createElement('button');
+          playBtn.type = 'button';
+          playBtn.className = 'btn-play-item';
+          playBtn.textContent = it.interactive ? '动手试玩' : '在线观看';
+          playBtn.onclick = () => openModal(it.id);
+
+          const copyBtn = document.createElement('button');
+          copyBtn.type = 'button';
+          copyBtn.className = 'btn btn-soft btn-sm';
+          copyBtn.textContent = '提示词';
+          copyBtn.onclick = () => copyText(it.prompt, copyBtn, '已复制');
+
+          const zipA = document.createElement('a');
+          zipA.className = 'btn btn-soft btn-sm';
+          zipA.href = it.zipUrl;
+          zipA.target = '_blank';
+          zipA.rel = 'noopener';
+          zipA.textContent = '源码';
+
+          acts.append(playBtn, copyBtn, zipA);
+          card.append(top, p, acts);
+          grid.appendChild(card);
+        });
+        tray.appendChild(grid);
+        drawerInner.appendChild(tray);
+      }
+
+      drawer.appendChild(drawerInner);
+      row.append(trigger, drawer);
+      frag.appendChild(row);
+    });
+    list.appendChild(frag);
+  }
+
+  /* ================= 沉浸式全屏剧场 ================= */
+  function syncModalControls() {
+    const item = state.itemById.get(state.modalId);
+    if (!item) return;
+    const live = state.modalLive;
+    const modeBtn = $('modalModeBtn');
+    const soundBtn = $('modalSoundBtn');
+    const imeBtn = $('modalImeBtn');
+
+    if (item.hasInteractiveSubpage) {
+      modeBtn.hidden = false;
+      const inInter = state.modalSubpageMode === 'interactive';
+      modeBtn.textContent = inInter ? '切回自动演示' : '动手试玩';
+      modeBtn.className = inInter ? 'btn btn-soft btn-sm' : 'btn btn-primary btn-sm';
+    } else if (item.interactive || live.hasMode) {
+      modeBtn.hidden = false;
+      const inLive = live.mode === 'live';
+      modeBtn.textContent = inLive ? '切回自动演示' : '动手试玩';
+      modeBtn.className = inLive ? 'btn btn-soft btn-sm' : 'btn btn-primary btn-sm';
+    } else {
+      modeBtn.hidden = true;
+    }
+
+    const showSound = item.hasSound || live.hasSound;
+    soundBtn.hidden = !showSound;
+    if (showSound) {
+      soundBtn.textContent = live.soundOn ? '声音已开' : '开启声音';
+      soundBtn.className = live.soundOn ? 'btn btn-jade btn-sm' : 'btn btn-sm';
+    }
+
+    imeBtn.hidden = !(item.supportsChinese || live.supportsChinese);
+    updateScrollCue($('modalScrollCue'), live);
+  }
+
+  function openModal(id) {
+    const item = state.itemById.get(id);
+    if (!item) return;
+    state.modalId = id;
+    state.modalSubpageMode = item.hasInteractiveSubpage ? 'interactive' : 'demo';
+    state.modalLive = {
+      hasMode: item.interactive && !item.hasInteractiveSubpage,
+      mode: item.supportsChinese ? 'live' : 'demo',
+      hasSound: item.hasSound,
+      soundOn: false,
+      supportsChinese: item.supportsChinese,
+      scrollable: false,
+      scrollTop: 0,
+      maxScroll: 0,
+    };
+
+    $('modalSub').textContent = `第 ${String(item.note).padStart(2, '0')} 期 · ${item.noteTitle}`;
+    $('modalTitle').textContent = item.name;
+    $('modalPrompt').textContent = item.prompt || '（暂无独立提示词）';
+    const dur = item.duration ? `${item.duration} 秒循环` : '实时交互';
+    $('modalTech').textContent = `实现技术：${item.tools || '纯前端'} · 形态：${dur} · 解压 ZIP 后双击 index.html 即可断网运行。`;
+    $('modalZipBtn').href = item.zipUrl;
+    $('modalSrcBtn').href = item.sourceUrl;
+
+    // 渲染同期兄弟组件快切条
+    const siblings = state.itemsByNote.get(item.note) || [];
+    $('modalSiblingHeading').textContent = `第 ${String(item.note).padStart(2, '0')} 期全部组件（${siblings.length} 组 · 点此快切）`;
+    const sibWrap = $('modalSiblings');
+    sibWrap.innerHTML = '';
+    siblings.forEach((s) => {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'sib-btn' + (s.id === id ? ' active' : '');
+      b.textContent = s.name;
+      b.onclick = () => openModal(s.id);
+      sibWrap.appendChild(b);
+    });
+
+    const targetUrl = item.hasInteractiveSubpage
+      ? withEmbed(item.interactiveUrl)
+      : withEmbed(item.demoUrl, item.supportsChinese ? 'mode=live' : '');
+    $('modalFrame').src = targetUrl;
+
+    $('modalBackdrop').classList.add('open');
+    document.body.style.overflow = 'hidden';
+    syncModalControls();
+
+    const targetHash = `#item=${id}`;
+    if (location.hash !== targetHash) {
+      history.replaceState(null, '', targetHash);
+    }
+  }
+
+  function closeModal() {
+    $('modalBackdrop').classList.remove('open');
+    $('modalFrame').src = 'about:blank';
+    document.body.style.overflow = '';
+    state.modalId = null;
+    if (location.hash.startsWith('#item=')) {
+      history.replaceState(null, '', location.pathname + location.search);
+    }
+  }
+
+  function stepModal(delta) {
+    const item = state.itemById.get(state.modalId);
+    if (!item) return;
+    const siblings = state.itemsByNote.get(item.note) || [];
+    const idx = siblings.findIndex((x) => x.id === item.id);
+    if (idx === -1 || siblings.length <= 1) return;
+    const next = siblings[(idx + delta + siblings.length) % siblings.length];
+    openModal(next.id);
+  }
+
+  /* ================= 跨 iframe 状态同步 ================= */
+  window.addEventListener('message', (ev) => {
+    const d = ev.data;
+    if (!d || d.type !== 'xiaxia-demo-state') return;
+    if (ev.source === $('heroFrame').contentWindow) {
+      Object.assign(state.heroLive, d);
+      syncHeroControls();
+    } else if (ev.source === $('modalFrame').contentWindow) {
+      Object.assign(state.modalLive, d);
+      syncModalControls();
+    }
+  });
+
+  function handleHash() {
+    const h = decodeURIComponent(location.hash || '');
+    if (h.startsWith('#item=')) {
+      const id = h.slice(6);
+      if (state.itemById.has(id)) {
+        const it = state.itemById.get(id);
+        state.expandedNotes.add(it.note);
+        renderArchive();
+        openModal(id);
+      }
+    } else if (h.startsWith('#note=')) {
+      const num = parseInt(h.slice(6), 10);
+      if (state.itemsByNote.has(num)) {
+        state.expandedNotes.add(num);
+        renderArchive();
+        const row = document.querySelector(`.issue-row[data-note="${num}"]`);
+        if (row) row.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+  }
+
+  async function init() {
+    const resp = await fetch('gallery-data.json');
+    if (!resp.ok) throw new Error('展馆数据加载失败');
+    state.data = await resp.json();
+
+    state.data.items.forEach((it) => {
+      state.itemById.set(it.id, it);
+      if (!state.itemsByNote.has(it.note)) state.itemsByNote.set(it.note, []);
+      state.itemsByNote.get(it.note).push(it);
+    });
+
+    // 默认只展开最新一期（第 22 期，5 组），其余 21 期保持优雅收起状态
+    const newestNote = state.data.notes[0] && state.data.notes[0].note;
+    if (newestNote) state.expandedNotes.add(newestNote);
+
+    $('colophonNums').innerHTML = `第 01–${String(state.data.totalNotes).padStart(2, '0')} 期 · <strong>${state.data.totalItems}</strong> 组独立源码 · <strong>${state.data.interactiveItems}</strong> 组可互动`;
+    $('repoTopLink').href = state.data.repoUrl;
+    $('footerRepoLink').href = state.data.repoUrl;
+
+    // 绑定精选展台事件
+    $('heroModeBtn').onclick = () => {
+      const item = state.itemById.get(state.heroId);
+      if (!item) return;
+      if (item.hasInteractiveSubpage) {
+        state.heroSubpageMode = state.heroSubpageMode === 'interactive' ? 'demo' : 'interactive';
+        $('heroFrame').src = withEmbed(state.heroSubpageMode === 'interactive' ? item.interactiveUrl : item.demoUrl);
+        syncHeroControls();
+      } else {
+        sendFrameCmd($('heroFrame'), 'toggle-mode');
+      }
+    };
+    $('heroSoundBtn').onclick = () => sendFrameCmd($('heroFrame'), 'toggle-sound');
+    $('heroImeBtn').onclick = () => sendFrameCmd($('heroFrame'), 'focus-ime');
+    $('heroTheaterBtn').onclick = () => state.heroId && openModal(state.heroId);
+    $('heroRestartBtn').onclick = () => sendFrameCmd($('heroFrame'), 'restart');
+    $('heroCopyBtn').onclick = () => {
+      const item = state.itemById.get(state.heroId);
+      if (item) copyText(item.prompt, $('heroCopyBtn'));
+    };
+    $('heroScrollCue').onclick = () => sendFrameCmd($('heroFrame'), 'scroll-down');
+
+    // 绑定剧场弹窗事件
+    $('modalModeBtn').onclick = () => {
+      const item = state.itemById.get(state.modalId);
+      if (!item) return;
+      if (item.hasInteractiveSubpage) {
+        state.modalSubpageMode = state.modalSubpageMode === 'interactive' ? 'demo' : 'interactive';
+        $('modalFrame').src = withEmbed(state.modalSubpageMode === 'interactive' ? item.interactiveUrl : item.demoUrl);
+        syncModalControls();
+      } else {
+        sendFrameCmd($('modalFrame'), 'toggle-mode');
+      }
+    };
+    $('modalSoundBtn').onclick = () => sendFrameCmd($('modalFrame'), 'toggle-sound');
+    $('modalImeBtn').onclick = () => sendFrameCmd($('modalFrame'), 'focus-ime');
+    $('modalPrevBtn').onclick = () => stepModal(-1);
+    $('modalNextBtn').onclick = () => stepModal(1);
+    $('modalCloseBtn').onclick = closeModal;
+    $('modalCopyBtn').onclick = () => {
+      const item = state.itemById.get(state.modalId);
+      if (item) copyText(item.prompt, $('modalCopyBtn'), '✓ 提示词已复制');
+    };
+    $('modalScrollCue').onclick = () => sendFrameCmd($('modalFrame'), 'scroll-down');
+    $('modalBackdrop').onclick = (e) => { if (e.target === $('modalBackdrop')) closeModal(); };
+
+    // 搜索与筛选
+    const searchInput = $('searchInput');
+    const searchClear = $('searchClear');
+    searchInput.addEventListener('input', () => {
+      state.query = searchInput.value;
+      searchClear.classList.toggle('visible', Boolean(state.query));
+      renderArchive();
+    });
+    searchClear.onclick = () => {
+      state.query = '';
+      searchInput.value = '';
+      searchClear.classList.remove('visible');
+      renderArchive();
+      searchInput.focus();
+    };
+    $('resetSearchBtn').onclick = () => {
+      state.query = '';
+      state.filterMode = 'all';
+      searchInput.value = '';
+      searchClear.classList.remove('visible');
+      document.querySelectorAll('.seg button').forEach((b) => b.classList.toggle('active', b.dataset.mode === 'all'));
+      renderArchive();
+    };
+
+    document.querySelectorAll('.seg button').forEach((btn) => {
+      btn.onclick = () => {
+        state.filterMode = btn.dataset.mode;
+        document.querySelectorAll('.seg button').forEach((b) => b.classList.toggle('active', b === btn));
+        renderArchive();
+      };
+    });
+
+    $('toggleAllBtn').onclick = () => {
+      const entries = getFilteredArchive();
+      const allOpen = entries.length > 0 && entries.every((e) => state.expandedNotes.has(e.note.note));
+      if (allOpen) {
+        state.expandedNotes.clear();
+      } else {
+        entries.forEach((e) => state.expandedNotes.add(e.note.note));
+      }
+      renderArchive();
+    };
+
+    // 快捷键：/ 聚焦搜索，Esc 关闭剧场，←/→ 切换本期展品
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && $('modalBackdrop').classList.contains('open')) {
+        closeModal();
+        return;
+      }
+      if ($('modalBackdrop').classList.contains('open')) {
+        if (e.key === 'ArrowLeft') stepModal(-1);
+        else if (e.key === 'ArrowRight') stepModal(1);
+        return;
+      }
+      if (e.key === '/' && document.activeElement !== searchInput && document.activeElement.tagName !== 'INPUT') {
+        e.preventDefault();
+        searchInput.focus();
+      }
+    });
+
+    renderHeroTabs();
+    // 首屏默认进入小猫陪打字的实时交互态，一打开就能直接试打汉字与开启声音
+    setHero(state.data.featuredIds[0] || state.data.items[0].id, true);
+    renderArchive();
+    handleHash();
+    window.addEventListener('hashchange', handleHash);
+  }
+
+  init().catch((err) => {
+    $('heroTitle').textContent = '展馆数据加载失败';
+    $('heroDesc').textContent = String(err);
+  });
+})();
+</script>
+</body>
+</html>

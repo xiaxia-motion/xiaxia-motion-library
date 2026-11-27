@@ -1,0 +1,115 @@
+/* 夏夏动效展馆 · 一屏自适应嵌入层（仅在 ?embed=1 时激活） */
+html.xiaxia-embed,
+html.xiaxia-embed body {
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden !important;
+}
+html.xiaxia-embed:not(.xiaxia-tall),
+html.xiaxia-embed:not(.xiaxia-tall) body {
+  overflow-y: hidden !important;
+}
+html.xiaxia-embed main {
+  width: min(100%, 1080px) !important;
+  max-width: 100% !important;
+  min-height: 100dvh !important;
+  margin: 0 auto !important;
+  padding: 8px 12px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  align-items: stretch !important;
+  gap: 7px !important;
+}
+html.xiaxia-embed:not(.xiaxia-tall) main {
+  height: 100dvh !important;
+  max-height: 100dvh !important;
+  overflow: hidden !important;
+}
+html.xiaxia-embed.xiaxia-tall main {
+  height: auto !important;
+  max-height: none !important;
+  justify-content: flex-start !important;
+  padding-bottom: 44px !important;
+}
+/* 隐藏组件页重复外框标题（展馆外框已清晰展示期号与作品名，把高度全部留给作品与交互控件） */
+html.xiaxia-embed main > header,
+html.xiaxia-embed main > h1 {
+  display: none !important;
+}
+html.xiaxia-embed main > #stage,
+html.xiaxia-embed main > .stage,
+html.xiaxia-embed main > figure {
+  flex: 1 1 0 !important;
+  min-height: 0 !important;
+  margin: 0 auto !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+html.xiaxia-embed main > figure {
+  width: 100% !important;
+  padding: 10px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+html.xiaxia-embed main > figure > svg {
+  max-width: 100% !important;
+  max-height: 100% !important;
+  width: auto !important;
+  height: auto !important;
+}
+html.xiaxia-embed main > canvas#picture {
+  flex: 1 1 0 !important;
+  min-height: 0 !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  margin: 0 auto !important;
+  object-fit: contain !important;
+}
+html.xiaxia-embed main > #stage > canvas,
+html.xiaxia-embed main > .stage > canvas {
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+html.xiaxia-embed main > footer,
+html.xiaxia-embed main > fieldset,
+html.xiaxia-embed main > #status,
+html.xiaxia-embed main > #help,
+html.xiaxia-embed main > #feedback,
+html.xiaxia-embed main > p {
+  flex: 0 0 auto !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+html.xiaxia-embed main > #status,
+html.xiaxia-embed main > #help,
+html.xiaxia-embed main > #feedback,
+html.xiaxia-embed main > p {
+  font-size: 12.5px !important;
+  line-height: 1.4 !important;
+}
+html.xiaxia-embed main > footer,
+html.xiaxia-embed main > fieldset {
+  gap: 6px !important;
+}
+html.xiaxia-embed main > .demo {
+  flex: 0 1 auto !important;
+  margin: 0 auto !important;
+  width: 100% !important;
+}
+html.xiaxia-embed .xiaxia-fit-box {
+  width: var(--xx-fit-w, 100%) !important;
+  height: var(--xx-fit-h, auto) !important;
+  flex: 0 0 auto !important;
+  align-self: center !important;
+}
+@media (max-width: 640px) {
+  html.xiaxia-embed main {
+    padding: 6px 8px !important;
+    gap: 5px !important;
+  }
+}

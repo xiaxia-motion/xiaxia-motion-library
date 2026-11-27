@@ -1,0 +1,1 @@
+window.atlasInfo={"fps": 24, "width": 384, "height": 288, "count": 35, "cols": 5, "block": 20};
