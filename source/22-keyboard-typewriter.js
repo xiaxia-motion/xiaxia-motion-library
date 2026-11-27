@@ -884,36 +884,51 @@ function drawSparkle(g, x, y, r, color, alphaVal = 1) {
     return null;
   }
 
+  const TW_LETTERS = ALL_KEYS.filter((k) => k.length === 1);
+  function pickVisualKey(id) {
+    if (INTRO_KEYS[id]) return id;
+    const up = String(id || "").toUpperCase();
+    if (INTRO_KEYS[up]) return up;
+    const cp = String(id || "A").codePointAt(0) || 65;
+    return TW_LETTERS[Math.abs(cp) % TW_LETTERS.length];
+  }
+  function visualUnits(str) {
+    return Array.from(str || "").reduce((n, c) => n + (/[^\x00-\x7f]/.test(c) ? 1.8 : 1), 0);
+  }
+
   function createLive(audio) {
     const st = { line1: "VibeCoding", line2: "5种创意键盘 UI", onLine2: false, presses: {}, sheenStart: -999, shiftOn: false };
     function pressKey(id, frame) {
-      st.presses[id] = frame;
-      audio && audio.playTypewriter(id);
+      const vKey = pickVisualKey(id);
+      st.presses[vKey] = frame;
+      audio && audio.playTypewriter(vKey);
       if (id === "Shift") {
         st.shiftOn = !st.shiftOn;
         return st.shiftOn ? "已开启大写锁定" : "已关闭大写锁定";
       }
-      if (id === "Mode" || id === "Emoji") return "当前演示字母层键位";
+      if (id === "Mode" || id === "Emoji") return "可直接输入中文汉字或英文字符";
       if (id === "Enter") {
         st.onLine2 = !st.onLine2;
         st.sheenStart = frame;
         return st.onLine2 ? "已切换至第二行并触发暖金流光" : "已返回第一行并触发暖金流光";
       }
       if (id === "Backspace") {
-        if (!st.onLine2) st.line1 = st.line1.slice(0, -1);
-        else if (st.line2.length > 0) st.line2 = st.line2.slice(0, -1);
-        else { st.onLine2 = false; st.line1 = st.line1.slice(0, -1); }
+        const popOne = (s) => { const a = Array.from(s); a.pop(); return a.join(""); };
+        if (!st.onLine2) st.line1 = popOne(st.line1);
+        else if (st.line2.length > 0) st.line2 = popOne(st.line2);
+        else { st.onLine2 = false; st.line1 = popOne(st.line1); }
         return "已退格";
       }
-      const ch = id === "Space" ? " " : (st.shiftOn || (!st.onLine2 && st.line1.length === 0) ? id : id.toLowerCase());
+      const isLatinSingle = /^[a-zA-Z]$/.test(id);
+      const ch = id === "Space" ? " " : (isLatinSingle ? (st.shiftOn || (!st.onLine2 && st.line1.length === 0) ? id.toUpperCase() : id.toLowerCase()) : id);
       st.shiftOn = false;
       if (!st.onLine2) {
-        if (st.line1.length < 14) st.line1 += ch;
-        else { st.onLine2 = true; if (st.line2.length < 18) st.line2 += ch; }
-      } else if (st.line2.length < 18) {
+        if (visualUnits(st.line1 + ch) <= 15) st.line1 += ch;
+        else { st.onLine2 = true; if (visualUnits(st.line2 + ch) <= 20) st.line2 += ch; }
+      } else if (visualUnits(st.line2 + ch) <= 20) {
         st.line2 += ch;
       }
-      return "已击打 " + (id === "Space" ? "空格" : id);
+      return "已击打「" + (id === "Space" ? "空格" : ch) + "」";
     }
     function action(act, frame) {
       if (act === "clear") { st.line1 = ""; st.line2 = ""; st.onLine2 = false; return "已清空纸面，请自由打字"; }
@@ -939,7 +954,10 @@ function drawSparkle(g, x, y, r, color, alphaVal = 1) {
     const l1 = st.line1 || "", l2 = st.line2 || "";
     const l1Y = 204, l2Y = 296;
     g.save();
-    g.font = '400 104px "Didot", "Baskerville", "Georgia", serif';
+    let l1Sz = 104;
+    const l1Font = (sz) => `400 ${sz}px "Didot", "Baskerville", "Songti SC", "STSong", "Noto Serif SC", "Georgia", serif`;
+    g.font = l1Font(l1Sz);
+    while (l1Sz > 54 && g.measureText(l1).width > W - 180) { l1Sz -= 4; g.font = l1Font(l1Sz); }
     g.textBaseline = "alphabetic"; g.textAlign = "left";
     const l1W = g.measureText(l1).width;
     const l1X = (W - l1W) / 2;
@@ -957,7 +975,10 @@ function drawSparkle(g, x, y, r, color, alphaVal = 1) {
       g.fillText(l1, l1X, l1Y);
     }
 
-    g.font = '400 42px "Outfit", -apple-system, "Hiragino Sans GB", sans-serif';
+    let l2Sz = 42;
+    const l2Font = (sz) => `400 ${sz}px "Outfit", -apple-system, "PingFang SC", "Hiragino Sans GB", sans-serif`;
+    g.font = l2Font(l2Sz);
+    while (l2Sz > 26 && g.measureText(l2).width > W - 180) { l2Sz -= 2; g.font = l2Font(l2Sz); }
     const l2W = g.measureText(l2).width;
     const l2X = (W - l2W) / 2;
     g.fillStyle = "#3a3630";

@@ -830,13 +830,25 @@ function renderCatStage(g, frame, tl, showHeader = true) {
     return null;
   }
 
+  const LETTER_POOL = ALL_KEYS.filter((k) => k.length === 1);
+  function pickVisualKey(id) {
+    if (MAIN_KEYS[id]) return id;
+    const up = String(id || "").toUpperCase();
+    if (MAIN_KEYS[up]) return up;
+    const cp = (String(id || "A").codePointAt(0) || 65);
+    return LETTER_POOL[Math.abs(cp) % LETTER_POOL.length];
+  }
+
   function createLive(audio) {
     const st = { text: "", presses: {}, lastHit: null, wrongUntil: -1, wrongStart: -999, happyStart: -999 };
     function pressKey(id, frame) {
-      st.presses[id] = frame;
-      st.lastHit = { id, frame, key: MAIN_KEYS[id] };
+      const vKey = pickVisualKey(id);
+      st.presses[vKey] = frame;
+      st.lastHit = { id: vKey, frame, key: MAIN_KEYS[vKey] };
       if (id === "Backspace") {
-        st.text = st.text.slice(0, -1);
+        const arr = Array.from(st.text);
+        arr.pop();
+        st.text = arr.join("");
         st.happyStart = -999;
         st.wrongStart = frame;
         st.wrongUntil = frame + 48;
@@ -854,17 +866,19 @@ function renderCatStage(g, frame, tl, showHeader = true) {
         return "小猫拍了拍功能键";
       }
       const ch = id === "Space" ? " " : id;
-      if (st.text.length < 11) st.text += ch;
-      else st.text = st.text.slice(1) + ch;
-      if (st.text.endsWith("MEOW")) {
+      const arr = Array.from(st.text);
+      arr.push(ch);
+      while (arr.length > 11) arr.shift();
+      st.text = arr.join("");
+      if (st.text.toUpperCase().endsWith("MEOW") || /(喵|小猫|可爱|喜欢|贴贴)$/.test(st.text)) {
         st.happyStart = frame;
         st.wrongUntil = -1;
         audio && audio.playCat("happy");
-        return "拼出 MEOW，小猫开心撒娇！";
+        return "小猫看到「" + st.text.slice(-4) + "」开心冒爱心！";
       }
       st.happyStart = -999;
       audio && audio.playCat("tap");
-      return "小猫按下了 " + (id === "Space" ? "空格" : id);
+      return "小猫拍键打出「" + (id === "Space" ? "空格" : id) + "」";
     }
     function action(act, frame) {
       if (act === "clear") { st.text = ""; st.happyStart = -999; st.wrongUntil = -1; return "已清空输入框"; }
@@ -910,13 +924,22 @@ function renderCatStage(g, frame, tl, showHeader = true) {
     g.lineWidth = wrongState || happy ? 2.4 : 1.8; g.stroke();
 
     const shakeX = wrongState && wrongAge < 16 ? Math.sin(wrongAge * 1.45) * 4.5 * (1 - wrongAge / 16) : 0;
-    g.font = '700 54px "Georgia", "Baskerville", serif';
+    const chars = Array.from(st.text || "");
+    const maxTextW = iw - 154;
+    let fSize = 54;
+    const fontFor = (sz) => `700 ${sz}px "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Georgia", serif`;
+    g.font = fontFor(fSize);
+    const measureTotal = () => chars.reduce((acc, c) => acc + g.measureText(c).width + 4, 0);
+    while (fSize > 30 && measureTotal() > maxTextW) {
+      fSize -= 2;
+      g.font = fontFor(fSize);
+    }
     g.textAlign = "left"; g.textBaseline = "middle";
     let tx = ix + 44 + shakeX;
-    for (let i = 0; i < st.text.length; i++) {
+    for (let i = 0; i < chars.length; i++) {
       g.fillStyle = "#563b49";
-      g.fillText(st.text[i], tx, iy + ih / 2 + 2);
-      tx += g.measureText(st.text[i]).width + 4;
+      g.fillText(chars[i], tx, iy + ih / 2 + 2);
+      tx += g.measureText(chars[i]).width + 4;
     }
     const curA = 0.35 + 0.65 * (0.5 + 0.5 * Math.cos(frame * 0.2));
     g.fillStyle = rgba(wrongState ? "#e25d62" : "#e8927c", curA);

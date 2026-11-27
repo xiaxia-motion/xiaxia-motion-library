@@ -743,17 +743,27 @@ function renderGardenStage(g, frame, tl, paperTex, showHeader = true) {
 
   const FLOWER_TYPES = ["poppy", "anemone", "daisy", "camellia", "gold"];
 
+  const LETTER_POOL = ALL_KEYS.filter((k) => k.length === 1);
+  function pickVisualKey(id) {
+    if (MAIN_KEYS[id]) return id;
+    const up = String(id || "").toUpperCase();
+    if (MAIN_KEYS[up]) return up;
+    const cp = (String(id || "A").codePointAt(0) || 65);
+    return LETTER_POOL[Math.abs(cp) % LETTER_POOL.length];
+  }
+
   function createLive(audio) {
     const st = { plants: [], wilted: [], presses: {}, bubble: null, sparkleAt: -999 };
     function pressKey(id, frame) {
-      st.presses[id] = frame;
+      const vKey = pickVisualKey(id);
+      st.presses[vKey] = frame;
       if (id === "Backspace") {
         if (st.plants.length > 0) {
           const rm = st.plants.pop();
           st.wilted.push({ ...rm, delFrame: frame });
           if (st.wilted.length > 4) st.wilted.shift();
           audio && audio.playGarden("wilt");
-          return "花株 " + rm.ch + " 随风飘落";
+          return "花株「" + rm.ch + "」随风飘落";
         }
         return "花圃已经清空";
       }
@@ -762,20 +772,24 @@ function renderGardenStage(g, frame, tl, paperTex, showHeader = true) {
         audio && audio.playGarden("sparkle");
         return "一阵清风洒下暖金花粉";
       }
-      if (id.length !== 1) return "请敲击字母键种花";
+      if (id === "Space" || id === "Shift" || id === "Mode") return "请输入汉字或字母种花";
+      const chars = Array.from(String(id || "").trim());
+      if (chars.length !== 1) return "请输入汉字或字母种花";
+      const ch = chars[0];
       if (st.plants.length >= 6) st.plants.shift();
-      const code = id.charCodeAt(0) - 65;
+      const cp = ch.codePointAt(0) || 65;
+      const code = cp >= 65 && cp <= 90 ? cp - 65 : Math.abs(cp) % 26;
       const plant = {
-        ch: id,
+        ch,
         f: frame,
         h: 148 + (code % 5) * 11,
         type: FLOWER_TYPES[(code + st.plants.length) % FLOWER_TYPES.length],
         seed: code + st.plants.length * 3,
       };
       st.plants.push(plant);
-      st.bubble = { kid: id, frame };
+      st.bubble = { kid: vKey, label: ch, frame };
       audio && audio.playGarden("bloom", code);
-      return "种下字母 " + id + " 的水彩小花";
+      return "种下「" + ch + "」的水彩小花";
     }
     function action(act, frame) {
       if (act === "clear") { st.plants = []; st.wilted = []; return "已清空花圃"; }
@@ -836,7 +850,7 @@ function renderGardenStage(g, frame, tl, paperTex, showHeader = true) {
       g.translate(px, baseLineY - 6);
       const pop = easeOutBack(range(age, 0, 10), 1.3);
       g.scale(pop, pop);
-      g.font = '500 98px "Didot", "Baskerville", "Georgia", serif';
+      const isCjk = /[^\x00-\x7f]/.test(pl.ch); g.font = isCjk ? '600 84px "Songti SC", "STSong", "Noto Serif SC", "PingFang SC", serif' : '500 98px "Didot", "Baskerville", "Georgia", serif';
       g.fillStyle = "#26402c"; g.textAlign = "center"; g.textBaseline = "alphabetic";
       g.fillText(pl.ch, 0, 0);
       g.restore();
@@ -888,15 +902,15 @@ function renderGardenStage(g, frame, tl, paperTex, showHeader = true) {
       g.restore();
     });
 
-    if (st.bubble && frame - st.bubble.frame < 19) {
+    if (st.bubble && frame - st.bubble.frame < 19 && MAIN_KEYS[st.bubble.kid]) {
       const age = frame - st.bubble.frame, k = MAIN_KEYS[st.bubble.kid];
       const enter = 1 - Math.exp(-(age + 2) / 2.6), fade = 1 - smooth(range(age / 19, 0.5, 1));
       g.save();
       g.globalAlpha *= fade; g.translate(k.x, k.y - k.h / 2 - 45 - 6 * enter);
       g.scale(0.86 + 0.14 * enter, 0.86 + 0.14 * enter);
       g.fillStyle = "#4c724d"; g.beginPath(); g.roundRect(-31, -31, 62, 62, 16); g.fill();
-      g.fillStyle = "#fcfbf3"; g.font = '600 32px "Baskerville", "Georgia", serif'; g.textAlign = "center"; g.textBaseline = "middle";
-      g.fillText(st.bubble.kid, 0, 1);
+      g.fillStyle = "#fcfbf3"; g.font = '600 30px "Songti SC", "Baskerville", "PingFang SC", serif'; g.textAlign = "center"; g.textBaseline = "middle";
+      g.fillText(st.bubble.label || st.bubble.kid, 0, 1);
       g.restore();
     }
   }

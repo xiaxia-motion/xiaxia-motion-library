@@ -719,38 +719,54 @@ function renderMelodyStage(g, frame, tl, starTex, showHeader = true) {
   ];
   const FIXED_BEAT = { B: SCALE[0], E: SCALE[2], A: SCALE[4], T: SCALE[6] };
 
+  const LETTER_POOL = ALL_KEYS.filter((k) => k.length === 1);
+  function pickVisualKey(id) {
+    if (MAIN_KEYS[id]) return id;
+    const up = String(id || "").toUpperCase();
+    if (MAIN_KEYS[up]) return up;
+    const cp = (String(id || "A").codePointAt(0) || 65);
+    return LETTER_POOL[Math.abs(cp) % LETTER_POOL.length];
+  }
+
   function noteForKey(id) {
     if (FIXED_BEAT[id]) return FIXED_BEAT[id];
-    return SCALE[(id.charCodeAt(0) - 65) % SCALE.length];
+    const cp = String(id || "A").codePointAt(0) || 65;
+    const raw = cp >= 65 && cp <= 90 ? cp - 65 : cp;
+    return SCALE[((raw % SCALE.length) + SCALE.length) % SCALE.length];
   }
 
   function createLive(audio) {
     const st = { slots: [], replayStart: -999, enterFrame: -999, presses: {} };
     function startReplay(frame) {
-      if (st.slots.length === 0) return "请先敲入 1–4 个字母组成旋律";
+      if (st.slots.length === 0) return "请先输入 1–4 个汉字或字母组成旋律";
       st.replayStart = frame;
       st.enterFrame = frame;
       st.presses["Enter"] = frame;
       st.slots.forEach((sl, idx) => {
         audio && audio.playPiano(sl.note.midi, idx * 0.25);
       });
-      return "正在按 120 BPM 回奏 " + st.slots.map((s) => s.ch.toLowerCase()).join("");
+      return "正在按 120 BPM 回奏「" + st.slots.map((s) => (/^[A-Z]$/.test(s.ch) ? s.ch.toLowerCase() : s.ch)).join("") + "」";
     }
     function pressKey(id, frame) {
-      st.presses[id] = frame;
+      const vKey = pickVisualKey(id);
+      st.presses[vKey] = frame;
       if (id === "Enter") return startReplay(frame);
       if (id === "Backspace") {
         st.slots.pop();
         st.replayStart = -999;
         return "已移除最后一个音符";
       }
-      if (id.length !== 1) return "敲击 A–Z 输入音符，按 Enter 回奏";
+      if (id === "Space" || id === "Shift" || id === "Mode" || id === "Emoji") return "输入汉字或 A–Z 组成旋律，按回车回奏";
+      const chars = Array.from(String(id || "").trim());
+      if (chars.length !== 1) return "输入汉字或 A–Z 组成旋律，按回车回奏";
+      const ch = chars[0];
       if (st.slots.length >= 4) st.slots = [];
-      const note = noteForKey(id);
-      st.slots.push({ ch: id, note, pressFrame: frame });
+      const note = noteForKey(ch);
+      st.slots.push({ ch, note, pressFrame: frame });
       st.replayStart = -999;
       audio && audio.playPiano(note.midi, 0);
-      return "演奏 " + id.toLowerCase() + "（" + note.name + "）";
+      const disp = /^[A-Z]$/.test(ch) ? ch.toLowerCase() : ch;
+      return "演奏「" + disp + "」（" + note.name + "）";
     }
     function action(act, frame) {
       if (act === "clear") { st.slots = []; st.replayStart = -999; return "已清空乐谱"; }
@@ -829,8 +845,11 @@ function renderMelodyStage(g, frame, tl, starTex, showHeader = true) {
         g.fillText(sl.note.name, x + 12, slotY + 10);
         g.save(); g.translate(x + slotW / 2, slotY + slotH / 2 + 4); g.scale(1 + energy * 0.11, 1 + energy * 0.11);
         g.shadowColor = rgba(col, 0.75); g.shadowBlur = 12 + energy * 18;
-        g.font = '600 44px "Outfit", sans-serif'; g.fillStyle = lerpColor(col, "#ffffff", 0.32 + energy * 0.5);
-        g.textAlign = "center"; g.textBaseline = "middle"; g.fillText(sl.ch.toLowerCase(), 0, 0); g.restore();
+        const isCjk = /[^\x00-\x7f]/.test(sl.ch);
+        g.font = isCjk ? '600 40px "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif' : '600 44px "Outfit", sans-serif';
+        g.fillStyle = lerpColor(col, "#ffffff", 0.32 + energy * 0.5);
+        g.textAlign = "center"; g.textBaseline = "middle";
+        g.fillText(/^[A-Z]$/.test(sl.ch) ? sl.ch.toLowerCase() : sl.ch, 0, 0); g.restore();
       } else {
         g.fillStyle = "rgba(255,255,255,0.16)"; g.fillRect(x + slotW / 2 - 12, slotY + slotH / 2, 24, 2);
       }

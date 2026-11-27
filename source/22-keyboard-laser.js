@@ -416,7 +416,8 @@ function drawSparkle(g, x, y, r, color, alphaVal = 1) {
 
   for (const ev of lz.events) {
     const pressAge = frame - ev.press;
-    if (pressAge >= 0 && pressAge < 22) keyGlow[ev.key] = Math.max(keyGlow[ev.key] ?? 0, 1 - smooth(pressAge / 22));
+    const visualId = ev.keyId || (MAIN_KEYS[ev.key] ? ev.key : pickLaserVisualKey(ev.key));
+    if (pressAge >= 0 && pressAge < 22) keyGlow[visualId] = Math.max(keyGlow[visualId] ?? 0, 1 - smooth(pressAge / 22));
     if (frame >= ev.launch && frame <= ev.hit) {
       activeBeams.push({ ev, u: range(frame, ev.launch, ev.hit), slotIdx: ev.key === "Backspace" ? Math.max(0, slots.length - 1) : slots.length });
     }
@@ -533,9 +534,10 @@ function drawSparkle(g, x, y, r, color, alphaVal = 1) {
   const slotCenter = (idx) => ({ x: gx0 + (slotCols[idx] + 2.5) * cellPitch, y: gy0 + 5 * cellPitch });
 
   slots.forEach((slot, idx) => {
-    const glyph = DOT_GLYPHS[slot.ch];
-    if (!glyph) return;
-    const cStart = slotCols[idx], rStart = 2, hitAge = frame - slot.hitFrame;
+    const info = getLaserGlyph(slot.ch);
+    if (!info) return;
+    const { grid: glyph, hires } = info;
+    const cStart = slotCols[idx], rStart = hires ? 1.15 : 2, hitAge = frame - slot.hitFrame;
     const flash = Math.exp(-hitAge / 12);
     const mainCol = slot.accent ? "#f59e0b" : "#4ade80";
     const glowCol = slot.accent ? "#fbbf24" : "#34d399";
@@ -547,22 +549,29 @@ function drawSparkle(g, x, y, r, color, alphaVal = 1) {
       drawGlowBlob(g, sc.x, sc.y, 44 + u * 54, glowCol, (1 - u) * 0.42);
     }
 
+    const stepC = hires ? 0.44 : 1;
+    const stepR = hires ? 0.56 : 1;
+    const halfOuter = hires ? 2.55 : 5.2;
+    const halfCore = hires ? 1.05 : 2.3;
+    const colStartAdj = hires ? cStart - 0.55 : cStart;
+
     for (let gr = 0; gr < glyph.length; gr++) {
       for (let gc = 0; gc < glyph[gr].length; gc++) {
-        if (glyph[gr][gc] !== "1" || hitAge < gc * 0.7) continue;
-        const px = gx0 + (cStart + gc) * cellPitch, py = gy0 + (rStart + gr) * cellPitch;
-        const scanDist = Math.abs(cStart + gc - scanCol);
+        if (glyph[gr][gc] !== "1" || hitAge < gc * (hires ? 0.36 : 0.7)) continue;
+        const colCoord = colStartAdj + gc * stepC;
+        const px = gx0 + colCoord * cellPitch, py = gy0 + (rStart + gr * stepR) * cellPitch;
+        const scanDist = Math.abs(colCoord - scanCol);
         const b = clamp(flash * 0.7 + (scanDist < 4 ? (1 - scanDist / 4) * 0.85 : 0));
         g.save();
         g.shadowColor = glowCol;
-        g.shadowBlur = 12 + b * 16;
+        g.shadowBlur = (hires ? 5.5 : 12) + b * 12;
         g.fillStyle = lerpColor(mainCol, "#ffffff", 0.25 + b * 0.65);
         g.beginPath();
-        g.roundRect(px - 5.2, py - 5.2, 10.4, 10.4, 2.8);
+        g.roundRect(px - halfOuter, py - halfOuter, halfOuter * 2, halfOuter * 2, hires ? 1.2 : 2.8);
         g.fill();
         g.fillStyle = rgba("#ffffff", 0.55 + b * 0.45);
         g.beginPath();
-        g.roundRect(px - 2.3, py - 2.3, 4.6, 4.6, 1.4);
+        g.roundRect(px - halfCore, py - halfCore, halfCore * 2, halfCore * 2, hires ? 0.6 : 1.4);
         g.fill();
         g.restore();
       }
@@ -653,7 +662,8 @@ function drawSparkle(g, x, y, r, color, alphaVal = 1) {
 
   // 三层高能激光束 + 飞行火花 + 字符微影
   activeBeams.forEach(({ ev, u, slotIdx }) => {
-    const isBack = ev.key === "Backspace", keyPt = MAIN_KEYS[ev.key];
+    const isBack = ev.key === "Backspace";
+    const keyPt = MAIN_KEYS[ev.keyId || ev.key] || MAIN_KEYS[pickLaserVisualKey(ev.key)];
     const targetPt = slotCenter(clamp(slotIdx, 0, 3));
     const p0 = isBack ? targetPt : { x: keyPt.x, y: keyPt.y };
     const p2 = isBack ? { x: keyPt.x, y: keyPt.y } : targetPt;
@@ -691,7 +701,7 @@ function drawSparkle(g, x, y, r, color, alphaVal = 1) {
       g.arc(sp.x + (hash(i * 13.3 + ev.press) - 0.5) * 18, sp.y + (hash(i * 29.7 + ev.press) - 0.5) * 18, 2.2 * (1 - i * 0.12), 0, TAU);
       g.fill();
     }
-    g.font = '700 18px "GeistMono", monospace';
+    g.font = '700 18px "PingFang SC", "Hiragino Sans GB", "GeistMono", sans-serif';
     g.fillStyle = "#ffffff";
     g.textAlign = "center";
     g.textBaseline = "middle";
@@ -713,6 +723,50 @@ function drawSparkle(g, x, y, r, color, alphaVal = 1) {
     return null;
   }
 
+  const LASER_LETTERS = ALL_KEYS.filter((k) => k.length === 1);
+  const DYNAMIC_GLYPH_CACHE = {};
+  let rasterCanvas = null;
+
+  function pickLaserVisualKey(ch) {
+    if (MAIN_KEYS[ch]) return ch;
+    const up = String(ch || "").toUpperCase();
+    if (MAIN_KEYS[up]) return up;
+    const cp = String(ch || "A").codePointAt(0) || 65;
+    return LASER_LETTERS[Math.abs(cp) % LASER_LETTERS.length];
+  }
+
+  function getLaserGlyph(ch) {
+    if (DOT_GLYPHS[ch]) return { grid: DOT_GLYPHS[ch], hires: false };
+    const up = String(ch || "").toUpperCase();
+    if (DOT_GLYPHS[up]) return { grid: DOT_GLYPHS[up], hires: false };
+    if (DYNAMIC_GLYPH_CACHE[ch]) return DYNAMIC_GLYPH_CACHE[ch];
+    if (typeof document === "undefined") return null;
+    if (!rasterCanvas) {
+      rasterCanvas = document.createElement("canvas");
+      rasterCanvas.width = 16;
+      rasterCanvas.height = 16;
+    }
+    const rctx = rasterCanvas.getContext("2d", { willReadFrequently: true });
+    rctx.clearRect(0, 0, 16, 16);
+    rctx.fillStyle = "#ffffff";
+    rctx.textAlign = "center";
+    rctx.textBaseline = "middle";
+    rctx.font = '500 14px "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif';
+    rctx.fillText(ch, 8, 8.6);
+    const img = rctx.getImageData(0, 0, 16, 16).data;
+    const grid = [];
+    for (let r = 0; r < 16; r++) {
+      let row = "";
+      for (let c = 0; c < 16; c++) {
+        row += img[(r * 16 + c) * 4 + 3] >= 126 ? "1" : "0";
+      }
+      grid.push(row);
+    }
+    const res = { grid, hires: true };
+    DYNAMIC_GLYPH_CACHE[ch] = res;
+    return res;
+  }
+
   function createLive(audio) {
     const st = { events: [], sweepAt: -999 };
     function pressKey(id, frame) {
@@ -722,18 +776,31 @@ function drawSparkle(g, x, y, r, color, alphaVal = 1) {
         return "全屏翡翠激光扫描锁定！";
       }
       if (id === "Backspace") {
-        st.events.push({ key: "Backspace", press: frame, launch: frame + 1, hit: frame + 16, accent: true, finish: false });
+        st.events.push({ key: "Backspace", keyId: "Backspace", press: frame, launch: frame + 1, hit: frame + 16, accent: true, finish: false });
         audio && audio.playLaser("suck");
         return "琥珀红光逆向回吸消除字符";
       }
-      if (id.length !== 1 || !DOT_GLYPHS[id]) return "敲击 A–Z 发射翡翠激光，Backspace 回吸消除";
+      if (id === "Space" || id === "Shift" || id === "Mode" || id === "Emoji") {
+        return "输入汉字或 A–Z 发射翡翠激光，退格键回吸消除";
+      }
+      const chars = Array.from(String(id || "").trim());
+      if (chars.length !== 1) return "输入汉字或 A–Z 发射翡翠激光，退格键回吸消除";
+      const ch = /^[a-z]$/.test(chars[0]) ? chars[0].toUpperCase() : chars[0];
       let count = 0;
       for (const e of st.events) count = e.key === "Backspace" ? Math.max(0, count - 1) : Math.min(4, count + 1);
       if (count >= 4) st.events = [];
       const isFourth = count === 3;
-      st.events.push({ key: id, press: frame, launch: frame + 2, hit: frame + 14, accent: id === "X", finish: isFourth });
+      st.events.push({
+        key: ch,
+        keyId: pickLaserVisualKey(ch),
+        press: frame,
+        launch: frame + 2,
+        hit: frame + 14,
+        accent: ch === "X",
+        finish: isFourth,
+      });
       audio && audio.playLaser(isFourth ? "lock" : "fire");
-      return "发射激光写入 " + id;
+      return "发射激光蚀刻「" + ch + "」";
     }
     function action(act, frame) {
       if (act === "clear") { st.events = []; st.sweepAt = -999; return "点阵终端已清空"; }
