@@ -1,5 +1,7 @@
 # 粒子幻境
 
+> [✨ 在线展馆试玩本期](https://xiaxia-motion.github.io/xiaxia-motion-library/#note=13) · [← 返回全库首页](../README.md)
+
 《上次做的粒子效果大家很喜欢，又做了一期。》 · 2026-11-16 · 夏夏的AI灵感
 
 本条笔记共 7 组。每一组有自己的源码和离线预览。
@@ -10,7 +12,7 @@
 
 ## 鸟群散为立体雪花
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/13-birds-to-snow.zip) · [在线读主源码](source/13-birds-to-snow.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/13-birds-to-snow.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=13-birds-to-snow) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/13-birds-to-snow.zip) · [在线读主源码](../source/13-birds-to-snow.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/13-birds-to-snow.zip)
 
 five-timing.js：正文第 586/60 秒触发雪晶形态。逻辑画幅 4:3，60 帧/秒，预览 960×720；Bloom 强度 .36、半径 .28、阈值 .83。
 
@@ -28,7 +30,7 @@ five-timing.js：正文第 586/60 秒触发雪晶形态。逻辑画幅 4:3，60 
 
 ## 余烬回聚成光环
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/13-embers-ring.zip) · [在线读主源码](source/13-embers-ring.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/13-embers-ring.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=13-embers-ring) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/13-embers-ring.zip) · [在线读主源码](../source/13-embers-ring.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/13-embers-ring.zip)
 
 bookends.js 与 five-shaders.js：保持与片头相同的环目标。逻辑画幅 4:3，60 帧/秒，预览 960×720；Bloom 强度 .36、半径 .28、阈值 .83。
 
@@ -46,7 +48,7 @@ bookends.js 与 five-shaders.js：保持与片头相同的环目标。逻辑画�
 
 ## 花瓣原位化鸟与振翅
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/13-petals-to-birds.zip) · [在线读主源码](source/13-petals-to-birds.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/13-petals-to-birds.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=13-petals-to-birds) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/13-petals-to-birds.zip) · [在线读主源码](../source/13-petals-to-birds.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/13-petals-to-birds.zip)
 
 five-motion.js：launch=7 秒为正文局部时间。逻辑画幅 4:3，60 帧/秒，预览 960×720；Bloom 强度 .36、半径 .28、阈值 .83。
 
@@ -64,7 +66,7 @@ five-motion.js：launch=7 秒为正文局部时间。逻辑画幅 4:3，60 帧/�
 
 ## 粒子丝带汇环
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/13-ribbon-ring.zip) · [在线读主源码](source/13-ribbon-ring.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/13-ribbon-ring.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=13-ribbon-ring) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/13-ribbon-ring.zip) · [在线读主源码](../source/13-ribbon-ring.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/13-ribbon-ring.zip)
 
 bookends.js：片头长度 3 秒。逻辑画幅 4:3，60 帧/秒，预览 960×720；Bloom 强度 .36、半径 .28、阈值 .83。
 
@@ -82,7 +84,7 @@ bookends.js：片头长度 3 秒。逻辑画幅 4:3，60 帧/秒，预览 960×7
 
 ## 蒲公英分批旋抛花火
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/13-seed-fireworks.zip) · [在线读主源码](source/13-seed-fireworks.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/13-seed-fireworks.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=13-seed-fireworks) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/13-seed-fireworks.zip) · [在线读主源码](../source/13-seed-fireworks.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/13-seed-fireworks.zip)
 
 five-timing.js：正文 1208、1291、1374 帧触发爆点。逻辑画幅 4:3，60 帧/秒，预览 960×720；Bloom 强度 .36、半径 .28、阈值 .83。
 
@@ -100,7 +102,7 @@ five-timing.js：正文 1208、1291、1374 帧触发爆点。逻辑画幅 4:3，
 
 ## 雪晶归集为蒲公英
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/13-snow-to-seed.zip) · [在线读主源码](source/13-snow-to-seed.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/13-snow-to-seed.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=13-snow-to-seed) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/13-snow-to-seed.zip) · [在线读主源码](../source/13-snow-to-seed.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/13-snow-to-seed.zip)
 
 five-timing.js：正文 835/60 秒起聚合。逻辑画幅 4:3，60 帧/秒，预览 960×720；Bloom 强度 .36、半径 .28、阈值 .83。
 
@@ -118,7 +120,7 @@ five-timing.js：正文 835/60 秒起聚合。逻辑画幅 4:3，60 帧/秒，�
 
 ## 错落网格花开
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/13-wire-flower.zip) · [在线读主源码](source/13-wire-flower.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/13-wire-flower.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=13-wire-flower) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/13-wire-flower.zip) · [在线读主源码](../source/13-wire-flower.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/13-wire-flower.zip)
 
 flower-a.js：原花片拓扑和线网坐标。逻辑画幅 4:3，60 帧/秒，预览 960×720；Bloom 强度 .36、半径 .28、阈值 .83。
 
@@ -132,4 +134,4 @@ flower-a.js：原花片拓扑和线网坐标。逻辑画幅 4:3，60 帧/秒，�
 
 由花心开始逐层推出 25 片线网花瓣，边缘翻卷，花瓣错开生长。 保持原工程的顶点编号与相机基准，避免硬切或用视频贴片。
 
-[回到全部笔记](README.md)
+[回到全部笔记](../README.md)

@@ -1,5 +1,7 @@
 # VibeCoding 八工具
 
+> [✨ 在线展馆试玩本期](https://xiaxia-motion.github.io/xiaxia-motion-library/#note=14) · [← 返回全库首页](../README.md)
+
 《vibecoding工具分享，代码生成视频全靠它们》 · 2026-11-17 · 夏夏的AI灵感
 
 本条笔记共 12 组。每一组有自己的源码和离线预览。
@@ -10,7 +12,7 @@
 
 ## 八张工具卡依次飞出
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/14-card-deal.zip) · [在线读主源码](source/14-card-deal.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/14-card-deal.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=14-card-deal) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/14-card-deal.zip) · [在线读主源码](../source/14-card-deal.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/14-card-deal.zip)
 
 第 1.25 秒开始发牌。八张卡间隔 95 毫秒依次起飞，每张飞行 0.50 秒，镜头沿纵深拉远，卡面稳定后排成两层。
 
@@ -28,7 +30,7 @@
 
 ## 银色卡片抛起翻转
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/14-card-toss.zip) · [在线读主源码](source/14-card-toss.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/14-card-toss.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=14-card-toss) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/14-card-toss.zip) · [在线读主源码](../source/14-card-toss.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/14-card-toss.zip)
 
 卡片沿抛物线上升和回落，在 1.1 秒中绕自身对角轴转十圈。用法向量切换卡片正反，接触桌面后仅剩短暂震动。
 
@@ -46,7 +48,7 @@
 
 ## 三段取样、裁切与时间线拼接
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/14-cut-timeline.zip) · [在线读主源码](source/14-cut-timeline.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/14-cut-timeline.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=14-cut-timeline) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/14-cut-timeline.zip) · [在线读主源码](../source/14-cut-timeline.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/14-cut-timeline.zip)
 
 将 12 秒的时间线等分为三个 4 秒区间，分别取第 1–2、5–6、9–10 秒。三个窗口扩大并连续拼成 3 秒，蓝色播放头按新时间扫过。
 
@@ -64,7 +66,7 @@
 
 ## 鸟群方阵、圆环与波浪
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/14-flock-formations.zip) · [在线读主源码](source/14-flock-formations.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/14-flock-formations.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=14-flock-formations) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/14-flock-formations.zip) · [在线读主源码](../source/14-flock-formations.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/14-flock-formations.zip)
 
 25 只鸟先以连续切线落入五乘五方阵，以 19 毫秒组间错峰重排成环，再用 1.53 秒三次缓动铺成正弦波；飞向下一组目标。
 
@@ -82,7 +84,7 @@
 
 ## 线花生长与二十五只鸟离花
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/14-flower-to-flock.zip) · [在线读主源码](source/14-flower-to-flock.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/14-flower-to-flock.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=14-flower-to-flock) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/14-flower-to-flock.zip) · [在线读主源码](../source/14-flower-to-flock.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/14-flower-to-flock.zip)
 
 先露花茎，再按花瓣线坐标生长。收束花瓣后让同一批顶点逐群变成 25 只飞鸟。保持相机连续后撤及各鸟的拍翅相位。
 
@@ -100,7 +102,7 @@
 
 ## 工具卡阵与标题向外散开
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/14-glyph-scatter.zip) · [在线读主源码](source/14-glyph-scatter.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/14-glyph-scatter.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=14-glyph-scatter) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/14-glyph-scatter.zip) · [在线读主源码](../source/14-glyph-scatter.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/14-glyph-scatter.zip)
 
 先保持工具名可读，在 4.90 秒触发冲击，逐个字形和卡从中心沿各自径向散开，冲击圈和轻微镜头震动同时衰减。
 
@@ -118,7 +120,7 @@
 
 ## 画面、边框、文字与声纹合层
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/14-layer-merge.zip) · [在线读主源码](source/14-layer-merge.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/14-layer-merge.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=14-layer-merge) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/14-layer-merge.zip) · [在线读主源码](../source/14-layer-merge.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/14-layer-merge.zip)
 
 四层先在各自透视平面错开，间隔 0.25 秒进入；第 2.9 至 5.2 秒合拢为同一画面，随后面板放大。
 
@@ -136,7 +138,7 @@
 
 ## 球面木纹、大理石与行星扫换
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/14-material-sweep.zip) · [在线读主源码](source/14-material-sweep.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/14-material-sweep.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=14-material-sweep) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/14-material-sweep.zip) · [在线读主源码](../source/14-material-sweep.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/14-material-sweep.zip)
 
 在半径 0.88 的单球表面，以局部 x 坐标和宽度 0.12 的过渡带，从右往左依次扫过木纹、大理石和行星。高光、球面轮廓和自转连续。
 
@@ -154,7 +156,7 @@
 
 ## 十三次落音与跟随镜头
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/14-score-ball.zip) · [在线读主源码](source/14-score-ball.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/14-score-ball.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=14-score-ball) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/14-score-ball.zip) · [在线读主源码](../source/14-score-ball.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/14-score-ball.zip)
 
 沿五线谱的 13 个符头逐次落球。击中有蓝色扩散环，尾迹沿上一小段抛物线衰减，镜头用单调三次曲线沿谱线跟随。可手动启用随节拍合成的音色。
 
@@ -172,7 +174,7 @@
 
 ## 谱线展开为四个画框
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/14-staff-to-layers.zip) · [在线读主源码](source/14-staff-to-layers.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/14-staff-to-layers.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=14-staff-to-layers) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/14-staff-to-layers.zip) · [在线读主源码](../source/14-staff-to-layers.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/14-staff-to-layers.zip)
 
 取五线谱第一、二、四、五根线的屏幕投影。将端点展开为四张有透视的画框，小球收束为左上层的定位点，持续约 0.7 秒。
 
@@ -190,7 +192,7 @@
 
 ## 成片画框缩成工具卡
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/14-toolkit-outro.zip) · [在线读主源码](source/14-toolkit-outro.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/14-toolkit-outro.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=14-toolkit-outro) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/14-toolkit-outro.zip) · [在线读主源码](../source/14-toolkit-outro.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/14-toolkit-outro.zip)
 
 画面由 640 × 360 缩为 190 × 232 的银色卡面，左移落稳。八个工具条目随后分两列错时出现。
 
@@ -208,7 +210,7 @@
 
 ## 线球撞散二十个空心方块
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/14-wire-impact.zip) · [在线读主源码](source/14-wire-impact.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/14-wire-impact.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=14-wire-impact) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/14-wire-impact.zip) · [在线读主源码](../source/14-wire-impact.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/14-wire-impact.zip)
 
 20 组飞鸟落到方块的 12 条棱，另 5 组拼出线球。第 14.65 秒发射，沿原物理求解轨迹撞击，保持单体的位置、四元数和镜头追随。
 
@@ -222,4 +224,4 @@
 
 20 组飞鸟落到方块的 12 条棱，另 5 组拼出线球。第 14.65 秒发射，沿原物理求解轨迹撞击，保持单体的位置、四元数和镜头追随。 独立展示这个动作，遵循下载包的取景、时间范围和缓动，提供播放、暂停、重播与定位。
 
-[回到全部笔记](README.md)
+[回到全部笔记](../README.md)

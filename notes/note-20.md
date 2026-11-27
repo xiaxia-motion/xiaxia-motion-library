@@ -1,5 +1,7 @@
 # UI 美学深度讲解 01 · 新粗野主义 UI
 
+> [✨ 在线展馆试玩本期](https://xiaxia-motion.github.io/xiaxia-motion-library/#note=20) · [← 返回全库首页](../README.md)
+
 夏夏的AI灵感 · 本期源码于 2026 年 11 月 26 日更新。按 2 分 11.20 秒定稿分组，每个下载包可独立运行。
 
 共 37 组。前 23 组按讲解时间排列，接着是 7 个选场操作和 1 个展板收尾。最后 6 款在定稿的组件展板内出现，这里另附独立的操作示例。13 款音乐节控件都可以自己操作。
@@ -59,7 +61,7 @@
 
 00:00.00–00:05.90。用粗黑描边勾出奶油色卡。逐次滚出「粗黑边框、硬阴影、鲜明色块」，硬影向右下移出，荧光黄和钴蓝分占两区；同一纸面展开为带吉他照片的音乐节首页。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-poster.zip) · [在线读主源码](source/20-brut-poster.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-poster) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-poster.zip) · [在线读主源码](../source/20-brut-poster.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。
 
@@ -73,7 +75,7 @@
 
 00:05.90–00:07.17。从海报右下的声级窗向内加速推镜。让亮条和透视线共享端点，逐步铺满深色画面，最后几个字从消失点钻出。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-signal.zip) · [在线读主源码](source/20-brut-signal.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-signal) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-signal.zip) · [在线读主源码](../source/20-brut-signal.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。
 
@@ -87,7 +89,7 @@
 
 00:07.17–00:10.57。二十六个中英文风格词沿多条透视轨道向镜头穿来。中心锁定「新粗野主义」，让题名在其余文字退出后继续极轻地放大。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-words.zip) · [在线读主源码](source/20-brut-words.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-words) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-words.zip) · [在线读主源码](../source/20-brut-words.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。
 
@@ -101,7 +103,7 @@
 
 00:10.57–00:12.90。沿同一行题名从黑底切到米色印刷标题。用横向错行、局部彩边、少量雪花分带扫过；扫完的区域锁定新纸面，留足标题停留时间。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-scan.zip) · [在线读主源码](source/20-brut-scan.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-scan) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-scan.zip) · [在线读主源码](../source/20-brut-scan.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。
 
@@ -115,7 +117,7 @@
 
 00:12.90–00:15.33。从标题纸的右下逐列卷起，卷边、背纸与阴影同时移动，逐渐显露范斯沃斯住宅；展框落定后镜头沿立面微推。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-peel.zip) · [在线读主源码](source/20-brut-peel.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-peel) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-peel.zip) · [在线读主源码](../source/20-brut-peel.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。
 
@@ -129,7 +131,7 @@
 
 00:15.33–00:18.00。在同一个展框里依次折出玻璃幕墙、钢框架、白墙。照片在竖梃处折展，原有展窗连续让出宽度，标签带随展框出现。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-triptych.zip) · [在线读主源码](source/20-brut-triptych.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-triptych) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-triptych.zip) · [在线读主源码](../source/20-brut-triptych.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。
 
@@ -143,7 +145,7 @@
 
 00:18.00–00:22.13。从并置照片中裁出窗带、钢柱和屋檐；分别沿裁切框的三点变换移动，让纹理跟随构件拼成同一建筑立面。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-facade.zip) · [在线读主源码](source/20-brut-facade.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-facade) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-facade.zip) · [在线读主源码](../source/20-brut-facade.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。
 
@@ -157,7 +159,7 @@
 
 00:22.13–00:30.03。让照片中的横檐旋成第一块楼板，再以十二次错开的落点拼起柱、楼层和窗带。保留板纹、落地回震与局部碎屑，再缓推完成的建筑。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-concrete.zip) · [在线读主源码](source/20-brut-concrete.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-concrete) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-concrete.zip) · [在线读主源码](../source/20-brut-concrete.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 本组的三维场景使用 Three.js 0.180.0 与 WebGL 2。
 
@@ -171,7 +173,7 @@
 
 00:30.03–00:34.27。从已搭好的混凝土建筑缓慢靠近窗带，再突然加速穿过右侧玻璃。窗内提前显示后方的深色粒子场，保持消失点与镜头连续，第一张白牌旋近。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-window.zip) · [在线读主源码](source/20-brut-window.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-window) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-window.zip) · [在线读主源码](../source/20-brut-window.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 本组的三维场景使用 Three.js 0.180.0 与 WebGL 2。 牌面反光改编自 Vanilla Tilt 的光线方向计算。
 
@@ -185,7 +187,7 @@
 
 00:34.27–00:38.27。在黑色粒子空间从一张白色网页接连发出十张纸牌。每张沿弧线翻转一周，按先后落到两行；保留纸背、跟随的投影与逐渐减短的光迹。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-deal.zip) · [在线读主源码](source/20-brut-deal.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-deal) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-deal.zip) · [在线读主源码](../source/20-brut-deal.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 本组的三维场景使用 Three.js 0.180.0 与 WebGL 2。 牌面反光改编自 Vanilla Tilt 的光线方向计算。
 
@@ -199,7 +201,7 @@
 
 00:38.27–00:42.13。从两排网页中聚焦一张，沿中线翻成唱片播放器；卡面逐渐变圆，从背板抬起并出现软影。让淡紫渐变铺开，再让玻璃播放条掠过唱片。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-player.zip) · [在线读主源码](source/20-brut-player.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-player) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-player.zip) · [在线读主源码](../source/20-brut-player.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 本组的三维场景使用 Three.js 0.180.0 与 WebGL 2。 牌面反光改编自 Vanilla Tilt 的光线方向计算。
 
@@ -213,7 +215,7 @@
 
 00:42.13–00:45.80。让十张纸牌回到两行，再近距离翻转中央卡背。从同一个击中点长出白光，先近后远吹开牌阵，把中央牌接到下一张粉色网页展板。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-blast.zip) · [在线读主源码](source/20-brut-blast.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-blast) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-blast.zip) · [在线读主源码](../source/20-brut-blast.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 本组的三维场景使用 Three.js 0.180.0 与 WebGL 2。 牌面反光改编自 Vanilla Tilt 的光线方向计算。
 
@@ -227,7 +229,7 @@
 
 00:45.80–00:53.13。先展示整张粉色页面，依次推近顶部导航、黑框按钮和徽章。只用三角网格弯动徽章右下的硬影，让外边缘和字面保持固定，再扣回原位。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-badge.zip) · [在线读主源码](source/20-brut-badge.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-badge) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-badge.zip) · [在线读主源码](../source/20-brut-badge.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。
 
@@ -241,7 +243,7 @@
 
 00:53.13–00:57.03。延续徽章的黑色侧影，沿水平轴翻成粗黑框题名，将大标题缩入按钮；始终保留徽章、文字与轮廓之间的空间关系。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-flip.zip) · [在线读主源码](source/20-brut-flip.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-flip) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-flip.zip) · [在线读主源码](../source/20-brut-flip.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。
 
@@ -255,7 +257,7 @@
 
 00:57.03–01:04.93。在米白展板上用镜头拆开同一枚按钮。边框从 2 增至 4 像素，纯黑投影向右下从 4 增至 8 像素；用刻度标明距离，两层都保留硬边。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-layers.zip) · [在线读主源码](source/20-brut-layers.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-layers) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-layers.zip) · [在线读主源码](../source/20-brut-layers.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 本组的三维场景使用 Three.js 0.180.0 与 WebGL 2。
 
@@ -269,7 +271,7 @@
 
 01:04.93–01:10.33。让黄粉、青绿两对实色色块分别蓄力、加速相撞。边缘受压时横向缩短并反弹，裂片从碰撞点飞离；四片随后归位，拼出完整的按钮。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-collision.zip) · [在线读主源码](source/20-brut-collision.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-collision) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-collision.zip) · [在线读主源码](../source/20-brut-collision.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 本组的三维场景使用 Three.js 0.180.0 与 WebGL 2。
 
@@ -283,7 +285,7 @@
 
 01:10.33–01:13.23。绘制四色拼接的「加入行程」，让指针落下时按钮的正面沿右下方向沉入自己的纯黑投影；按住时缩短面与影的间距，松手复位。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-press.zip) · [在线读主源码](source/20-brut-press.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-press) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-press.zip) · [在线读主源码](../source/20-brut-press.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。
 
@@ -297,7 +299,7 @@
 
 01:13.23–01:20.23。把四片按钮材料一一变成表头与首行。展开四行参数，再让浅黄高亮按边框、投影偏移、模糊和填色顺序移动。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-table.zip) · [在线读主源码](source/20-brut-table.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-table) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-table.zip) · [在线读主源码](../source/20-brut-table.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。
 
@@ -311,7 +313,7 @@
 
 01:20.23–01:28.63。让参数表最后一行展开为建筑作品集，再从同一版面加入专注计时、印刷社开放日和取色工具。每次保留已有页面，让取色工具显示复制反馈。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-creative.zip) · [在线读主源码](source/20-brut-creative.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-creative) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-creative.zip) · [在线读主源码](../source/20-brut-creative.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。
 
@@ -325,7 +327,7 @@
 
 01:28.63–01:30.77。沿取色工具的一块颜色展开账单，演示支出筛选；相邻纸面出现门诊预约与后台草稿。让选中时间、状态和草稿预览在各自的格子里反馈。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-services.zip) · [在线读主源码](source/20-brut-services.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-services) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-services.zip) · [在线读主源码](../source/20-brut-services.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。
 
@@ -339,7 +341,7 @@
 
 01:30.77–01:40.13。从后台选中行展开《窗边的书架》，原标题沿同一基线变成文章题头。随后黄底出现，正文从白字变黑字，再让粗黑框逐段挤入。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-article.zip) · [在线读主源码](source/20-brut-article.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-article) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-article.zip) · [在线读主源码](../source/20-brut-article.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。
 
@@ -353,7 +355,7 @@
 
 01:40.13–01:47.23。在同一篇文章中移除干扰线，依次拉开题头与正文层级、段间距、行高和页边留白。末尾让页面收回到收藏操作所在位置。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-type.zip) · [在线读主源码](source/20-brut-type.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-type) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-type.zip) · [在线读主源码](../source/20-brut-type.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。
 
@@ -367,7 +369,7 @@
 
 01:47.23–01:52.93。把收藏按钮作为固定锚点，连续拉开相机视野。同一张展板的日期、搜索、选场和其他控件依次进入画面，文字比例随镜头统一变化。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-wall-in.zip) · [在线读主源码](source/20-brut-wall-in.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-wall-in) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-wall-in.zip) · [在线读主源码](../source/20-brut-wall-in.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。
 
@@ -381,7 +383,7 @@
 
 01:52.93–01:54.67。从全景俯冲到粉色「标为必看」，纸面翻正后黑色方框中写入荧光勾，右侧星标旋转回弹。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-check.zip) · [在线读主源码](source/20-brut-check.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-check) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-check.zip) · [在线读主源码](../source/20-brut-check.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 实际操作由原生表单和 Pointer Events 接收鼠标、触摸及键盘输入。
 
@@ -395,7 +397,7 @@
 
 01:54.67–01:56.13。以复选框外沿为铰链翻出日期双键。同一块黑色选中底板从周六滑到周日，底板内外分别裁出荧光字和黑字。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-tabs.zip) · [在线读主源码](source/20-brut-tabs.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-tabs) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-tabs.zip) · [在线读主源码](../source/20-brut-tabs.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 实际操作由原生表单和 Pointer Events 接收鼠标、触摸及键盘输入。
 
@@ -409,7 +411,7 @@
 
 01:56.13–01:57.97。让日期分隔线向右刮出搜索框，光标出现后依次打出「折」「线」。保留放大镜、回车箭头与文字插入位置。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-search.zip) · [在线读主源码](source/20-brut-search.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-search) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-search.zip) · [在线读主源码](../source/20-brut-search.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 实际操作由原生表单和 Pointer Events 接收鼠标、触摸及键盘输入。
 
@@ -423,7 +425,7 @@
 
 01:57.97–01:59.90。从搜索框抛出圆镜片，让它沿刚体轨迹落到薄荷色提醒滑杆。手柄从 10 分钟移到 20 分钟，同步更新蓝色填充和数字。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-slider.zip) · [在线读主源码](source/20-brut-slider.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-slider) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-slider.zip) · [在线读主源码](../source/20-brut-slider.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 镜片飞行采用 Matter.js 0.20.0 的预计算刚体轨迹，半帧间插值。 实际操作由原生表单和 Pointer Events 接收鼠标、触摸及键盘输入。
 
@@ -437,7 +439,7 @@
 
 01:59.90–02:01.53。让旧滑轨分成五片，沿止点向两侧散落，下面露出紫色提醒方式。蓝色选中点从响铃切换到振动，保留两圈的外轮廓。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-radio.zip) · [在线读主源码](source/20-brut-radio.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-radio) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-radio.zip) · [在线读主源码](../source/20-brut-radio.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 实际操作由原生表单和 Pointer Events 接收鼠标、触摸及键盘输入。
 
@@ -451,7 +453,7 @@
 
 02:01.53–02:03.23。从振动选项的圆点扩出椭圆墨圈，以同一遮罩印出进度面板。蓝条从零填到满，百分比与填充同步，满格显示「已保存」。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-progress.zip) · [在线读主源码](source/20-brut-progress.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-progress) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-progress.zip) · [在线读主源码](../source/20-brut-progress.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 实际操作由原生表单和 Pointer Events 接收鼠标、触摸及键盘输入。
 
@@ -465,7 +467,7 @@
 
 02:03.23–02:05.20。将蓝色进度轨卷成印刷辊，同一条接缝后展开票根。周日主舞台 20:30 开演，20:10 振动提醒；黑色勾印落在珊瑚色副券上。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-notice.zip) · [在线读主源码](source/20-brut-notice.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-notice) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-notice.zip) · [在线读主源码](../source/20-brut-notice.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 实际操作由原生表单和 Pointer Events 接收鼠标、触摸及键盘输入。
 
@@ -479,7 +481,7 @@
 
 02:05.20–02:11.20。把已盖章票根留在横向中心，镜头拉远让另外十二格围拢完整。再让展板上下两部分错开，在中缝露出开源标题和仓库名。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-wall-out.zip) · [在线读主源码](source/20-brut-wall-out.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-wall-out) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-wall-out.zip) · [在线读主源码](../source/20-brut-wall-out.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。
 
@@ -493,7 +495,7 @@
 
 片尾展板全景 · 独立演示 3 秒。展开舞台筛选器，箭头旋转，选择「主舞台」时荧光黄高亮铺满选项并写入勾号。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-select.zip) · [在线读主源码](source/20-brut-select.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-select) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-select.zip) · [在线读主源码](../source/20-brut-select.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 实际操作由原生表单和 Pointer Events 接收鼠标、触摸及键盘输入。
 
@@ -507,7 +509,7 @@
 
 片尾展板全景 · 独立演示 3 秒。在周日演出结果中保留开演时间、乐队和舞台。选中时整行染成荧光黄，最右侧加号缩放并变为勾形。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-list.zip) · [在线读主源码](source/20-brut-list.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-list) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-list.zip) · [在线读主源码](../source/20-brut-list.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 实际操作由原生表单和 Pointer Events 接收鼠标、触摸及键盘输入。
 
@@ -521,7 +523,7 @@
 
 片尾展板全景 · 独立演示 3 秒。在硬边开演提醒卡上切换开关，荧光黄圆钮随槽横移，底色由奶油色变钴蓝，两条凹线随钮一起运动。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-switch.zip) · [在线读主源码](source/20-brut-switch.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-switch) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-switch.zip) · [在线读主源码](../source/20-brut-switch.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 实际操作由原生表单和 Pointer Events 接收鼠标、触摸及键盘输入。
 
@@ -535,7 +537,7 @@
 
 片尾展板全景 · 独立演示 3 秒。让荧光黄「加入行程」按钮沿硬影方向下压，文字一起偏移，右侧加号在触底时短促旋转并回弹。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-button.zip) · [在线读主源码](source/20-brut-button.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-button) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-button.zip) · [在线读主源码](../source/20-brut-button.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 实际操作由原生表单和 Pointer Events 接收鼠标、触摸及键盘输入。
 
@@ -549,7 +551,7 @@
 
 片尾展板全景 · 独立演示 3 秒。在蓝色行程卡裁切窗里把 01 真正向上滚出，同时让 02 从下方滚入并停在同一基线，第二条晚间场次随后显现。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-data.zip) · [在线读主源码](source/20-brut-data.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-data) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-data.zip) · [在线读主源码](../source/20-brut-data.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 实际操作由原生表单和 Pointer Events 接收鼠标、触摸及键盘输入。
 
@@ -563,7 +565,7 @@
 
 片尾展板全景 · 独立演示 3 秒。从共同基线拉起夜间柱，选中时将钴蓝切为珊瑚色，同时显出开演时间与乐队名；保持其余时段的位置稳定。
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/20-brut-chart.zip) · [在线读主源码](source/20-brut-chart.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-chart) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/20-brut-chart.zip) · [在线读主源码](../source/20-brut-chart.js)
 
 工具与规格：原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 实际操作由原生表单和 Pointer Events 接收鼠标、触摸及键盘输入。
 

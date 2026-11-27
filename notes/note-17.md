@@ -1,5 +1,7 @@
 # 冰蓝拟物 UI · 16 组独立动效
 
+> [✨ 在线展馆试玩本期](https://xiaxia-motion.github.io/xiaxia-motion-library/#note=17) · [← 返回全库首页](../README.md)
+
 夏夏的AI灵感 · 源码更新于 2026-11-22。取自工作台 28.60 秒剪辑的片尾组件页。十六个包各自保留定稿中对应格子的矢量图形和动作。
 
 点名称可跳到该项。下载 ZIP 并完整解压，双击 index.html 看原片动作，点「自己操作」试用。每组下方都能直接复制提示词。
@@ -10,7 +12,7 @@
 
 ## 按压启动按钮
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/17-ice-button.zip) · [在线读主源码](source/17-ice-button.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/17-ice-button.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-button) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/17-ice-button.zip) · [在线读主源码](../source/17-ice-button.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/17-ice-button.zip)
 
 点击按钮或按空格重放一次按压。
 
@@ -26,7 +28,7 @@
 
 ## 环形加载反馈
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/17-ice-loader.zip) · [在线读主源码](source/17-ice-loader.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/17-ice-loader.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-loader) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/17-ice-loader.zip) · [在线读主源码](../source/17-ice-loader.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/17-ice-loader.zip)
 
 点圆弧或按空格切换旋转与暂停。
 
@@ -42,7 +44,7 @@
 
 ## 冰川来信唱片播放器
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/17-ice-player.zip) · [在线读主源码](source/17-ice-player.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/17-ice-player.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-player) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/17-ice-player.zip) · [在线读主源码](../source/17-ice-player.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/17-ice-player.zip)
 
 点击唱片或播放键切换播放，拖动进度条定位。左右键快退、快进。播放器为静音示例。
 
@@ -58,7 +60,7 @@
 
 ## 冰蓝音量滑杆
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/17-ice-slider.zip) · [在线读主源码](source/17-ice-slider.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/17-ice-slider.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-slider) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/17-ice-slider.zip) · [在线读主源码](../source/17-ice-slider.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/17-ice-slider.zip)
 
 直接拖动滑帽或按左右键调节音量读数。
 
@@ -74,7 +76,7 @@
 
 ## 实体拨动开关
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/17-ice-switch.zip) · [在线读主源码](source/17-ice-switch.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/17-ice-switch.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-switch) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/17-ice-switch.zip) · [在线读主源码](../source/17-ice-switch.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/17-ice-switch.zip)
 
 点击开关或按空格切换开、关。
 
@@ -90,7 +92,7 @@
 
 ## 三段模式选择
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/17-ice-tabs.zip) · [在线读主源码](source/17-ice-tabs.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/17-ice-tabs.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-tabs) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/17-ice-tabs.zip) · [在线读主源码](../source/17-ice-tabs.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/17-ice-tabs.zip)
 
 点「柔和」「明亮」「跃动」或按左右键选一项。
 
@@ -106,7 +108,7 @@
 
 ## 搜索框与结果计数
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/17-ice-search.zip) · [在线读主源码](source/17-ice-search.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/17-ice-search.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-search) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/17-ice-search.zip) · [在线读主源码](../source/17-ice-search.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/17-ice-search.zip)
 
 点击搜索框输入关键词，回车或点搜索键提交。结果为内置示例。
 
@@ -122,7 +124,7 @@
 
 ## 七日访问趋势曲线
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/17-ice-chart.zip) · [在线读主源码](source/17-ice-chart.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/17-ice-chart.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-chart) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/17-ice-chart.zip) · [在线读主源码](../source/17-ice-chart.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/17-ice-chart.zip)
 
 左右拖动或按方向键查看趋势变化和读数。
 
@@ -138,7 +140,7 @@
 
 ## 十一月日期选择器
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/17-ice-date.zip) · [在线读主源码](source/17-ice-date.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/17-ice-date.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-date) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/17-ice-date.zip) · [在线读主源码](../source/17-ice-date.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/17-ice-date.zip)
 
 点击月历中的日期或按方向键移动选中日。
 
@@ -154,7 +156,7 @@
 
 ## 模式下拉菜单
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/17-ice-dropdown.zip) · [在线读主源码](source/17-ice-dropdown.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/17-ice-dropdown.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-dropdown) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/17-ice-dropdown.zip) · [在线读主源码](../source/17-ice-dropdown.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/17-ice-dropdown.zip)
 
 点标题收起或展开，点选一行；上下键切换，回车展开或收起。
 
@@ -170,7 +172,7 @@
 
 ## 独立复选框
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/17-ice-checkbox.zip) · [在线读主源码](source/17-ice-checkbox.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/17-ice-checkbox.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-checkbox) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/17-ice-checkbox.zip) · [在线读主源码](../source/17-ice-checkbox.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/17-ice-checkbox.zip)
 
 点「声音」「保存」「提示」分别切换。方向键选一行，空格勾选。
 
@@ -186,7 +188,7 @@
 
 ## 画质单选按钮
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/17-ice-radio.zip) · [在线读主源码](source/17-ice-radio.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/17-ice-radio.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-radio) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/17-ice-radio.zip) · [在线读主源码](../source/17-ice-radio.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/17-ice-radio.zip)
 
 点「标准」「高清」「超清」，或用方向键选择画质。
 
@@ -202,7 +204,7 @@
 
 ## 确认设置弹窗
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/17-ice-modal.zip) · [在线读主源码](source/17-ice-modal.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/17-ice-modal.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-modal) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/17-ice-modal.zip) · [在线读主源码](../source/17-ice-modal.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/17-ice-modal.zip)
 
 点确认保存，点取消返回待确认；也可以使用回车和 Esc。
 
@@ -218,7 +220,7 @@
 
 ## 分段加载进度
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/17-ice-progress.zip) · [在线读主源码](source/17-ice-progress.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/17-ice-progress.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-progress) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/17-ice-progress.zip) · [在线读主源码](../source/17-ice-progress.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/17-ice-progress.zip)
 
 点面板或按回车重新执行一次加载。
 
@@ -234,7 +236,7 @@
 
 ## 强度旋钮
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/17-ice-knob.zip) · [在线读主源码](source/17-ice-knob.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/17-ice-knob.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-knob) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/17-ice-knob.zip) · [在线读主源码](../source/17-ice-knob.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/17-ice-knob.zip)
 
 按住旋钮上下拖动，或按方向键微调强度。
 
@@ -250,7 +252,7 @@
 
 ## 设置已保存提示
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/17-ice-toast.zip) · [在线读主源码](source/17-ice-toast.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/17-ice-toast.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-toast) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/17-ice-toast.zip) · [在线读主源码](../source/17-ice-toast.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/17-ice-toast.zip)
 
 点击或按空格重新触发一次完成反馈。
 
@@ -266,4 +268,4 @@
 
 原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。 演示和手动操作分别有独立入口。播放器示例为静音。每包标明原片帧区间、逻辑尺寸和调参位置。
 
-[全部动效](README.md) · [技术规范](TECHNICAL.md) · [许可](LICENSE)
+[全部动效](../README.md) · [技术规范](../TECHNICAL.md) · [许可](../LICENSE)

@@ -8,8 +8,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/01-rm11-01.js",
-    "zip": "01-rm11-01.zip",
-    "interaction": true
+    "zip": "zips/01-rm11-01.zip",
+    "interaction": true,
+    "notePage": "notes/note-01.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=01-rm11-01",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 1,
@@ -20,8 +23,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/01-rm11-02.js",
-    "zip": "01-rm11-02.zip",
-    "interaction": true
+    "zip": "zips/01-rm11-02.zip",
+    "interaction": true,
+    "notePage": "notes/note-01.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=01-rm11-02",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 1,
@@ -32,8 +38,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/01-rm11-03.js",
-    "zip": "01-rm11-03.zip",
-    "interaction": true
+    "zip": "zips/01-rm11-03.zip",
+    "interaction": true,
+    "notePage": "notes/note-01.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=01-rm11-03",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 1,
@@ -44,8 +53,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/01-rm11-04.js",
-    "zip": "01-rm11-04.zip",
-    "interaction": true
+    "zip": "zips/01-rm11-04.zip",
+    "interaction": true,
+    "notePage": "notes/note-01.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=01-rm11-04",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 2,
@@ -56,8 +68,11 @@
     "tools": "Three.js 0.180.0，WebGL2，EffectComposer、RenderPass、UnrealBloomPass、OutputPass。原片另用 HyperFrames 0.8.222；此包直接用浏览器时钟。",
     "sourceFile": "effect.js",
     "onlineSource": "source/02-dust-to-mark.js",
-    "zip": "02-dust-to-mark.zip",
-    "interaction": false
+    "zip": "zips/02-dust-to-mark.zip",
+    "interaction": false,
+    "notePage": "notes/note-02.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=02-dust-to-mark",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 2,
@@ -68,8 +83,11 @@
     "tools": "Three.js 0.180.0，WebGL2，EffectComposer、RenderPass、UnrealBloomPass、OutputPass。原片另用 HyperFrames 0.8.222；此包直接用浏览器时钟。",
     "sourceFile": "effect.js",
     "onlineSource": "source/02-nebula-vortex.js",
-    "zip": "02-nebula-vortex.zip",
-    "interaction": false
+    "zip": "zips/02-nebula-vortex.zip",
+    "interaction": false,
+    "notePage": "notes/note-02.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=02-nebula-vortex",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 2,
@@ -80,8 +98,11 @@
     "tools": "Three.js 0.180.0，WebGL2，EffectComposer、RenderPass、UnrealBloomPass、OutputPass。原片另用 HyperFrames 0.8.222；此包直接用浏览器时钟。",
     "sourceFile": "effect.js",
     "onlineSource": "source/02-neural-signal.js",
-    "zip": "02-neural-signal.zip",
-    "interaction": false
+    "zip": "zips/02-neural-signal.zip",
+    "interaction": false,
+    "notePage": "notes/note-02.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=02-neural-signal",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 2,
@@ -92,8 +113,11 @@
     "tools": "Three.js 0.180.0，WebGL2，EffectComposer、RenderPass、UnrealBloomPass、OutputPass。原片另用 HyperFrames 0.8.222；此包直接用浏览器时钟。",
     "sourceFile": "effect.js",
     "onlineSource": "source/02-spherical-pulse.js",
-    "zip": "02-spherical-pulse.zip",
-    "interaction": false
+    "zip": "zips/02-spherical-pulse.zip",
+    "interaction": false,
+    "notePage": "notes/note-02.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=02-spherical-pulse",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 3,
@@ -104,8 +128,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/03-rm17-01.js",
-    "zip": "03-rm17-01.zip",
-    "interaction": true
+    "zip": "zips/03-rm17-01.zip",
+    "interaction": true,
+    "notePage": "notes/note-03.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=03-rm17-01",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 3,
@@ -116,8 +143,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/03-rm17-02.js",
-    "zip": "03-rm17-02.zip",
-    "interaction": true
+    "zip": "zips/03-rm17-02.zip",
+    "interaction": true,
+    "notePage": "notes/note-03.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=03-rm17-02",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 3,
@@ -128,8 +158,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/03-rm17-03.js",
-    "zip": "03-rm17-03.zip",
-    "interaction": true
+    "zip": "zips/03-rm17-03.zip",
+    "interaction": true,
+    "notePage": "notes/note-03.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=03-rm17-03",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 3,
@@ -140,8 +173,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/03-rm17-04.js",
-    "zip": "03-rm17-04.zip",
-    "interaction": true
+    "zip": "zips/03-rm17-04.zip",
+    "interaction": true,
+    "notePage": "notes/note-03.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=03-rm17-04",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 4,
@@ -152,8 +188,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/04-rm23-01.js",
-    "zip": "04-rm23-01.zip",
-    "interaction": true
+    "zip": "zips/04-rm23-01.zip",
+    "interaction": true,
+    "notePage": "notes/note-04.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=04-rm23-01",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 4,
@@ -164,8 +203,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/04-rm23-02.js",
-    "zip": "04-rm23-02.zip",
-    "interaction": true
+    "zip": "zips/04-rm23-02.zip",
+    "interaction": true,
+    "notePage": "notes/note-04.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=04-rm23-02",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 4,
@@ -176,8 +218,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/04-rm23-03.js",
-    "zip": "04-rm23-03.zip",
-    "interaction": true
+    "zip": "zips/04-rm23-03.zip",
+    "interaction": true,
+    "notePage": "notes/note-04.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=04-rm23-03",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 4,
@@ -188,8 +233,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/04-rm23-04.js",
-    "zip": "04-rm23-04.zip",
-    "interaction": true
+    "zip": "zips/04-rm23-04.zip",
+    "interaction": true,
+    "notePage": "notes/note-04.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=04-rm23-04",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 5,
@@ -200,8 +248,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/05-rm24-01.js",
-    "zip": "05-rm24-01.zip",
-    "interaction": true
+    "zip": "zips/05-rm24-01.zip",
+    "interaction": true,
+    "notePage": "notes/note-05.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=05-rm24-01",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 5,
@@ -212,8 +263,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/05-rm24-02.js",
-    "zip": "05-rm24-02.zip",
-    "interaction": true
+    "zip": "zips/05-rm24-02.zip",
+    "interaction": true,
+    "notePage": "notes/note-05.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=05-rm24-02",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 5,
@@ -224,8 +278,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/05-rm24-03.js",
-    "zip": "05-rm24-03.zip",
-    "interaction": true
+    "zip": "zips/05-rm24-03.zip",
+    "interaction": true,
+    "notePage": "notes/note-05.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=05-rm24-03",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 5,
@@ -236,8 +293,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/05-rm24-04.js",
-    "zip": "05-rm24-04.zip",
-    "interaction": true
+    "zip": "zips/05-rm24-04.zip",
+    "interaction": true,
+    "notePage": "notes/note-05.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=05-rm24-04",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 6,
@@ -248,8 +308,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/06-rm01-01.js",
-    "zip": "06-rm01-01.zip",
-    "interaction": true
+    "zip": "zips/06-rm01-01.zip",
+    "interaction": true,
+    "notePage": "notes/note-06.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=06-rm01-01",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 6,
@@ -260,8 +323,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/06-rm01-02.js",
-    "zip": "06-rm01-02.zip",
-    "interaction": true
+    "zip": "zips/06-rm01-02.zip",
+    "interaction": true,
+    "notePage": "notes/note-06.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=06-rm01-02",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 6,
@@ -272,8 +338,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/06-rm01-03.js",
-    "zip": "06-rm01-03.zip",
-    "interaction": true
+    "zip": "zips/06-rm01-03.zip",
+    "interaction": true,
+    "notePage": "notes/note-06.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=06-rm01-03",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 6,
@@ -284,8 +353,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/06-rm01-04.js",
-    "zip": "06-rm01-04.zip",
-    "interaction": true
+    "zip": "zips/06-rm01-04.zip",
+    "interaction": true,
+    "notePage": "notes/note-06.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=06-rm01-04",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 7,
@@ -296,8 +368,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/07-rm09-01.js",
-    "zip": "07-rm09-01.zip",
-    "interaction": true
+    "zip": "zips/07-rm09-01.zip",
+    "interaction": true,
+    "notePage": "notes/note-07.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=07-rm09-01",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 7,
@@ -308,8 +383,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/07-rm09-02.js",
-    "zip": "07-rm09-02.zip",
-    "interaction": true
+    "zip": "zips/07-rm09-02.zip",
+    "interaction": true,
+    "notePage": "notes/note-07.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=07-rm09-02",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 7,
@@ -320,8 +398,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/07-rm09-03.js",
-    "zip": "07-rm09-03.zip",
-    "interaction": true
+    "zip": "zips/07-rm09-03.zip",
+    "interaction": true,
+    "notePage": "notes/note-07.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=07-rm09-03",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 7,
@@ -332,8 +413,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/07-rm09-04.js",
-    "zip": "07-rm09-04.zip",
-    "interaction": true
+    "zip": "zips/07-rm09-04.zip",
+    "interaction": true,
+    "notePage": "notes/note-07.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=07-rm09-04",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 8,
@@ -344,8 +428,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/08-rm16-01.js",
-    "zip": "08-rm16-01.zip",
-    "interaction": true
+    "zip": "zips/08-rm16-01.zip",
+    "interaction": true,
+    "notePage": "notes/note-08.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=08-rm16-01",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 8,
@@ -356,8 +443,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/08-rm16-02.js",
-    "zip": "08-rm16-02.zip",
-    "interaction": true
+    "zip": "zips/08-rm16-02.zip",
+    "interaction": true,
+    "notePage": "notes/note-08.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=08-rm16-02",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 8,
@@ -368,8 +458,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/08-rm16-03.js",
-    "zip": "08-rm16-03.zip",
-    "interaction": true
+    "zip": "zips/08-rm16-03.zip",
+    "interaction": true,
+    "notePage": "notes/note-08.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=08-rm16-03",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 8,
@@ -380,8 +473,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/08-rm16-04.js",
-    "zip": "08-rm16-04.zip",
-    "interaction": true
+    "zip": "zips/08-rm16-04.zip",
+    "interaction": true,
+    "notePage": "notes/note-08.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=08-rm16-04",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 9,
@@ -392,8 +488,11 @@
     "tools": "HTML、SVG、Canvas 2D、原生 JavaScript。原片的网页重绘参考 Swarm Rebuild；这个离线包直接在浏览器中运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/09-dialog.js",
-    "zip": "09-dialog.zip",
-    "interaction": false
+    "zip": "zips/09-dialog.zip",
+    "interaction": false,
+    "notePage": "notes/note-09.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=09-dialog",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 9,
@@ -404,8 +503,11 @@
     "tools": "HTML、SVG、Canvas 2D、原生 JavaScript。原片的网页重绘参考 Swarm Rebuild；这个离线包直接在浏览器中运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/09-draw.js",
-    "zip": "09-draw.zip",
-    "interaction": false
+    "zip": "zips/09-draw.zip",
+    "interaction": false,
+    "notePage": "notes/note-09.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=09-draw",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 9,
@@ -416,8 +518,11 @@
     "tools": "HTML、SVG、Canvas 2D、原生 JavaScript。原片的网页重绘参考 Swarm Rebuild；这个离线包直接在浏览器中运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/09-regroup.js",
-    "zip": "09-regroup.zip",
-    "interaction": false
+    "zip": "zips/09-regroup.zip",
+    "interaction": false,
+    "notePage": "notes/note-09.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=09-regroup",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 9,
@@ -428,8 +533,11 @@
     "tools": "HTML、SVG、Canvas 2D、原生 JavaScript。原片的网页重绘参考 Swarm Rebuild；这个离线包直接在浏览器中运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/09-scroll.js",
-    "zip": "09-scroll.zip",
-    "interaction": false
+    "zip": "zips/09-scroll.zip",
+    "interaction": false,
+    "notePage": "notes/note-09.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=09-scroll",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 9,
@@ -440,8 +548,11 @@
     "tools": "HTML、SVG、Canvas 2D、原生 JavaScript。原片的网页重绘参考 Swarm Rebuild；这个离线包直接在浏览器中运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/09-signature.js",
-    "zip": "09-signature.zip",
-    "interaction": false
+    "zip": "zips/09-signature.zip",
+    "interaction": false,
+    "notePage": "notes/note-09.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=09-signature",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 9,
@@ -452,8 +563,11 @@
     "tools": "HTML、SVG、Canvas 2D、原生 JavaScript。原片的网页重绘参考 Swarm Rebuild；这个离线包直接在浏览器中运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/09-snap.js",
-    "zip": "09-snap.zip",
-    "interaction": false
+    "zip": "zips/09-snap.zip",
+    "interaction": false,
+    "notePage": "notes/note-09.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=09-snap",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 9,
@@ -464,8 +578,11 @@
     "tools": "HTML、SVG、Canvas 2D、原生 JavaScript。原片的网页重绘参考 Swarm Rebuild；这个离线包直接在浏览器中运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/09-spark-cursors.js",
-    "zip": "09-spark-cursors.zip",
-    "interaction": false
+    "zip": "zips/09-spark-cursors.zip",
+    "interaction": false,
+    "notePage": "notes/note-09.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=09-spark-cursors",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 10,
@@ -476,8 +593,11 @@
     "tools": "HTML、CSS、JavaScript。原片使用 HyperFrames 和 GSAP 管理整片时间；独立版使用浏览器直接求同一控制量。",
     "sourceFile": "effect.js",
     "onlineSource": "source/10-aluminum-light.js",
-    "zip": "10-aluminum-light.zip",
-    "interaction": false
+    "zip": "zips/10-aluminum-light.zip",
+    "interaction": false,
+    "notePage": "notes/note-10.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=10-aluminum-light",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 10,
@@ -488,8 +608,11 @@
     "tools": "HTML、CSS、JavaScript。原片使用 HyperFrames 和 GSAP 管理整片时间；独立版使用浏览器直接求同一控制量。",
     "sourceFile": "effect.js",
     "onlineSource": "source/10-frosted-switch.js",
-    "zip": "10-frosted-switch.zip",
-    "interaction": false
+    "zip": "zips/10-frosted-switch.zip",
+    "interaction": false,
+    "notePage": "notes/note-10.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=10-frosted-switch",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 10,
@@ -500,8 +623,11 @@
     "tools": "HTML、CSS、JavaScript。原片使用 HyperFrames 和 GSAP 管理整片时间；独立版使用浏览器直接求同一控制量。",
     "sourceFile": "effect.js",
     "onlineSource": "source/10-industrial-tuner.js",
-    "zip": "10-industrial-tuner.zip",
-    "interaction": false
+    "zip": "zips/10-industrial-tuner.zip",
+    "interaction": false,
+    "notePage": "notes/note-10.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=10-industrial-tuner",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 10,
@@ -512,8 +638,11 @@
     "tools": "HTML、CSS、JavaScript。原片使用 HyperFrames 和 GSAP 管理整片时间；独立版使用浏览器直接求同一控制量。",
     "sourceFile": "effect.js",
     "onlineSource": "source/10-keycap-calculator.js",
-    "zip": "10-keycap-calculator.zip",
-    "interaction": false
+    "zip": "zips/10-keycap-calculator.zip",
+    "interaction": false,
+    "notePage": "notes/note-10.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=10-keycap-calculator",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 10,
@@ -524,8 +653,11 @@
     "tools": "HTML、CSS、JavaScript。原片使用 HyperFrames 和 GSAP 管理整片时间；独立版使用浏览器直接求同一控制量。",
     "sourceFile": "effect.js",
     "onlineSource": "source/10-leather-radio.js",
-    "zip": "10-leather-radio.zip",
-    "interaction": false
+    "zip": "zips/10-leather-radio.zip",
+    "interaction": false,
+    "notePage": "notes/note-10.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=10-leather-radio",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 10,
@@ -536,8 +668,11 @@
     "tools": "HTML、CSS、JavaScript。原片使用 HyperFrames 和 GSAP 管理整片时间；独立版使用浏览器直接求同一控制量。",
     "sourceFile": "effect.js",
     "onlineSource": "source/10-mixed-focus.js",
-    "zip": "10-mixed-focus.zip",
-    "interaction": false
+    "zip": "zips/10-mixed-focus.zip",
+    "interaction": false,
+    "notePage": "notes/note-10.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=10-mixed-focus",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 10,
@@ -548,8 +683,11 @@
     "tools": "HTML、CSS 和原片的 createDirectMorph 几何插值函数。使用浏览器原生渲染，无外部依赖。",
     "sourceFile": "effect.js",
     "onlineSource": "source/10-panel-join.js",
-    "zip": "10-panel-join.zip",
-    "interaction": false
+    "zip": "zips/10-panel-join.zip",
+    "interaction": false,
+    "notePage": "notes/note-10.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=10-panel-join",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 10,
@@ -560,8 +698,11 @@
     "tools": "HTML、CSS 和原片的 createDirectMorph 几何插值函数。使用浏览器原生渲染，无外部依赖。",
     "sourceFile": "effect.js",
     "onlineSource": "source/10-panel-split.js",
-    "zip": "10-panel-split.zip",
-    "interaction": false
+    "zip": "zips/10-panel-split.zip",
+    "interaction": false,
+    "notePage": "notes/note-10.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=10-panel-split",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 10,
@@ -572,8 +713,11 @@
     "tools": "HTML、CSS、JavaScript。原片使用 HyperFrames 和 GSAP 管理整片时间；独立版使用浏览器直接求同一控制量。",
     "sourceFile": "effect.js",
     "onlineSource": "source/10-soft-tone.js",
-    "zip": "10-soft-tone.zip",
-    "interaction": false
+    "zip": "zips/10-soft-tone.zip",
+    "interaction": false,
+    "notePage": "notes/note-10.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=10-soft-tone",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 10,
@@ -584,8 +728,11 @@
     "tools": "HTML、CSS、JavaScript。原片使用 HyperFrames 和 GSAP 管理整片时间；独立版使用浏览器直接求同一控制量。",
     "sourceFile": "effect.js",
     "onlineSource": "source/10-soft-volume.js",
-    "zip": "10-soft-volume.zip",
-    "interaction": false
+    "zip": "zips/10-soft-volume.zip",
+    "interaction": false,
+    "notePage": "notes/note-10.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=10-soft-volume",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 10,
@@ -596,8 +743,11 @@
     "tools": "HTML、CSS 和原片的 createDirectMorph 几何插值函数。使用浏览器原生渲染，无外部依赖。",
     "sourceFile": "effect.js",
     "onlineSource": "source/10-surface-morph.js",
-    "zip": "10-surface-morph.zip",
-    "interaction": false
+    "zip": "zips/10-surface-morph.zip",
+    "interaction": false,
+    "notePage": "notes/note-10.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=10-surface-morph",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 11,
@@ -608,8 +758,11 @@
     "tools": "React、SVG、WebGL 着色器与 Remotion 的原绘图组件。独立版用浏览器时钟，用本地贴图库加载 12 种图标。",
     "sourceFile": "effect.js",
     "onlineSource": "source/11-card-gallery-intro.js",
-    "zip": "11-card-gallery-intro.zip",
-    "interaction": false
+    "zip": "zips/11-card-gallery-intro.zip",
+    "interaction": false,
+    "notePage": "notes/note-11.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-card-gallery-intro",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 11,
@@ -620,8 +773,11 @@
     "tools": "React、SVG、WebGL 着色器与 Remotion 的原绘图组件。独立版用浏览器时钟，用本地贴图库加载 12 种图标。",
     "sourceFile": "effect.js",
     "onlineSource": "source/11-icon-morph.js",
-    "zip": "11-icon-morph.zip",
-    "interaction": false
+    "zip": "zips/11-icon-morph.zip",
+    "interaction": false,
+    "notePage": "notes/note-11.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-icon-morph",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 11,
@@ -632,8 +788,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/11-style-bauhaus.js",
-    "zip": "11-style-bauhaus.zip",
-    "interaction": false
+    "zip": "zips/11-style-bauhaus.zip",
+    "interaction": false,
+    "notePage": "notes/note-11.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-style-bauhaus",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 11,
@@ -644,8 +803,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/11-style-br.js",
-    "zip": "11-style-br.zip",
-    "interaction": false
+    "zip": "zips/11-style-br.zip",
+    "interaction": false,
+    "notePage": "notes/note-11.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-style-br",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 11,
@@ -656,8 +818,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/11-style-clay.js",
-    "zip": "11-style-clay.zip",
-    "interaction": false
+    "zip": "zips/11-style-clay.zip",
+    "interaction": false,
+    "notePage": "notes/note-11.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-style-clay",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 11,
@@ -668,8 +833,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/11-style-cyber.js",
-    "zip": "11-style-cyber.zip",
-    "interaction": false
+    "zip": "zips/11-style-cyber.zip",
+    "interaction": false,
+    "notePage": "notes/note-11.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-style-cyber",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 11,
@@ -680,8 +848,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/11-style-ed.js",
-    "zip": "11-style-ed.zip",
-    "interaction": false
+    "zip": "zips/11-style-ed.zip",
+    "interaction": false,
+    "notePage": "notes/note-11.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-style-ed",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 11,
@@ -692,8 +863,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/11-style-gl.js",
-    "zip": "11-style-gl.zip",
-    "interaction": false
+    "zip": "zips/11-style-gl.zip",
+    "interaction": false,
+    "notePage": "notes/note-11.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-style-gl",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 11,
@@ -704,8 +878,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/11-style-minimal.js",
-    "zip": "11-style-minimal.zip",
-    "interaction": false
+    "zip": "zips/11-style-minimal.zip",
+    "interaction": false,
+    "notePage": "notes/note-11.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-style-minimal",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 11,
@@ -716,8 +893,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/11-style-neumorph.js",
-    "zip": "11-style-neumorph.zip",
-    "interaction": false
+    "zip": "zips/11-style-neumorph.zip",
+    "interaction": false,
+    "notePage": "notes/note-11.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-style-neumorph",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 11,
@@ -728,8 +908,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/11-style-pixel.js",
-    "zip": "11-style-pixel.zip",
-    "interaction": false
+    "zip": "zips/11-style-pixel.zip",
+    "interaction": false,
+    "notePage": "notes/note-11.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-style-pixel",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 11,
@@ -740,8 +923,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/11-style-sketch.js",
-    "zip": "11-style-sketch.zip",
-    "interaction": false
+    "zip": "zips/11-style-sketch.zip",
+    "interaction": false,
+    "notePage": "notes/note-11.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-style-sketch",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 11,
@@ -752,8 +938,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/11-style-swiss.js",
-    "zip": "11-style-swiss.zip",
-    "interaction": false
+    "zip": "zips/11-style-swiss.zip",
+    "interaction": false,
+    "notePage": "notes/note-11.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-style-swiss",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 11,
@@ -764,8 +953,11 @@
     "tools": "原片使用 React 19.2.3、Remotion 4.0.539、SVG；离线入口复用绘制函数和 React，逐帧时间由浏览器驱动。React 与 ReactDOM 随包附 MIT 许可。",
     "sourceFile": "effect.js",
     "onlineSource": "source/11-style-y2k.js",
-    "zip": "11-style-y2k.zip",
-    "interaction": false
+    "zip": "zips/11-style-y2k.zip",
+    "interaction": false,
+    "notePage": "notes/note-11.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-style-y2k",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 11,
@@ -776,8 +968,11 @@
     "tools": "React、SVG、WebGL 着色器与 Remotion 的原绘图组件。独立版用浏览器时钟，用本地贴图库加载 12 种图标。",
     "sourceFile": "effect.js",
     "onlineSource": "source/11-twelve-grid.js",
-    "zip": "11-twelve-grid.zip",
-    "interaction": false
+    "zip": "zips/11-twelve-grid.zip",
+    "interaction": false,
+    "notePage": "notes/note-11.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-twelve-grid",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 12,
@@ -788,8 +983,11 @@
     "tools": "Three.js r180、WebGL2、InstancedMesh；原片三次运动模糊采样，浏览器示例单次采样。",
     "sourceFile": "effect.js",
     "onlineSource": "source/12-elastic-stem.js",
-    "zip": "12-elastic-stem.zip",
-    "interaction": false
+    "zip": "zips/12-elastic-stem.zip",
+    "interaction": false,
+    "notePage": "notes/note-12.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=12-elastic-stem",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 12,
@@ -800,8 +998,11 @@
     "tools": "Three.js r180、WebGL2、InstancedMesh；原片三次运动模糊采样，浏览器示例单次采样。",
     "sourceFile": "effect.js",
     "onlineSource": "source/12-petal-bursts.js",
-    "zip": "12-petal-bursts.zip",
-    "interaction": false
+    "zip": "zips/12-petal-bursts.zip",
+    "interaction": false,
+    "notePage": "notes/note-12.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=12-petal-bursts",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 12,
@@ -812,8 +1013,11 @@
     "tools": "Three.js r180、WebGL2、InstancedMesh；原片三次运动模糊采样，浏览器示例单次采样。",
     "sourceFile": "effect.js",
     "onlineSource": "source/12-petal-fall.js",
-    "zip": "12-petal-fall.zip",
-    "interaction": false
+    "zip": "zips/12-petal-fall.zip",
+    "interaction": false,
+    "notePage": "notes/note-12.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=12-petal-fall",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 12,
@@ -824,8 +1028,11 @@
     "tools": "Three.js r180、WebGL2、InstancedMesh；原片三次运动模糊采样，浏览器示例单次采样。",
     "sourceFile": "effect.js",
     "onlineSource": "source/12-seed-spin.js",
-    "zip": "12-seed-spin.zip",
-    "interaction": false
+    "zip": "zips/12-seed-spin.zip",
+    "interaction": false,
+    "notePage": "notes/note-12.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=12-seed-spin",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 13,
@@ -836,8 +1043,11 @@
     "tools": "Three.js r180、WebGL2、UnrealBloomPass、浮点 DataTexture 和自定义 GLSL。原工程 HyperFrames 0.9.52 用于录制。",
     "sourceFile": "effect.js",
     "onlineSource": "source/13-birds-to-snow.js",
-    "zip": "13-birds-to-snow.zip",
-    "interaction": false
+    "zip": "zips/13-birds-to-snow.zip",
+    "interaction": false,
+    "notePage": "notes/note-13.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=13-birds-to-snow",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 13,
@@ -848,8 +1058,11 @@
     "tools": "Three.js r180、WebGL2、UnrealBloomPass、浮点 DataTexture 和自定义 GLSL。原工程 HyperFrames 0.9.52 用于录制。",
     "sourceFile": "effect.js",
     "onlineSource": "source/13-embers-ring.js",
-    "zip": "13-embers-ring.zip",
-    "interaction": false
+    "zip": "zips/13-embers-ring.zip",
+    "interaction": false,
+    "notePage": "notes/note-13.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=13-embers-ring",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 13,
@@ -860,8 +1073,11 @@
     "tools": "Three.js r180、WebGL2、UnrealBloomPass、浮点 DataTexture 和自定义 GLSL。原工程 HyperFrames 0.9.52 用于录制。",
     "sourceFile": "effect.js",
     "onlineSource": "source/13-petals-to-birds.js",
-    "zip": "13-petals-to-birds.zip",
-    "interaction": false
+    "zip": "zips/13-petals-to-birds.zip",
+    "interaction": false,
+    "notePage": "notes/note-13.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=13-petals-to-birds",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 13,
@@ -872,8 +1088,11 @@
     "tools": "Three.js r180、WebGL2、UnrealBloomPass、浮点 DataTexture 和自定义 GLSL。原工程 HyperFrames 0.9.52 用于录制。",
     "sourceFile": "effect.js",
     "onlineSource": "source/13-ribbon-ring.js",
-    "zip": "13-ribbon-ring.zip",
-    "interaction": false
+    "zip": "zips/13-ribbon-ring.zip",
+    "interaction": false,
+    "notePage": "notes/note-13.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=13-ribbon-ring",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 13,
@@ -884,8 +1103,11 @@
     "tools": "Three.js r180、WebGL2、UnrealBloomPass、浮点 DataTexture 和自定义 GLSL。原工程 HyperFrames 0.9.52 用于录制。",
     "sourceFile": "effect.js",
     "onlineSource": "source/13-seed-fireworks.js",
-    "zip": "13-seed-fireworks.zip",
-    "interaction": false
+    "zip": "zips/13-seed-fireworks.zip",
+    "interaction": false,
+    "notePage": "notes/note-13.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=13-seed-fireworks",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 13,
@@ -896,8 +1118,11 @@
     "tools": "Three.js r180、WebGL2、UnrealBloomPass、浮点 DataTexture 和自定义 GLSL。原工程 HyperFrames 0.9.52 用于录制。",
     "sourceFile": "effect.js",
     "onlineSource": "source/13-snow-to-seed.js",
-    "zip": "13-snow-to-seed.zip",
-    "interaction": false
+    "zip": "zips/13-snow-to-seed.zip",
+    "interaction": false,
+    "notePage": "notes/note-13.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=13-snow-to-seed",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 13,
@@ -908,8 +1133,11 @@
     "tools": "Three.js r180、WebGL2、UnrealBloomPass、浮点 DataTexture 和自定义 GLSL。原工程 HyperFrames 0.9.52 用于录制。",
     "sourceFile": "effect.js",
     "onlineSource": "source/13-wire-flower.js",
-    "zip": "13-wire-flower.zip",
-    "interaction": false
+    "zip": "zips/13-wire-flower.zip",
+    "interaction": false,
+    "notePage": "notes/note-13.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=13-wire-flower",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 14,
@@ -920,8 +1148,11 @@
     "tools": "HTML/CSS 3D、原生 JavaScript。原片使用 GSAP 作为时间线；本包直接调用原片的逐帧 render。",
     "sourceFile": "effect.js",
     "onlineSource": "source/14-card-deal.js",
-    "zip": "14-card-deal.zip",
-    "interaction": false
+    "zip": "zips/14-card-deal.zip",
+    "interaction": false,
+    "notePage": "notes/note-14.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=14-card-deal",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 14,
@@ -932,8 +1163,11 @@
     "tools": "HTML/CSS 3D、原生 JavaScript。原片使用 GSAP 作为时间线；本包直接调用原片的逐帧 render。",
     "sourceFile": "effect.js",
     "onlineSource": "source/14-card-toss.js",
-    "zip": "14-card-toss.zip",
-    "interaction": false
+    "zip": "zips/14-card-toss.zip",
+    "interaction": false,
+    "notePage": "notes/note-14.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=14-card-toss",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 14,
@@ -944,8 +1178,11 @@
     "tools": "React、SVG、Remotion 的原组件。独立预览使用本地 React；时间线裁切示例另提供可直接运行的 FFmpeg 命令。",
     "sourceFile": "effect.js",
     "onlineSource": "source/14-cut-timeline.js",
-    "zip": "14-cut-timeline.zip",
-    "interaction": false
+    "zip": "zips/14-cut-timeline.zip",
+    "interaction": false,
+    "notePage": "notes/note-14.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=14-cut-timeline",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 14,
@@ -956,8 +1193,11 @@
     "tools": "Three.js 0.180.0、EffectComposer、UnrealBloomPass、Anime.js 4.5.0、Tween.js 25.0.0。原片用 Ammo.js 计算刚体位姿，包中有原始 120 Hz 物理采样。",
     "sourceFile": "effect.js",
     "onlineSource": "source/14-flock-formations.js",
-    "zip": "14-flock-formations.zip",
-    "interaction": false
+    "zip": "zips/14-flock-formations.zip",
+    "interaction": false,
+    "notePage": "notes/note-14.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=14-flock-formations",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 14,
@@ -968,8 +1208,11 @@
     "tools": "Three.js 0.180.0、EffectComposer、UnrealBloomPass、Anime.js 4.5.0、Tween.js 25.0.0。原片用 Ammo.js 计算刚体位姿，包中有原始 120 Hz 物理采样。",
     "sourceFile": "effect.js",
     "onlineSource": "source/14-flower-to-flock.js",
-    "zip": "14-flower-to-flock.zip",
-    "interaction": false
+    "zip": "zips/14-flower-to-flock.zip",
+    "interaction": false,
+    "notePage": "notes/note-14.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=14-flower-to-flock",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 14,
@@ -980,8 +1223,11 @@
     "tools": "HTML/CSS 3D、原生 JavaScript。原片使用 GSAP 作为时间线；本包直接调用原片的逐帧 render。",
     "sourceFile": "effect.js",
     "onlineSource": "source/14-glyph-scatter.js",
-    "zip": "14-glyph-scatter.zip",
-    "interaction": false
+    "zip": "zips/14-glyph-scatter.zip",
+    "interaction": false,
+    "notePage": "notes/note-14.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=14-glyph-scatter",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 14,
@@ -992,8 +1238,11 @@
     "tools": "React、SVG、Remotion 原组件，独立预览使用本地 React 和浏览器时钟。",
     "sourceFile": "effect.js",
     "onlineSource": "source/14-layer-merge.js",
-    "zip": "14-layer-merge.zip",
-    "interaction": false
+    "zip": "zips/14-layer-merge.zip",
+    "interaction": false,
+    "notePage": "notes/note-14.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=14-layer-merge",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 14,
@@ -1004,8 +1253,11 @@
     "tools": "Three.js 0.180.0、WebGL2、TSL Textures。原节点入口使用 MeshPhysicalNodeMaterial；兼容入口使用 ShaderMaterial。",
     "sourceFile": "effect.js",
     "onlineSource": "source/14-material-sweep.js",
-    "zip": "14-material-sweep.zip",
-    "interaction": false
+    "zip": "zips/14-material-sweep.zip",
+    "interaction": false,
+    "notePage": "notes/note-14.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=14-material-sweep",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 14,
@@ -1016,8 +1268,11 @@
     "tools": "Three.js 0.180.0、Canvas、SVG。《跳动音符》开源项目的求值方式用于原工程。原片用 SuperCollider 合成打击音，听音示例用 Web Audio。",
     "sourceFile": "effect.js",
     "onlineSource": "source/14-score-ball.js",
-    "zip": "14-score-ball.zip",
-    "interaction": false
+    "zip": "zips/14-score-ball.zip",
+    "interaction": false,
+    "notePage": "notes/note-14.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=14-score-ball",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 14,
@@ -1028,8 +1283,11 @@
     "tools": "Three.js 0.180.0、Canvas、SVG。《跳动音符》开源项目的求值方式用于原工程。原片用 SuperCollider 合成打击音，听音示例用 Web Audio。",
     "sourceFile": "effect.js",
     "onlineSource": "source/14-staff-to-layers.js",
-    "zip": "14-staff-to-layers.zip",
-    "interaction": false
+    "zip": "zips/14-staff-to-layers.zip",
+    "interaction": false,
+    "notePage": "notes/note-14.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=14-staff-to-layers",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 14,
@@ -1040,8 +1298,11 @@
     "tools": "React、SVG、Remotion 原组件，独立预览使用本地 React 和浏览器时钟。",
     "sourceFile": "effect.js",
     "onlineSource": "source/14-toolkit-outro.js",
-    "zip": "14-toolkit-outro.zip",
-    "interaction": false
+    "zip": "zips/14-toolkit-outro.zip",
+    "interaction": false,
+    "notePage": "notes/note-14.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=14-toolkit-outro",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 14,
@@ -1052,8 +1313,11 @@
     "tools": "Three.js 0.180.0、EffectComposer、UnrealBloomPass、Anime.js 4.5.0、Tween.js 25.0.0。原片用 Ammo.js 计算刚体位姿，包中有原始 120 Hz 物理采样。",
     "sourceFile": "effect.js",
     "onlineSource": "source/14-wire-impact.js",
-    "zip": "14-wire-impact.zip",
-    "interaction": false
+    "zip": "zips/14-wire-impact.zip",
+    "interaction": false,
+    "notePage": "notes/note-14.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=14-wire-impact",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 15,
@@ -1064,8 +1328,11 @@
     "tools": "C++17、Cairo、Python 3 与 Pillow。浏览器预览播放同一绘图函数生成的 24 帧/秒图集。",
     "sourceFile": "component.cpp",
     "onlineSource": "source/15-cinema-gallery.cpp",
-    "zip": "15-cinema-gallery.zip",
-    "interaction": false
+    "zip": "zips/15-cinema-gallery.zip",
+    "interaction": false,
+    "notePage": "notes/note-15.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=15-cinema-gallery",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 15,
@@ -1076,8 +1343,11 @@
     "tools": "C++17、Cairo 1.18.4、pkg-config；重新生成预览使用 Python 3 与 Pillow。浏览器端为原函数逐帧绘制的图集。",
     "sourceFile": "component.cpp",
     "onlineSource": "source/15-favorite.cpp",
-    "zip": "15-favorite.zip",
-    "interaction": false
+    "zip": "zips/15-favorite.zip",
+    "interaction": false,
+    "notePage": "notes/note-15.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=15-favorite",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 15,
@@ -1088,8 +1358,11 @@
     "tools": "C++17、Cairo 1.18.4、pkg-config；重新生成预览使用 Python 3 与 Pillow。浏览器端为原函数逐帧绘制的图集。",
     "sourceFile": "component.cpp",
     "onlineSource": "source/15-horn-slider.cpp",
-    "zip": "15-horn-slider.zip",
-    "interaction": false
+    "zip": "zips/15-horn-slider.zip",
+    "interaction": false,
+    "notePage": "notes/note-15.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=15-horn-slider",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 15,
@@ -1100,8 +1373,11 @@
     "tools": "C++17、Cairo 1.18.4、pkg-config；重新生成预览使用 Python 3 与 Pillow。浏览器端为原函数逐帧绘制的图集。",
     "sourceFile": "component.cpp",
     "onlineSource": "source/15-lamp-switch.cpp",
-    "zip": "15-lamp-switch.zip",
-    "interaction": false
+    "zip": "zips/15-lamp-switch.zip",
+    "interaction": false,
+    "notePage": "notes/note-15.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=15-lamp-switch",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 15,
@@ -1112,8 +1388,11 @@
     "tools": "C++17、Cairo 1.18.4、pkg-config；重新生成预览使用 Python 3 与 Pillow。浏览器端为原函数逐帧绘制的图集。",
     "sourceFile": "component.cpp",
     "onlineSource": "source/15-projector.cpp",
-    "zip": "15-projector.zip",
-    "interaction": false
+    "zip": "zips/15-projector.zip",
+    "interaction": false,
+    "notePage": "notes/note-15.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=15-projector",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 15,
@@ -1124,8 +1403,11 @@
     "tools": "C++17、Cairo 1.18.4、pkg-config；重新生成预览使用 Python 3 与 Pillow。浏览器端为原函数逐帧绘制的图集。",
     "sourceFile": "component.cpp",
     "onlineSource": "source/15-pull-refresh.cpp",
-    "zip": "15-pull-refresh.zip",
-    "interaction": false
+    "zip": "zips/15-pull-refresh.zip",
+    "interaction": false,
+    "notePage": "notes/note-15.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=15-pull-refresh",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 15,
@@ -1136,8 +1418,11 @@
     "tools": "C++17、Cairo 1.18.4、pkg-config；重新生成预览使用 Python 3 与 Pillow。浏览器端为原函数逐帧绘制的图集。",
     "sourceFile": "component.cpp",
     "onlineSource": "source/15-search-keys.cpp",
-    "zip": "15-search-keys.zip",
-    "interaction": false
+    "zip": "zips/15-search-keys.zip",
+    "interaction": false,
+    "notePage": "notes/note-15.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=15-search-keys",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 15,
@@ -1148,8 +1433,11 @@
     "tools": "C++17、Cairo、Python 3 与 Pillow。浏览器预览播放同一绘图函数生成的 24 帧/秒图集。",
     "sourceFile": "component.cpp",
     "onlineSource": "source/15-six-controls-intro.cpp",
-    "zip": "15-six-controls-intro.zip",
-    "interaction": false
+    "zip": "zips/15-six-controls-intro.zip",
+    "interaction": false,
+    "notePage": "notes/note-15.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=15-six-controls-intro",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 15,
@@ -1160,8 +1448,11 @@
     "tools": "C++17、Cairo 1.18.4、pkg-config；重新生成预览使用 Python 3 与 Pillow。浏览器端为原函数逐帧绘制的图集。",
     "sourceFile": "component.cpp",
     "onlineSource": "source/15-stamp-check.cpp",
-    "zip": "15-stamp-check.zip",
-    "interaction": false
+    "zip": "zips/15-stamp-check.zip",
+    "interaction": false,
+    "notePage": "notes/note-15.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=15-stamp-check",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 15,
@@ -1172,8 +1463,11 @@
     "tools": "C++17、Cairo 1.18.4、pkg-config；重新生成预览使用 Python 3 与 Pillow。浏览器端为原函数逐帧绘制的图集。",
     "sourceFile": "component.cpp",
     "onlineSource": "source/15-star-rating.cpp",
-    "zip": "15-star-rating.zip",
-    "interaction": false
+    "zip": "zips/15-star-rating.zip",
+    "interaction": false,
+    "notePage": "notes/note-15.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=15-star-rating",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 15,
@@ -1184,8 +1478,11 @@
     "tools": "C++17、Cairo 1.18.4、pkg-config；重新生成预览使用 Python 3 与 Pillow。浏览器端为原函数逐帧绘制的图集。",
     "sourceFile": "component.cpp",
     "onlineSource": "source/15-ticket.cpp",
-    "zip": "15-ticket.zip",
-    "interaction": false
+    "zip": "zips/15-ticket.zip",
+    "interaction": false,
+    "notePage": "notes/note-15.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=15-ticket",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 15,
@@ -1196,8 +1493,11 @@
     "tools": "C++17、Cairo 1.18.4、pkg-config；重新生成预览使用 Python 3 与 Pillow。浏览器端为原函数逐帧绘制的图集。",
     "sourceFile": "component.cpp",
     "onlineSource": "source/15-typewriter.cpp",
-    "zip": "15-typewriter.zip",
-    "interaction": false
+    "zip": "zips/15-typewriter.zip",
+    "interaction": false,
+    "notePage": "notes/note-15.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=15-typewriter",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 15,
@@ -1208,8 +1508,11 @@
     "tools": "C++17、Cairo 1.18.4、pkg-config；重新生成预览使用 Python 3 与 Pillow。浏览器端为原函数逐帧绘制的图集。",
     "sourceFile": "component.cpp",
     "onlineSource": "source/15-watch-list.cpp",
-    "zip": "15-watch-list.zip",
-    "interaction": false
+    "zip": "zips/15-watch-list.zip",
+    "interaction": false,
+    "notePage": "notes/note-15.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=15-watch-list",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 16,
@@ -1220,8 +1523,11 @@
     "tools": "定稿以 HTML Canvas 2D 绘制，GSAP 3.14.2 驱动原片时间线，Puppeteer 控制 Chromium 取帧，FFmpeg 封装。独立版本使用浏览器 Canvas 2D、指针与键盘事件及 requestAnimationFrame。",
     "sourceFile": "effect.js",
     "onlineSource": "source/16-geo-nav.js",
-    "zip": "16-geo-nav.zip",
-    "interaction": true
+    "zip": "zips/16-geo-nav.zip",
+    "interaction": true,
+    "notePage": "notes/note-16.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-nav",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 16,
@@ -1232,8 +1538,11 @@
     "tools": "定稿以 HTML Canvas 2D 绘制，GSAP 3.14.2 驱动原片时间线，Puppeteer 控制 Chromium 取帧，FFmpeg 封装。独立版本使用浏览器 Canvas 2D、指针与键盘事件及 requestAnimationFrame。",
     "sourceFile": "effect.js",
     "onlineSource": "source/16-geo-list.js",
-    "zip": "16-geo-list.zip",
-    "interaction": true
+    "zip": "zips/16-geo-list.zip",
+    "interaction": true,
+    "notePage": "notes/note-16.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-list",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 16,
@@ -1244,8 +1553,11 @@
     "tools": "定稿以 HTML Canvas 2D 绘制，GSAP 3.14.2 驱动原片时间线，Puppeteer 控制 Chromium 取帧，FFmpeg 封装。独立版本使用浏览器 Canvas 2D、指针与键盘事件及 requestAnimationFrame。",
     "sourceFile": "effect.js",
     "onlineSource": "source/16-geo-card.js",
-    "zip": "16-geo-card.zip",
-    "interaction": true
+    "zip": "zips/16-geo-card.zip",
+    "interaction": true,
+    "notePage": "notes/note-16.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-card",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 16,
@@ -1256,8 +1568,11 @@
     "tools": "定稿以 HTML Canvas 2D 绘制，GSAP 3.14.2 驱动原片时间线，Puppeteer 控制 Chromium 取帧，FFmpeg 封装。独立版本使用浏览器 Canvas 2D、指针与键盘事件及 requestAnimationFrame。",
     "sourceFile": "effect.js",
     "onlineSource": "source/16-geo-pager.js",
-    "zip": "16-geo-pager.zip",
-    "interaction": true
+    "zip": "zips/16-geo-pager.zip",
+    "interaction": true,
+    "notePage": "notes/note-16.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-pager",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 16,
@@ -1268,8 +1583,11 @@
     "tools": "定稿以 HTML Canvas 2D 绘制，GSAP 3.14.2 驱动原片时间线，Puppeteer 控制 Chromium 取帧，FFmpeg 封装。独立版本使用浏览器 Canvas 2D、指针与键盘事件及 requestAnimationFrame。",
     "sourceFile": "effect.js",
     "onlineSource": "source/16-geo-player.js",
-    "zip": "16-geo-player.zip",
-    "interaction": true
+    "zip": "zips/16-geo-player.zip",
+    "interaction": true,
+    "notePage": "notes/note-16.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-player",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 16,
@@ -1280,8 +1598,11 @@
     "tools": "定稿以 HTML Canvas 2D 绘制，GSAP 3.14.2 驱动原片时间线，Puppeteer 控制 Chromium 取帧，FFmpeg 封装。独立版本使用浏览器 Canvas 2D、指针与键盘事件及 requestAnimationFrame。",
     "sourceFile": "effect.js",
     "onlineSource": "source/16-geo-curve.js",
-    "zip": "16-geo-curve.zip",
-    "interaction": true
+    "zip": "zips/16-geo-curve.zip",
+    "interaction": true,
+    "notePage": "notes/note-16.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-curve",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 16,
@@ -1292,8 +1613,11 @@
     "tools": "定稿以 HTML Canvas 2D 绘制，GSAP 3.14.2 驱动原片时间线，Puppeteer 控制 Chromium 取帧，FFmpeg 封装。独立版本使用浏览器 Canvas 2D、指针与键盘事件及 requestAnimationFrame。",
     "sourceFile": "effect.js",
     "onlineSource": "source/16-geo-line.js",
-    "zip": "16-geo-line.zip",
-    "interaction": true
+    "zip": "zips/16-geo-line.zip",
+    "interaction": true,
+    "notePage": "notes/note-16.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-line",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 16,
@@ -1304,8 +1628,11 @@
     "tools": "定稿以 HTML Canvas 2D 绘制，GSAP 3.14.2 驱动原片时间线，Puppeteer 控制 Chromium 取帧，FFmpeg 封装。独立版本使用浏览器 Canvas 2D、指针与键盘事件及 requestAnimationFrame。",
     "sourceFile": "effect.js",
     "onlineSource": "source/16-geo-timer.js",
-    "zip": "16-geo-timer.zip",
-    "interaction": true
+    "zip": "zips/16-geo-timer.zip",
+    "interaction": true,
+    "notePage": "notes/note-16.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-timer",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 16,
@@ -1316,8 +1643,11 @@
     "tools": "定稿以 HTML Canvas 2D 绘制，GSAP 3.14.2 驱动原片时间线，Puppeteer 控制 Chromium 取帧，FFmpeg 封装。独立版本使用浏览器 Canvas 2D、指针与键盘事件及 requestAnimationFrame。",
     "sourceFile": "effect.js",
     "onlineSource": "source/16-geo-counter.js",
-    "zip": "16-geo-counter.zip",
-    "interaction": true
+    "zip": "zips/16-geo-counter.zip",
+    "interaction": true,
+    "notePage": "notes/note-16.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-counter",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 16,
@@ -1328,8 +1658,11 @@
     "tools": "定稿以 HTML Canvas 2D 绘制，GSAP 3.14.2 驱动原片时间线，Puppeteer 控制 Chromium 取帧，FFmpeg 封装。独立版本使用浏览器 Canvas 2D、指针与键盘事件及 requestAnimationFrame。",
     "sourceFile": "effect.js",
     "onlineSource": "source/16-geo-textarea.js",
-    "zip": "16-geo-textarea.zip",
-    "interaction": true
+    "zip": "zips/16-geo-textarea.zip",
+    "interaction": true,
+    "notePage": "notes/note-16.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-textarea",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 16,
@@ -1340,8 +1673,11 @@
     "tools": "定稿以 HTML Canvas 2D 绘制，GSAP 3.14.2 驱动原片时间线，Puppeteer 控制 Chromium 取帧，FFmpeg 封装。独立版本使用浏览器 Canvas 2D、指针与键盘事件及 requestAnimationFrame。",
     "sourceFile": "effect.js",
     "onlineSource": "source/16-geo-select.js",
-    "zip": "16-geo-select.zip",
-    "interaction": true
+    "zip": "zips/16-geo-select.zip",
+    "interaction": true,
+    "notePage": "notes/note-16.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-select",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 16,
@@ -1352,8 +1688,11 @@
     "tools": "定稿以 HTML Canvas 2D 绘制，GSAP 3.14.2 驱动原片时间线，Puppeteer 控制 Chromium 取帧，FFmpeg 封装。独立版本使用浏览器 Canvas 2D、指针与键盘事件及 requestAnimationFrame。",
     "sourceFile": "effect.js",
     "onlineSource": "source/16-geo-switch.js",
-    "zip": "16-geo-switch.zip",
-    "interaction": true
+    "zip": "zips/16-geo-switch.zip",
+    "interaction": true,
+    "notePage": "notes/note-16.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-switch",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 16,
@@ -1364,8 +1703,11 @@
     "tools": "定稿以 HTML Canvas 2D 绘制，GSAP 3.14.2 驱动原片时间线，Puppeteer 控制 Chromium 取帧，FFmpeg 封装。独立版本使用浏览器 Canvas 2D、指针与键盘事件及 requestAnimationFrame。",
     "sourceFile": "effect.js",
     "onlineSource": "source/16-geo-slider.js",
-    "zip": "16-geo-slider.zip",
-    "interaction": true
+    "zip": "zips/16-geo-slider.zip",
+    "interaction": true,
+    "notePage": "notes/note-16.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-slider",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 16,
@@ -1376,8 +1718,11 @@
     "tools": "定稿以 HTML Canvas 2D 绘制，GSAP 3.14.2 驱动原片时间线，Puppeteer 控制 Chromium 取帧，FFmpeg 封装。独立版本使用浏览器 Canvas 2D、指针与键盘事件及 requestAnimationFrame。",
     "sourceFile": "effect.js",
     "onlineSource": "source/16-geo-button.js",
-    "zip": "16-geo-button.zip",
-    "interaction": true
+    "zip": "zips/16-geo-button.zip",
+    "interaction": true,
+    "notePage": "notes/note-16.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-button",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 16,
@@ -1388,8 +1733,11 @@
     "tools": "定稿以 HTML Canvas 2D 绘制，GSAP 3.14.2 驱动原片时间线，Puppeteer 控制 Chromium 取帧，FFmpeg 封装。独立版本使用浏览器 Canvas 2D、指针与键盘事件及 requestAnimationFrame。",
     "sourceFile": "effect.js",
     "onlineSource": "source/16-geo-progress.js",
-    "zip": "16-geo-progress.zip",
-    "interaction": true
+    "zip": "zips/16-geo-progress.zip",
+    "interaction": true,
+    "notePage": "notes/note-16.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-progress",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 17,
@@ -1400,8 +1748,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/17-ice-button.js",
-    "zip": "17-ice-button.zip",
-    "interaction": true
+    "zip": "zips/17-ice-button.zip",
+    "interaction": true,
+    "notePage": "notes/note-17.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-button",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 17,
@@ -1412,8 +1763,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/17-ice-loader.js",
-    "zip": "17-ice-loader.zip",
-    "interaction": true
+    "zip": "zips/17-ice-loader.zip",
+    "interaction": true,
+    "notePage": "notes/note-17.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-loader",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 17,
@@ -1424,8 +1778,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/17-ice-player.js",
-    "zip": "17-ice-player.zip",
-    "interaction": true
+    "zip": "zips/17-ice-player.zip",
+    "interaction": true,
+    "notePage": "notes/note-17.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-player",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 17,
@@ -1436,8 +1793,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/17-ice-slider.js",
-    "zip": "17-ice-slider.zip",
-    "interaction": true
+    "zip": "zips/17-ice-slider.zip",
+    "interaction": true,
+    "notePage": "notes/note-17.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-slider",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 17,
@@ -1448,8 +1808,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/17-ice-switch.js",
-    "zip": "17-ice-switch.zip",
-    "interaction": true
+    "zip": "zips/17-ice-switch.zip",
+    "interaction": true,
+    "notePage": "notes/note-17.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-switch",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 17,
@@ -1460,8 +1823,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/17-ice-tabs.js",
-    "zip": "17-ice-tabs.zip",
-    "interaction": true
+    "zip": "zips/17-ice-tabs.zip",
+    "interaction": true,
+    "notePage": "notes/note-17.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-tabs",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 17,
@@ -1472,8 +1838,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/17-ice-search.js",
-    "zip": "17-ice-search.zip",
-    "interaction": true
+    "zip": "zips/17-ice-search.zip",
+    "interaction": true,
+    "notePage": "notes/note-17.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-search",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 17,
@@ -1484,8 +1853,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/17-ice-chart.js",
-    "zip": "17-ice-chart.zip",
-    "interaction": true
+    "zip": "zips/17-ice-chart.zip",
+    "interaction": true,
+    "notePage": "notes/note-17.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-chart",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 17,
@@ -1496,8 +1868,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/17-ice-date.js",
-    "zip": "17-ice-date.zip",
-    "interaction": true
+    "zip": "zips/17-ice-date.zip",
+    "interaction": true,
+    "notePage": "notes/note-17.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-date",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 17,
@@ -1508,8 +1883,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/17-ice-dropdown.js",
-    "zip": "17-ice-dropdown.zip",
-    "interaction": true
+    "zip": "zips/17-ice-dropdown.zip",
+    "interaction": true,
+    "notePage": "notes/note-17.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-dropdown",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 17,
@@ -1520,8 +1898,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/17-ice-checkbox.js",
-    "zip": "17-ice-checkbox.zip",
-    "interaction": true
+    "zip": "zips/17-ice-checkbox.zip",
+    "interaction": true,
+    "notePage": "notes/note-17.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-checkbox",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 17,
@@ -1532,8 +1913,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/17-ice-radio.js",
-    "zip": "17-ice-radio.zip",
-    "interaction": true
+    "zip": "zips/17-ice-radio.zip",
+    "interaction": true,
+    "notePage": "notes/note-17.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-radio",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 17,
@@ -1544,8 +1928,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/17-ice-modal.js",
-    "zip": "17-ice-modal.zip",
-    "interaction": true
+    "zip": "zips/17-ice-modal.zip",
+    "interaction": true,
+    "notePage": "notes/note-17.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-modal",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 17,
@@ -1556,8 +1943,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/17-ice-progress.js",
-    "zip": "17-ice-progress.zip",
-    "interaction": true
+    "zip": "zips/17-ice-progress.zip",
+    "interaction": true,
+    "notePage": "notes/note-17.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-progress",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 17,
@@ -1568,8 +1958,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/17-ice-knob.js",
-    "zip": "17-ice-knob.zip",
-    "interaction": true
+    "zip": "zips/17-ice-knob.zip",
+    "interaction": true,
+    "notePage": "notes/note-17.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-knob",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 17,
@@ -1580,8 +1973,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/17-ice-toast.js",
-    "zip": "17-ice-toast.zip",
-    "interaction": true
+    "zip": "zips/17-ice-toast.zip",
+    "interaction": true,
+    "notePage": "notes/note-17.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=17-ice-toast",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 18,
@@ -1592,8 +1988,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/18-mono-button.js",
-    "zip": "18-mono-button.zip",
-    "interaction": true
+    "zip": "zips/18-mono-button.zip",
+    "interaction": true,
+    "notePage": "notes/note-18.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=18-mono-button",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 18,
@@ -1604,8 +2003,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/18-mono-loader.js",
-    "zip": "18-mono-loader.zip",
-    "interaction": true
+    "zip": "zips/18-mono-loader.zip",
+    "interaction": true,
+    "notePage": "notes/note-18.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=18-mono-loader",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 18,
@@ -1616,8 +2018,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/18-mono-player.js",
-    "zip": "18-mono-player.zip",
-    "interaction": true
+    "zip": "zips/18-mono-player.zip",
+    "interaction": true,
+    "notePage": "notes/note-18.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=18-mono-player",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 18,
@@ -1628,8 +2033,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/18-mono-slider.js",
-    "zip": "18-mono-slider.zip",
-    "interaction": true
+    "zip": "zips/18-mono-slider.zip",
+    "interaction": true,
+    "notePage": "notes/note-18.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=18-mono-slider",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 18,
@@ -1640,8 +2048,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/18-mono-switch.js",
-    "zip": "18-mono-switch.zip",
-    "interaction": true
+    "zip": "zips/18-mono-switch.zip",
+    "interaction": true,
+    "notePage": "notes/note-18.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=18-mono-switch",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 18,
@@ -1652,8 +2063,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/18-mono-tabs.js",
-    "zip": "18-mono-tabs.zip",
-    "interaction": true
+    "zip": "zips/18-mono-tabs.zip",
+    "interaction": true,
+    "notePage": "notes/note-18.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=18-mono-tabs",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 18,
@@ -1664,8 +2078,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/18-mono-search.js",
-    "zip": "18-mono-search.zip",
-    "interaction": true
+    "zip": "zips/18-mono-search.zip",
+    "interaction": true,
+    "notePage": "notes/note-18.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=18-mono-search",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 18,
@@ -1676,8 +2093,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/18-mono-results.js",
-    "zip": "18-mono-results.zip",
-    "interaction": true
+    "zip": "zips/18-mono-results.zip",
+    "interaction": true,
+    "notePage": "notes/note-18.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=18-mono-results",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 18,
@@ -1688,8 +2108,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/18-mono-chart.js",
-    "zip": "18-mono-chart.zip",
-    "interaction": true
+    "zip": "zips/18-mono-chart.zip",
+    "interaction": true,
+    "notePage": "notes/note-18.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=18-mono-chart",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 18,
@@ -1700,8 +2123,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/18-mono-calendar.js",
-    "zip": "18-mono-calendar.zip",
-    "interaction": true
+    "zip": "zips/18-mono-calendar.zip",
+    "interaction": true,
+    "notePage": "notes/note-18.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=18-mono-calendar",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 18,
@@ -1712,8 +2138,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/18-mono-menu.js",
-    "zip": "18-mono-menu.zip",
-    "interaction": true
+    "zip": "zips/18-mono-menu.zip",
+    "interaction": true,
+    "notePage": "notes/note-18.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=18-mono-menu",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 18,
@@ -1724,8 +2153,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/18-mono-choices.js",
-    "zip": "18-mono-choices.zip",
-    "interaction": true
+    "zip": "zips/18-mono-choices.zip",
+    "interaction": true,
+    "notePage": "notes/note-18.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=18-mono-choices",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 18,
@@ -1736,8 +2168,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/18-mono-dialog.js",
-    "zip": "18-mono-dialog.zip",
-    "interaction": true
+    "zip": "zips/18-mono-dialog.zip",
+    "interaction": true,
+    "notePage": "notes/note-18.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=18-mono-dialog",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 18,
@@ -1748,8 +2183,11 @@
     "tools": "原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。",
     "sourceFile": "effect.js",
     "onlineSource": "source/18-mono-progress.js",
-    "zip": "18-mono-progress.zip",
-    "interaction": true
+    "zip": "zips/18-mono-progress.zip",
+    "interaction": true,
+    "notePage": "notes/note-18.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=18-mono-progress",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 19,
@@ -1760,8 +2198,11 @@
     "tools": "原片用 SVG 绘制，用 GSAP 3.14.2 对齐拍点，Chromium 逐帧取样，FFmpeg 编码。下载包使用原生 SVG、JavaScript、Pointer Events 与 requestAnimationFrame，双击即可离线运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/19-neumorph-button.js",
-    "zip": "19-neumorph-button.zip",
-    "interaction": true
+    "zip": "zips/19-neumorph-button.zip",
+    "interaction": true,
+    "notePage": "notes/note-19.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=19-neumorph-button",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 19,
@@ -1772,8 +2213,11 @@
     "tools": "原片用 SVG 绘制，用 GSAP 3.14.2 对齐拍点，Chromium 逐帧取样，FFmpeg 编码。下载包使用原生 SVG、JavaScript、Pointer Events 与 requestAnimationFrame，双击即可离线运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/19-neumorph-loader.js",
-    "zip": "19-neumorph-loader.zip",
-    "interaction": true
+    "zip": "zips/19-neumorph-loader.zip",
+    "interaction": true,
+    "notePage": "notes/note-19.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=19-neumorph-loader",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 19,
@@ -1784,8 +2228,11 @@
     "tools": "原片用 SVG 绘制，用 GSAP 3.14.2 对齐拍点，Chromium 逐帧取样，FFmpeg 编码。下载包使用原生 SVG、JavaScript、Pointer Events 与 requestAnimationFrame，双击即可离线运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/19-neumorph-player.js",
-    "zip": "19-neumorph-player.zip",
-    "interaction": true
+    "zip": "zips/19-neumorph-player.zip",
+    "interaction": true,
+    "notePage": "notes/note-19.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=19-neumorph-player",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 19,
@@ -1796,8 +2243,11 @@
     "tools": "原片用 SVG 绘制，用 GSAP 3.14.2 对齐拍点，Chromium 逐帧取样，FFmpeg 编码。下载包使用原生 SVG、JavaScript、Pointer Events 与 requestAnimationFrame，双击即可离线运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/19-neumorph-slider.js",
-    "zip": "19-neumorph-slider.zip",
-    "interaction": true
+    "zip": "zips/19-neumorph-slider.zip",
+    "interaction": true,
+    "notePage": "notes/note-19.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=19-neumorph-slider",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 19,
@@ -1808,8 +2258,11 @@
     "tools": "原片用 SVG 绘制，用 GSAP 3.14.2 对齐拍点，Chromium 逐帧取样，FFmpeg 编码。下载包使用原生 SVG、JavaScript、Pointer Events 与 requestAnimationFrame，双击即可离线运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/19-neumorph-switch.js",
-    "zip": "19-neumorph-switch.zip",
-    "interaction": true
+    "zip": "zips/19-neumorph-switch.zip",
+    "interaction": true,
+    "notePage": "notes/note-19.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=19-neumorph-switch",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 19,
@@ -1820,8 +2273,11 @@
     "tools": "原片用 SVG 绘制，用 GSAP 3.14.2 对齐拍点，Chromium 逐帧取样，FFmpeg 编码。下载包使用原生 SVG、JavaScript、Pointer Events 与 requestAnimationFrame，双击即可离线运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/19-neumorph-tabs.js",
-    "zip": "19-neumorph-tabs.zip",
-    "interaction": true
+    "zip": "zips/19-neumorph-tabs.zip",
+    "interaction": true,
+    "notePage": "notes/note-19.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=19-neumorph-tabs",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 19,
@@ -1832,8 +2288,11 @@
     "tools": "原片用 SVG 绘制，用 GSAP 3.14.2 对齐拍点，Chromium 逐帧取样，FFmpeg 编码。下载包使用原生 SVG、JavaScript、Pointer Events 与 requestAnimationFrame，双击即可离线运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/19-neumorph-search.js",
-    "zip": "19-neumorph-search.zip",
-    "interaction": true
+    "zip": "zips/19-neumorph-search.zip",
+    "interaction": true,
+    "notePage": "notes/note-19.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=19-neumorph-search",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 19,
@@ -1844,8 +2303,11 @@
     "tools": "原片用 SVG 绘制，用 GSAP 3.14.2 对齐拍点，Chromium 逐帧取样，FFmpeg 编码。下载包使用原生 SVG、JavaScript、Pointer Events 与 requestAnimationFrame，双击即可离线运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/19-neumorph-results.js",
-    "zip": "19-neumorph-results.zip",
-    "interaction": true
+    "zip": "zips/19-neumorph-results.zip",
+    "interaction": true,
+    "notePage": "notes/note-19.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=19-neumorph-results",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 19,
@@ -1856,8 +2318,11 @@
     "tools": "原片用 SVG 绘制，用 GSAP 3.14.2 对齐拍点，Chromium 逐帧取样，FFmpeg 编码。下载包使用原生 SVG、JavaScript、Pointer Events 与 requestAnimationFrame，双击即可离线运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/19-neumorph-chart.js",
-    "zip": "19-neumorph-chart.zip",
-    "interaction": true
+    "zip": "zips/19-neumorph-chart.zip",
+    "interaction": true,
+    "notePage": "notes/note-19.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=19-neumorph-chart",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 19,
@@ -1868,8 +2333,11 @@
     "tools": "原片用 SVG 绘制，用 GSAP 3.14.2 对齐拍点，Chromium 逐帧取样，FFmpeg 编码。下载包使用原生 SVG、JavaScript、Pointer Events 与 requestAnimationFrame，双击即可离线运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/19-neumorph-calendar.js",
-    "zip": "19-neumorph-calendar.zip",
-    "interaction": true
+    "zip": "zips/19-neumorph-calendar.zip",
+    "interaction": true,
+    "notePage": "notes/note-19.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=19-neumorph-calendar",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 19,
@@ -1880,8 +2348,11 @@
     "tools": "原片用 SVG 绘制，用 GSAP 3.14.2 对齐拍点，Chromium 逐帧取样，FFmpeg 编码。下载包使用原生 SVG、JavaScript、Pointer Events 与 requestAnimationFrame，双击即可离线运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/19-neumorph-menu.js",
-    "zip": "19-neumorph-menu.zip",
-    "interaction": true
+    "zip": "zips/19-neumorph-menu.zip",
+    "interaction": true,
+    "notePage": "notes/note-19.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=19-neumorph-menu",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 19,
@@ -1892,8 +2363,11 @@
     "tools": "原片用 SVG 绘制，用 GSAP 3.14.2 对齐拍点，Chromium 逐帧取样，FFmpeg 编码。下载包使用原生 SVG、JavaScript、Pointer Events 与 requestAnimationFrame，双击即可离线运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/19-neumorph-choices.js",
-    "zip": "19-neumorph-choices.zip",
-    "interaction": true
+    "zip": "zips/19-neumorph-choices.zip",
+    "interaction": true,
+    "notePage": "notes/note-19.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=19-neumorph-choices",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 19,
@@ -1904,8 +2378,11 @@
     "tools": "原片用 SVG 绘制，用 GSAP 3.14.2 对齐拍点，Chromium 逐帧取样，FFmpeg 编码。下载包使用原生 SVG、JavaScript、Pointer Events 与 requestAnimationFrame，双击即可离线运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/19-neumorph-dialog.js",
-    "zip": "19-neumorph-dialog.zip",
-    "interaction": true
+    "zip": "zips/19-neumorph-dialog.zip",
+    "interaction": true,
+    "notePage": "notes/note-19.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=19-neumorph-dialog",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 19,
@@ -1916,8 +2393,11 @@
     "tools": "原片用 SVG 绘制，用 GSAP 3.14.2 对齐拍点，Chromium 逐帧取样，FFmpeg 编码。下载包使用原生 SVG、JavaScript、Pointer Events 与 requestAnimationFrame，双击即可离线运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/19-neumorph-progress.js",
-    "zip": "19-neumorph-progress.zip",
-    "interaction": true
+    "zip": "zips/19-neumorph-progress.zip",
+    "interaction": true,
+    "notePage": "notes/note-19.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=19-neumorph-progress",
+    "hasInteractiveSubpage": true
   },
   {
     "note": 20,
@@ -1928,8 +2408,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-poster.js",
-    "zip": "20-brut-poster.zip",
-    "interaction": false
+    "zip": "zips/20-brut-poster.zip",
+    "interaction": false,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-poster",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -1940,8 +2423,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-signal.js",
-    "zip": "20-brut-signal.zip",
-    "interaction": false
+    "zip": "zips/20-brut-signal.zip",
+    "interaction": false,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-signal",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -1952,8 +2438,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-words.js",
-    "zip": "20-brut-words.zip",
-    "interaction": false
+    "zip": "zips/20-brut-words.zip",
+    "interaction": false,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-words",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -1964,8 +2453,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-scan.js",
-    "zip": "20-brut-scan.zip",
-    "interaction": false
+    "zip": "zips/20-brut-scan.zip",
+    "interaction": false,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-scan",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -1976,8 +2468,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-peel.js",
-    "zip": "20-brut-peel.zip",
-    "interaction": false
+    "zip": "zips/20-brut-peel.zip",
+    "interaction": false,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-peel",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -1988,8 +2483,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-triptych.js",
-    "zip": "20-brut-triptych.zip",
-    "interaction": false
+    "zip": "zips/20-brut-triptych.zip",
+    "interaction": false,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-triptych",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2000,8 +2498,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-facade.js",
-    "zip": "20-brut-facade.zip",
-    "interaction": false
+    "zip": "zips/20-brut-facade.zip",
+    "interaction": false,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-facade",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2012,8 +2513,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 本组的三维场景使用 Three.js 0.180.0 与 WebGL 2。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-concrete.js",
-    "zip": "20-brut-concrete.zip",
-    "interaction": false
+    "zip": "zips/20-brut-concrete.zip",
+    "interaction": false,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-concrete",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2024,8 +2528,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 本组的三维场景使用 Three.js 0.180.0 与 WebGL 2。 牌面反光改编自 Vanilla Tilt 的光线方向计算。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-window.js",
-    "zip": "20-brut-window.zip",
-    "interaction": false
+    "zip": "zips/20-brut-window.zip",
+    "interaction": false,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-window",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2036,8 +2543,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 本组的三维场景使用 Three.js 0.180.0 与 WebGL 2。 牌面反光改编自 Vanilla Tilt 的光线方向计算。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-deal.js",
-    "zip": "20-brut-deal.zip",
-    "interaction": false
+    "zip": "zips/20-brut-deal.zip",
+    "interaction": false,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-deal",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2048,8 +2558,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 本组的三维场景使用 Three.js 0.180.0 与 WebGL 2。 牌面反光改编自 Vanilla Tilt 的光线方向计算。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-player.js",
-    "zip": "20-brut-player.zip",
-    "interaction": false
+    "zip": "zips/20-brut-player.zip",
+    "interaction": false,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-player",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2060,8 +2573,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 本组的三维场景使用 Three.js 0.180.0 与 WebGL 2。 牌面反光改编自 Vanilla Tilt 的光线方向计算。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-blast.js",
-    "zip": "20-brut-blast.zip",
-    "interaction": false
+    "zip": "zips/20-brut-blast.zip",
+    "interaction": false,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-blast",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2072,8 +2588,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-badge.js",
-    "zip": "20-brut-badge.zip",
-    "interaction": false
+    "zip": "zips/20-brut-badge.zip",
+    "interaction": false,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-badge",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2084,8 +2603,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-flip.js",
-    "zip": "20-brut-flip.zip",
-    "interaction": false
+    "zip": "zips/20-brut-flip.zip",
+    "interaction": false,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-flip",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2096,8 +2618,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 本组的三维场景使用 Three.js 0.180.0 与 WebGL 2。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-layers.js",
-    "zip": "20-brut-layers.zip",
-    "interaction": false
+    "zip": "zips/20-brut-layers.zip",
+    "interaction": false,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-layers",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2108,8 +2633,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 本组的三维场景使用 Three.js 0.180.0 与 WebGL 2。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-collision.js",
-    "zip": "20-brut-collision.zip",
-    "interaction": false
+    "zip": "zips/20-brut-collision.zip",
+    "interaction": false,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-collision",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2120,8 +2648,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-press.js",
-    "zip": "20-brut-press.zip",
-    "interaction": false
+    "zip": "zips/20-brut-press.zip",
+    "interaction": false,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-press",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2132,8 +2663,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-table.js",
-    "zip": "20-brut-table.zip",
-    "interaction": false
+    "zip": "zips/20-brut-table.zip",
+    "interaction": false,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-table",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2144,8 +2678,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-creative.js",
-    "zip": "20-brut-creative.zip",
-    "interaction": false
+    "zip": "zips/20-brut-creative.zip",
+    "interaction": false,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-creative",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2156,8 +2693,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-services.js",
-    "zip": "20-brut-services.zip",
-    "interaction": false
+    "zip": "zips/20-brut-services.zip",
+    "interaction": false,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-services",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2168,8 +2708,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-article.js",
-    "zip": "20-brut-article.zip",
-    "interaction": false
+    "zip": "zips/20-brut-article.zip",
+    "interaction": false,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-article",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2180,8 +2723,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-type.js",
-    "zip": "20-brut-type.zip",
-    "interaction": false
+    "zip": "zips/20-brut-type.zip",
+    "interaction": false,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-type",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2192,8 +2738,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-wall-in.js",
-    "zip": "20-brut-wall-in.zip",
-    "interaction": false
+    "zip": "zips/20-brut-wall-in.zip",
+    "interaction": false,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-wall-in",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2204,8 +2753,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 实际操作由原生表单和 Pointer Events 接收鼠标、触摸及键盘输入。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-check.js",
-    "zip": "20-brut-check.zip",
-    "interaction": true
+    "zip": "zips/20-brut-check.zip",
+    "interaction": true,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-check",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2216,8 +2768,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 实际操作由原生表单和 Pointer Events 接收鼠标、触摸及键盘输入。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-tabs.js",
-    "zip": "20-brut-tabs.zip",
-    "interaction": true
+    "zip": "zips/20-brut-tabs.zip",
+    "interaction": true,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-tabs",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2228,8 +2783,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 实际操作由原生表单和 Pointer Events 接收鼠标、触摸及键盘输入。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-search.js",
-    "zip": "20-brut-search.zip",
-    "interaction": true
+    "zip": "zips/20-brut-search.zip",
+    "interaction": true,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-search",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2240,8 +2798,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 镜片飞行采用 Matter.js 0.20.0 的预计算刚体轨迹，半帧间插值。 实际操作由原生表单和 Pointer Events 接收鼠标、触摸及键盘输入。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-slider.js",
-    "zip": "20-brut-slider.zip",
-    "interaction": true
+    "zip": "zips/20-brut-slider.zip",
+    "interaction": true,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-slider",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2252,8 +2813,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 实际操作由原生表单和 Pointer Events 接收鼠标、触摸及键盘输入。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-radio.js",
-    "zip": "20-brut-radio.zip",
-    "interaction": true
+    "zip": "zips/20-brut-radio.zip",
+    "interaction": true,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-radio",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2264,8 +2828,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 实际操作由原生表单和 Pointer Events 接收鼠标、触摸及键盘输入。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-progress.js",
-    "zip": "20-brut-progress.zip",
-    "interaction": true
+    "zip": "zips/20-brut-progress.zip",
+    "interaction": true,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-progress",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2276,8 +2843,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 实际操作由原生表单和 Pointer Events 接收鼠标、触摸及键盘输入。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-notice.js",
-    "zip": "20-brut-notice.zip",
-    "interaction": true
+    "zip": "zips/20-brut-notice.zip",
+    "interaction": true,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-notice",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2288,8 +2858,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-wall-out.js",
-    "zip": "20-brut-wall-out.zip",
-    "interaction": false
+    "zip": "zips/20-brut-wall-out.zip",
+    "interaction": false,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-wall-out",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2300,8 +2873,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 实际操作由原生表单和 Pointer Events 接收鼠标、触摸及键盘输入。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-select.js",
-    "zip": "20-brut-select.zip",
-    "interaction": true
+    "zip": "zips/20-brut-select.zip",
+    "interaction": true,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-select",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2312,8 +2888,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 实际操作由原生表单和 Pointer Events 接收鼠标、触摸及键盘输入。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-list.js",
-    "zip": "20-brut-list.zip",
-    "interaction": true
+    "zip": "zips/20-brut-list.zip",
+    "interaction": true,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-list",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2324,8 +2903,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 实际操作由原生表单和 Pointer Events 接收鼠标、触摸及键盘输入。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-switch.js",
-    "zip": "20-brut-switch.zip",
-    "interaction": true
+    "zip": "zips/20-brut-switch.zip",
+    "interaction": true,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-switch",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2336,8 +2918,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 实际操作由原生表单和 Pointer Events 接收鼠标、触摸及键盘输入。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-button.js",
-    "zip": "20-brut-button.zip",
-    "interaction": true
+    "zip": "zips/20-brut-button.zip",
+    "interaction": true,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-button",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2348,8 +2933,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 实际操作由原生表单和 Pointer Events 接收鼠标、触摸及键盘输入。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-data.js",
-    "zip": "20-brut-data.zip",
-    "interaction": true
+    "zip": "zips/20-brut-data.zip",
+    "interaction": true,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-data",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 20,
@@ -2360,8 +2948,11 @@
     "tools": "原片使用 React 19.2.3 与 Remotion 4.0.539 编排，Chromium 逐帧绘制，FFmpeg 编码。独立预览以 Canvas 2D 和浏览器帧钟运行。 实际操作由原生表单和 Pointer Events 接收鼠标、触摸及键盘输入。",
     "sourceFile": "effect.js",
     "onlineSource": "source/20-brut-chart.js",
-    "zip": "20-brut-chart.zip",
-    "interaction": true
+    "zip": "zips/20-brut-chart.zip",
+    "interaction": true,
+    "notePage": "notes/note-20.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=20-brut-chart",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 21,
@@ -2372,8 +2963,11 @@
     "tools": "定稿使用 React 19.2.3、Remotion 4.0.539、Canvas 2D 和 Three.js 0.180.0。场间飞行经 cannon-es 0.20.0 预计算，Chromium 取帧、FFmpeg 编码。独立包内含 Three.js，浏览器直接绘制，可离线运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/21-diffuse-dial.js",
-    "zip": "21-diffuse-dial.zip",
-    "interaction": true
+    "zip": "zips/21-diffuse-dial.zip",
+    "interaction": true,
+    "notePage": "notes/note-21.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=21-diffuse-dial",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 21,
@@ -2384,8 +2978,11 @@
     "tools": "定稿使用 React 19.2.3、Remotion 4.0.539、Canvas 2D 和 Three.js 0.180.0。场间飞行经 cannon-es 0.20.0 预计算，Chromium 取帧、FFmpeg 编码。独立包内含 Three.js，浏览器直接绘制，可离线运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/21-diffuse-charge.js",
-    "zip": "21-diffuse-charge.zip",
-    "interaction": true
+    "zip": "zips/21-diffuse-charge.zip",
+    "interaction": true,
+    "notePage": "notes/note-21.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=21-diffuse-charge",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 21,
@@ -2396,8 +2993,11 @@
     "tools": "定稿使用 React 19.2.3、Remotion 4.0.539、Canvas 2D 和 Three.js 0.180.0。场间飞行经 cannon-es 0.20.0 预计算，Chromium 取帧、FFmpeg 编码。独立包内含 Three.js，浏览器直接绘制，可离线运行。 本机试听调用 HTMLAudioElement；内置曲名和封面展示切歌动作。",
     "sourceFile": "effect.js",
     "onlineSource": "source/21-diffuse-player.js",
-    "zip": "21-diffuse-player.zip",
-    "interaction": true
+    "zip": "zips/21-diffuse-player.zip",
+    "interaction": true,
+    "notePage": "notes/note-21.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=21-diffuse-player",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 21,
@@ -2408,8 +3008,11 @@
     "tools": "定稿使用 React 19.2.3、Remotion 4.0.539、Canvas 2D 和 Three.js 0.180.0。场间飞行经 cannon-es 0.20.0 预计算，Chromium 取帧、FFmpeg 编码。独立包内含 Three.js，浏览器直接绘制，可离线运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/21-diffuse-pass.js",
-    "zip": "21-diffuse-pass.zip",
-    "interaction": true
+    "zip": "zips/21-diffuse-pass.zip",
+    "interaction": true,
+    "notePage": "notes/note-21.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=21-diffuse-pass",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 21,
@@ -2420,8 +3023,11 @@
     "tools": "定稿使用 React 19.2.3、Remotion 4.0.539、Canvas 2D 和 Three.js 0.180.0。场间飞行经 cannon-es 0.20.0 预计算，Chromium 取帧、FFmpeg 编码。独立包内含 Three.js，浏览器直接绘制，可离线运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/21-diffuse-dock.js",
-    "zip": "21-diffuse-dock.zip",
-    "interaction": true
+    "zip": "zips/21-diffuse-dock.zip",
+    "interaction": true,
+    "notePage": "notes/note-21.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=21-diffuse-dock",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 21,
@@ -2432,8 +3038,11 @@
     "tools": "定稿使用 React 19.2.3、Remotion 4.0.539、Canvas 2D 和 Three.js 0.180.0。场间飞行经 cannon-es 0.20.0 预计算，Chromium 取帧、FFmpeg 编码。独立包内含 Three.js，浏览器直接绘制，可离线运行。 验证码采用 Web Audio 在本机合成六个高音，沿用定稿的音高和入点。",
     "sourceFile": "effect.js",
     "onlineSource": "source/21-diffuse-code.js",
-    "zip": "21-diffuse-code.zip",
-    "interaction": true
+    "zip": "zips/21-diffuse-code.zip",
+    "interaction": true,
+    "notePage": "notes/note-21.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=21-diffuse-code",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 21,
@@ -2444,8 +3053,11 @@
     "tools": "定稿使用 React 19.2.3、Remotion 4.0.539、Canvas 2D 和 Three.js 0.180.0。场间飞行经 cannon-es 0.20.0 预计算，Chromium 取帧、FFmpeg 编码。独立包内含 Three.js，浏览器直接绘制，可离线运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/21-diffuse-notices.js",
-    "zip": "21-diffuse-notices.zip",
-    "interaction": true
+    "zip": "zips/21-diffuse-notices.zip",
+    "interaction": true,
+    "notePage": "notes/note-21.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=21-diffuse-notices",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 21,
@@ -2456,8 +3068,11 @@
     "tools": "定稿使用 React 19.2.3、Remotion 4.0.539、Canvas 2D 和 Three.js 0.180.0。场间飞行经 cannon-es 0.20.0 预计算，Chromium 取帧、FFmpeg 编码。独立包内含 Three.js，浏览器直接绘制，可离线运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/21-diffuse-sync.js",
-    "zip": "21-diffuse-sync.zip",
-    "interaction": true
+    "zip": "zips/21-diffuse-sync.zip",
+    "interaction": true,
+    "notePage": "notes/note-21.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=21-diffuse-sync",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 21,
@@ -2468,8 +3083,11 @@
     "tools": "定稿使用 React 19.2.3、Remotion 4.0.539、Canvas 2D 和 Three.js 0.180.0。场间飞行经 cannon-es 0.20.0 预计算，Chromium 取帧、FFmpeg 编码。独立包内含 Three.js，浏览器直接绘制，可离线运行。",
     "sourceFile": "effect.js",
     "onlineSource": "source/21-diffuse-like.js",
-    "zip": "21-diffuse-like.zip",
-    "interaction": true
+    "zip": "zips/21-diffuse-like.zip",
+    "interaction": true,
+    "notePage": "notes/note-21.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=21-diffuse-like",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 22,
@@ -2480,8 +3098,11 @@
     "tools": "HTML5 Canvas 2D、Web Audio 实时拟音，零外部依赖可离线运行；定稿由 React / Remotion 与 60 fps 确定性渲染器生成。",
     "sourceFile": "effect.js",
     "onlineSource": "source/22-keyboard-typewriter.js",
-    "zip": "22-keyboard-typewriter.zip",
-    "interaction": true
+    "zip": "zips/22-keyboard-typewriter.zip",
+    "interaction": true,
+    "notePage": "notes/note-22.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=22-keyboard-typewriter",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 22,
@@ -2492,8 +3113,11 @@
     "tools": "HTML5 Canvas 2D、Web Audio 实时拟音，零外部依赖可离线运行；定稿由 React / Remotion 与 60 fps 确定性渲染器生成。",
     "sourceFile": "effect.js",
     "onlineSource": "source/22-keyboard-cat.js",
-    "zip": "22-keyboard-cat.zip",
-    "interaction": true
+    "zip": "zips/22-keyboard-cat.zip",
+    "interaction": true,
+    "notePage": "notes/note-22.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=22-keyboard-cat",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 22,
@@ -2504,8 +3128,11 @@
     "tools": "HTML5 Canvas 2D、Web Audio 实时拟音，零外部依赖可离线运行；定稿由 React / Remotion 与 60 fps 确定性渲染器生成。",
     "sourceFile": "effect.js",
     "onlineSource": "source/22-keyboard-garden.js",
-    "zip": "22-keyboard-garden.zip",
-    "interaction": true
+    "zip": "zips/22-keyboard-garden.zip",
+    "interaction": true,
+    "notePage": "notes/note-22.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=22-keyboard-garden",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 22,
@@ -2516,8 +3143,11 @@
     "tools": "HTML5 Canvas 2D、Web Audio 实时拟音，零外部依赖可离线运行；定稿由 React / Remotion 与 60 fps 确定性渲染器生成。",
     "sourceFile": "effect.js",
     "onlineSource": "source/22-keyboard-melody.js",
-    "zip": "22-keyboard-melody.zip",
-    "interaction": true
+    "zip": "zips/22-keyboard-melody.zip",
+    "interaction": true,
+    "notePage": "notes/note-22.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=22-keyboard-melody",
+    "hasInteractiveSubpage": false
   },
   {
     "note": 22,
@@ -2528,7 +3158,10 @@
     "tools": "HTML5 Canvas 2D、Web Audio 实时拟音，零外部依赖可离线运行；定稿由 React / Remotion 与 60 fps 确定性渲染器生成。",
     "sourceFile": "effect.js",
     "onlineSource": "source/22-keyboard-laser.js",
-    "zip": "22-keyboard-laser.zip",
-    "interaction": true
+    "zip": "zips/22-keyboard-laser.zip",
+    "interaction": true,
+    "notePage": "notes/note-22.md",
+    "liveUrl": "https://xiaxia-motion.github.io/xiaxia-motion-library/#item=22-keyboard-laser",
+    "hasInteractiveSubpage": false
   }
 ]

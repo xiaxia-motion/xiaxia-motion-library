@@ -1,5 +1,7 @@
 # 鼠标指针
 
+> [✨ 在线展馆试玩本期](https://xiaxia-motion.github.io/xiaxia-motion-library/#note=1) · [← 返回全库首页](../README.md)
+
 《效果适用于网页、app、小程序等UI设计。》 · 2026-11-07 · 夏夏的AI灵感
 
 本条笔记共 4 组。每一组有自己的源码和离线预览。
@@ -10,7 +12,7 @@
 
 ## 目光追踪
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/01-rm11-01.zip) · [在线读主源码](source/01-rm11-01.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/01-rm11-01.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=01-rm11-01) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/01-rm11-01.zip) · [在线读主源码](../source/01-rm11-01.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/01-rm11-01.zip)
 
 单组件截取帧区间 [166, 454)，每秒 60 帧。可操作版的具体输入见下文。
 
@@ -30,7 +32,7 @@
 
 ## 字面受压
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/01-rm11-02.zip) · [在线读主源码](source/01-rm11-02.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/01-rm11-02.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=01-rm11-02) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/01-rm11-02.zip) · [在线读主源码](../source/01-rm11-02.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/01-rm11-02.zip)
 
 单组件截取帧区间 [488, 762)，每秒 60 帧。可操作版的具体输入见下文。
 
@@ -50,7 +52,7 @@
 
 ## 局部透镜
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/01-rm11-03.zip) · [在线读主源码](source/01-rm11-03.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/01-rm11-03.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=01-rm11-03) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/01-rm11-03.zip) · [在线读主源码](../source/01-rm11-03.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/01-rm11-03.zip)
 
 单组件截取帧区间 [802, 1122)，每秒 60 帧。可操作版的具体输入见下文。
 
@@ -70,7 +72,7 @@
 
 ## 磁吸按钮
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/01-rm11-04.zip) · [在线读主源码](source/01-rm11-04.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/01-rm11-04.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=01-rm11-04) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/01-rm11-04.zip) · [在线读主源码](../source/01-rm11-04.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/01-rm11-04.zip)
 
 单组件截取帧区间 [1162, 1440)，每秒 60 帧。可操作版的具体输入见下文。
 
@@ -86,4 +88,4 @@
 
 真实操作版要让访客自己触发同样的反馈。靠近聊聊项目或收藏作品集，按钮底板和文字会以不同幅度跟随。 点击收藏会变成已收藏，再次点击取消；键盘空格与回车可操作。 聊聊项目只显示本地需求提示，不发送消息或打开外部网站。 将操作、绘制与计时放在各自容器中，支持重新操作；照着 interactive 文件夹的输入处理实现。
 
-[回到全部笔记](README.md)
+[回到全部笔记](../README.md)

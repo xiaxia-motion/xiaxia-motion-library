@@ -1,5 +1,7 @@
 # 滑杆调节
 
+> [✨ 在线展馆试玩本期](https://xiaxia-motion.github.io/xiaxia-motion-library/#note=7) · [← 返回全库首页](../README.md)
+
 《【AI教程】第7集：适用播放器、图片编辑》 · 2026-11-10 · 夏夏的AI灵感
 
 本条笔记共 4 组。每一组有自己的源码和离线预览。
@@ -10,7 +12,7 @@
 
 ## 双向刻度滑杆
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/07-rm09-01.zip) · [在线读主源码](source/07-rm09-01.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/07-rm09-01.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=07-rm09-01) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/07-rm09-01.zip) · [在线读主源码](../source/07-rm09-01.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/07-rm09-01.zip)
 
 单组件截取帧区间 [140, 337)，每秒 60 帧。可操作版的具体输入见下文。
 
@@ -30,7 +32,7 @@
 
 ## 固定指针色温滑尺
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/07-rm09-02.zip) · [在线读主源码](source/07-rm09-02.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/07-rm09-02.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=07-rm09-02) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/07-rm09-02.zip) · [在线读主源码](../source/07-rm09-02.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/07-rm09-02.zip)
 
 单组件截取帧区间 [342, 600)，每秒 60 帧。可操作版的具体输入见下文。
 
@@ -50,7 +52,7 @@
 
 ## 弧形角度滑杆
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/07-rm09-03.zip) · [在线读主源码](source/07-rm09-03.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/07-rm09-03.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=07-rm09-03) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/07-rm09-03.zip) · [在线读主源码](../source/07-rm09-03.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/07-rm09-03.zip)
 
 单组件截取帧区间 [604, 884)，每秒 60 帧。可操作版的具体输入见下文。
 
@@ -70,7 +72,7 @@
 
 ## 前后对比滑杆
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/07-rm09-04.zip) · [在线读主源码](source/07-rm09-04.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/07-rm09-04.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=07-rm09-04) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/07-rm09-04.zip) · [在线读主源码](../source/07-rm09-04.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/07-rm09-04.zip)
 
 单组件截取帧区间 [886, 1204)，每秒 60 帧。可操作版的具体输入见下文。
 
@@ -86,4 +88,4 @@
 
 真实操作版要让访客自己触发同样的反馈。拖动竖向分界线或点按图片，左右查看同一插画的调整前后。 键盘方向键每次移动 1%，Home / End 到 0% / 100%；下方滑杆同样可用。 图片保持配准，只改变遮罩；复位回到中间。 将操作、绘制与计时放在各自容器中，支持重新操作；照着 interactive 文件夹的输入处理实现。
 
-[回到全部笔记](README.md)
+[回到全部笔记](../README.md)

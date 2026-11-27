@@ -1,5 +1,7 @@
 # 卡片交互
 
+> [✨ 在线展馆试玩本期](https://xiaxia-motion.github.io/xiaxia-motion-library/#note=3) · [← 返回全库首页](../README.md)
+
 《【AI教程】第3集：适合网页、app、小程序》 · 2026-11-07 · 夏夏的AI灵感
 
 本条笔记共 4 组。每一组有自己的源码和离线预览。
@@ -10,7 +12,7 @@
 
 ## 悬浮分层
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/03-rm17-01.zip) · [在线读主源码](source/03-rm17-01.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/03-rm17-01.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=03-rm17-01) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/03-rm17-01.zip) · [在线读主源码](../source/03-rm17-01.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/03-rm17-01.zip)
 
 单组件截取帧区间 [0, 300)，每秒 60 帧。可操作版的具体输入见下文。
 
@@ -30,7 +32,7 @@
 
 ## 叠卡换位
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/03-rm17-02.zip) · [在线读主源码](source/03-rm17-02.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/03-rm17-02.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=03-rm17-02) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/03-rm17-02.zip) · [在线读主源码](../source/03-rm17-02.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/03-rm17-02.zip)
 
 单组件截取帧区间 [300, 600)，每秒 60 帧。可操作版的具体输入见下文。
 
@@ -50,7 +52,7 @@
 
 ## 共享展开
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/03-rm17-03.zip) · [在线读主源码](source/03-rm17-03.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/03-rm17-03.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=03-rm17-03) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/03-rm17-03.zip) · [在线读主源码](../source/03-rm17-03.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/03-rm17-03.zip)
 
 单组件截取帧区间 [600, 900)，每秒 60 帧。可操作版的具体输入见下文。
 
@@ -70,7 +72,7 @@
 
 ## 方向揭幕
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/03-rm17-04.zip) · [在线读主源码](source/03-rm17-04.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/03-rm17-04.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=03-rm17-04) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/03-rm17-04.zip) · [在线读主源码](../source/03-rm17-04.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/03-rm17-04.zip)
 
 单组件截取帧区间 [900, 1200)，每秒 60 帧。可操作版的具体输入见下文。
 
@@ -86,4 +88,4 @@
 
 真实操作版要让访客自己触发同样的反馈。从任意边缘移入卡片，遮罩从最近边进入；移出时从离开边退出。 聚焦卡片用方向键指定进入边，Esc退出；下方按钮也可操作。 从底部进入时改用墨绿渐变，山景和朱红书签保持原位。 将操作、绘制与计时放在各自容器中，支持重新操作；照着 interactive 文件夹的输入处理实现。
 
-[回到全部笔记](README.md)
+[回到全部笔记](../README.md)

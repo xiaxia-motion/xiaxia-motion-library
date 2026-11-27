@@ -1,5 +1,7 @@
 # 弥散光 UI · 9 款可操作组件
 
+> [✨ 在线展馆试玩本期](https://xiaxia-motion.github.io/xiaxia-motion-library/#note=21) · [← 返回全库首页](../README.md)
+
 夏夏的AI灵感 · 2026 年 11 月 26 日更新源码。按 45.8 秒定稿的顺序找到喜欢的控件，打开它的「下载源码 ZIP」，完整解压后双击 index.html。每款都有定稿动作、自己操作、中文提示词和可修改的主源码。
 
 波形播放器可导入本机音频试听。验证码可输入任意六位演示数字，开启琴声后按原片音高与入点播放六个音；离线版音色由浏览器合成。
@@ -20,7 +22,7 @@
 
 ## 01　阻尼刻度
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/21-diffuse-dial.zip) · [在线读主源码](source/21-diffuse-dial.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=21-diffuse-dial) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/21-diffuse-dial.zip) · [在线读主源码](../source/21-diffuse-dial.js)
 
 在旋钮上左右拖动，松手观察超调和回落，也可以使用下方滑杆或方向键。
 
@@ -34,7 +36,7 @@ gain 控制 −18 至 +12 dB。表圈有 42 个间隔，扫过 1.52π 弧度，�
 
 ## 02　蓄力发送
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/21-diffuse-charge.zip) · [在线读主源码](source/21-diffuse-charge.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=21-diffuse-charge) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/21-diffuse-charge.zip) · [在线读主源码](../source/21-diffuse-charge.js)
 
 按住画面里的胶囊键或下方按钮。充满后松手发送，提前松手可取消。使用键盘时按住空格。
 
@@ -48,7 +50,7 @@ charge 是 0–1 的充能量，press 是键面下沉量，sent 控制完成勾�
 
 ## 03　波形播放器
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/21-diffuse-player.zip) · [在线读主源码](source/21-diffuse-player.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=21-diffuse-player) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/21-diffuse-player.zip) · [在线读主源码](../source/21-diffuse-player.js)
 
 点击播放、暂停或切歌，拖动波形或进度条定位。还可以选择本机音频试听。
 
@@ -62,7 +64,7 @@ trackMix 控制两张程序封面的交叉淡入。playerSeconds 是已经播放
 
 ## 04　全息通行证
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/21-diffuse-pass.zip) · [在线读主源码](source/21-diffuse-pass.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=21-diffuse-pass) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/21-diffuse-pass.zip) · [在线读主源码](../source/21-diffuse-pass.js)
 
 移动指针或左右拖动改变全息反射，点卡片或按「收藏」查看回执。
 
@@ -76,7 +78,7 @@ tilt 是卡身倾角的归一化输入，foilTurn 控制圆章内外的高光错
 
 ## 05　光标导航
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/21-diffuse-dock.zip) · [在线读主源码](source/21-diffuse-dock.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=21-diffuse-dock) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/21-diffuse-dock.zip) · [在线读主源码](../source/21-diffuse-dock.js)
 
 直接点选五个图标；也可使用下方按钮或方向键。注意选框前后沿到达目标的时间差。
 
@@ -90,7 +92,7 @@ tab 取 0–4，五个图标中心相隔 45 个设计单位。tabBounds.left / r
 
 ## 06　验证码
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/21-diffuse-code.zip) · [在线读主源码](source/21-diffuse-code.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=21-diffuse-code) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/21-diffuse-code.zip) · [在线读主源码](../source/21-diffuse-code.js)
 
 在示例输入框键入任意六位数字或整串粘贴，可退格重输。点「开启琴声」可听每一位的提示音。
 
@@ -104,7 +106,7 @@ code 是已填位数，digitTravel 推动光标移到下一格，codeSeal 将六
 
 ## 07　通知堆叠
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/21-diffuse-notices.zip) · [在线读主源码](source/21-diffuse-notices.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=21-diffuse-notices) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/21-diffuse-notices.zip) · [在线读主源码](../source/21-diffuse-notices.js)
 
 点一下通知或「下一条通知」，依次加入导出、评论和归档。新卡落下时，旧卡连同文字沉入下一层。
 
@@ -118,7 +120,7 @@ noticeIndex 选择当前消息，noticeMix 控制入栈进度，topLift 控制�
 
 ## 08　同步光环
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/21-diffuse-sync.zip) · [在线读主源码](source/21-diffuse-sync.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=21-diffuse-sync) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/21-diffuse-sync.zip) · [在线读主源码](../source/21-diffuse-sync.js)
 
 点击圆盘或「开始同步」，观察光球、百分比和完成勾；下方滑杆可直接预览指定进度。
 
@@ -132,7 +134,7 @@ sync 取 0–1，syncAngle 为 −2.12 弧度。原片光球抵达左上弧后�
 
 ## 09　心动反馈
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/21-diffuse-like.zip) · [在线读主源码](source/21-diffuse-like.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=21-diffuse-like) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/21-diffuse-like.zip) · [在线读主源码](../source/21-diffuse-like.js)
 
 点击爱心或按钮点赞，再点可撤销。留意 2,481 滚到 2,482、爱心回弹和向外消散的彩点。
 
@@ -142,4 +144,4 @@ like 选择点赞状态，likeAge 是触碰后经过的秒数。原动作有 0.1
 
 做一枚黑玻璃点赞键，左边画空心爱心，右边排计数。光球触碰就填入虹彩，数字向上滚一位，爱心轻弹。让一圈细光和几颗彩点从爱心散开，然后收光。
 
-定稿与独立版的工具及许可见各组 README.md。本期视觉参考为观默《Halo》。[视觉参考原帖](https://x.com/guanmo_ai/status/2125425240184385648) · [全库入口](README.md)
+定稿与独立版的工具及许可见各组 README.md。本期视觉参考为观默《Halo》。[视觉参考原帖](https://x.com/guanmo_ai/status/2125425240184385648) · [全库入口](../README.md)

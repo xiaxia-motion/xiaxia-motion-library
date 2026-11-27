@@ -1,5 +1,7 @@
 # 表现几何 UI · 15 种独立动效
 
+> [✨ 在线展馆试玩本期](https://xiaxia-motion.github.io/xiaxia-motion-library/#note=16) · [← 返回全库首页](../README.md)
+
 夏夏的AI灵感 · 33.78 秒精简版 · 源码发布于 2026-11-20
 
 按名称跳到喜欢的动效，点「下载源码 ZIP」。完整解压后，双击 index.html 看原片动作，点「自己操作」即可试用。
@@ -12,7 +14,7 @@
 
 ## 三键导航栏
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/16-geo-nav.zip) · [在线读主源码](source/16-geo-nav.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/16-geo-nav.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-nav) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/16-geo-nav.zip) · [在线读主源码](../source/16-geo-nav.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/16-geo-nav.zip)
 
 点「浏览」「图集」「收藏」切换。左右方向键也可以选择。 三键中心横坐标相隔 187，选中胶囊宽 165、高 88。原片按键帧为 112、141、173。 保留定稿中该组件的外形、状态与动作拍点。
 
@@ -28,7 +30,7 @@
 
 ## 版画选中列表
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/16-geo-list.zip) · [在线读主源码](source/16-geo-list.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/16-geo-list.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-list) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/16-geo-list.zip) · [在线读主源码](../source/16-geo-list.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/16-geo-list.zip)
 
 点任意一行或按上下方向键选中版画。 行中心纵坐标为 298、410、522，行距 112。首个展开用 8 帧，后两次移动各 9 帧。 保留定稿中该组件的外形、状态与动作拍点。
 
@@ -44,7 +46,7 @@
 
 ## 横拖版画卡片
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/16-geo-card.zip) · [在线读主源码](source/16-geo-card.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/16-geo-card.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-card) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/16-geo-card.zip) · [在线读主源码](../source/16-geo-card.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/16-geo-card.zip)
 
 在卡片上左右拖动翻页，也可点左右半边或按方向键。 版画窗口 620×255，标题行水平位移 615。片中从第 387 帧拖至 433 帧。独立卡片保留图案与标题。 这组单独保留版画和标题，翻页指示器另有独立包。
 
@@ -60,7 +62,7 @@
 
 ## 翻页指示器
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/16-geo-pager.zip) · [在线读主源码](source/16-geo-pager.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/16-geo-pager.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-pager) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/16-geo-pager.zip) · [在线读主源码](../source/16-geo-pager.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/16-geo-pager.zip)
 
 点第一、第二页的位置，或横拖和按左右键，查看指示器移动。 胶囊 29×8，页距 35，小圆点半径 4，原片横拖共 46 帧。保留三页标记，演示原片实际操作的前两页。 片中只翻过前两页，独立指示器保留三页标记与实际这次切换。
 
@@ -76,7 +78,7 @@
 
 ## 三瓣唱片播放器
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/16-geo-player.zip) · [在线读主源码](source/16-geo-player.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/16-geo-player.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-player) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/16-geo-player.zip) · [在线读主源码](../source/16-geo-player.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/16-geo-player.zip)
 
 点播放或暂停，再点左右弯箭头快退、快进 5 秒。空格控制播放，左右键跳转。 原片从第 12 秒读数起步，旋转速率每秒 3.5 弧度。频谱使用原片已存的数值采样，独立示例静音。 energy.js 保留原绘制所需的八段能量数值。离线演示为静音，唱片、频谱和时钟都可独立运行。
 
@@ -92,7 +94,7 @@
 
 ## 曲线图拖动查数
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/16-geo-curve.zip) · [在线读主源码](source/16-geo-curve.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/16-geo-curve.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-curve) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/16-geo-curve.zip) · [在线读主源码](../source/16-geo-curve.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/16-geo-curve.zip)
 
 在图上移动、点击或拖动查数。左右键逐日定位。 数据为 3400、5200、4600、6800、5600、7400、8640。横向绘图区宽 591，曲线由 120 段采样显示，原片查数从第 722 帧拖至 777 帧。 独立时间段集中展示描线和连续查数。
 
@@ -108,7 +110,7 @@
 
 ## 折线图切换与选点
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/16-geo-line.zip) · [在线读主源码](source/16-geo-line.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/16-geo-line.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-line) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/16-geo-line.zip) · [在线读主源码](../source/16-geo-line.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/16-geo-line.zip)
 
 在折线上指向数据点或拖动。左右键逐日选点。 原片第 809 帧点击折线，在第 810 至 827 帧之间混合两种线形，第 847 帧选择数据点。 独立时间段从曲线切入折线并定位周五。
 
@@ -124,7 +126,7 @@
 
 ## 三秒计时盘
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/16-geo-timer.zip) · [在线读主源码](source/16-geo-timer.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/16-geo-timer.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-timer) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/16-geo-timer.zip) · [在线读主源码](../source/16-geo-timer.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/16-geo-timer.zip)
 
 点启动、暂停或继续，点复位回到三秒。空格控制计时，R 复位。 表盘直径按 235 的图框缩放，三秒对应一整圈。原片启动、暂停和复位在第 932、997、1022 帧。 保留定稿中该组件的外形、状态与动作拍点。
 
@@ -140,7 +142,7 @@
 
 ## 上下滚动的字轮计数器
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/16-geo-counter.zip) · [在线读主源码](source/16-geo-counter.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/16-geo-counter.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-counter) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/16-geo-counter.zip) · [在线读主源码](../source/16-geo-counter.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/16-geo-counter.zip)
 
 点加减键，或用上下方向键改变份数。特别留意 09 到 10 的十位进位。 每步过渡 13 帧，字轮步高 148，文字约 96 像素。手动版支持 00 至 99。 保留定稿中该组件的外形、状态与动作拍点。
 
@@ -156,7 +158,7 @@
 
 ## 多行输入与字数反馈
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/16-geo-textarea.zip) · [在线读主源码](source/16-geo-textarea.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/16-geo-textarea.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-textarea) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/16-geo-textarea.zip) · [在线读主源码](../source/16-geo-textarea.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/16-geo-textarea.zip)
 
 在「编辑作品说明」中输入、删字或换行，画布会更新文字、光标和字数。 视频第二行的四个字符分别在第 1236、1246、1256、1267 帧出现。手动版允许换行，计数忽略换行本身。 保留定稿中该组件的外形、状态与动作拍点。
 
@@ -172,7 +174,7 @@
 
 ## 展开配色下拉框
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/16-geo-select.zip) · [在线读主源码](source/16-geo-select.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/16-geo-select.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-select) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/16-geo-select.zip) · [在线读主源码](../source/16-geo-select.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/16-geo-select.zip)
 
 点选择框打开，点桃粉或暮紫确认。键盘可用回车、上下方向键与 Esc。 第一次展开 11 帧，第二次 10 帧。外壳向上移动最多 59 并增高 155，两个选项行距 65。 保留定稿中该组件的外形、状态与动作拍点。
 
@@ -188,7 +190,7 @@
 
 ## 深色模式开关
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/16-geo-switch.zip) · [在线读主源码](source/16-geo-switch.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/16-geo-switch.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-switch) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/16-geo-switch.zip) · [在线读主源码](../source/16-geo-switch.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/16-geo-switch.zip)
 
 点开关或按空格反复切换深浅外观。 轨道 143×70，圆柄半径 25，横移 72。第 1572 帧触发，主要切换约 17 帧。 保留定稿中该组件的外形、状态与动作拍点。
 
@@ -204,7 +206,7 @@
 
 ## 线宽滑块
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/16-geo-slider.zip) · [在线读主源码](source/16-geo-slider.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/16-geo-slider.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-slider) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/16-geo-slider.zip) · [在线读主源码](../source/16-geo-slider.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/16-geo-slider.zip)
 
 横拖滑块改变线宽，左右键每次调 1 pt。 滑柄横坐标从 474 到 771，有七个刻度。视频从第 1654 帧拖到 1708 帧。 保留定稿中该组件的外形、状态与动作拍点。
 
@@ -220,7 +222,7 @@
 
 ## 导出按钮按压反馈
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/16-geo-button.zip) · [在线读主源码](source/16-geo-button.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/16-geo-button.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-button) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/16-geo-button.zip) · [在线读主源码](../source/16-geo-button.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/16-geo-button.zip)
 
 点按钮或按回车重演导出反馈，可反复触发。 原片第 1794 帧按下，键面最多下沉 5、缩宽 6、缩高 8 个逻辑像素，第 1844 帧进入完成态。 独立按钮保留按压、文案和完成勾。横向填充和百分比另有进度条包，操作只演示 UI 状态。
 
@@ -236,7 +238,7 @@
 
 ## 导出进度条
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/16-geo-progress.zip) · [在线读主源码](source/16-geo-progress.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/16-geo-progress.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=16-geo-progress) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/16-geo-progress.zip) · [在线读主源码](../source/16-geo-progress.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/16-geo-progress.zip)
 
 点进度条或按回车重新跑一遍从开始到完成的进度。 填充从第 1797 帧开始到第 1844 帧结束，使用平滑缓动。独立视口只取按钮上的进度区域。 视口单独取原片进度区域。点击后模拟一次导出进度。
 
@@ -252,4 +254,4 @@
 
 定稿以 HTML Canvas 2D 绘制，GSAP 3.14.2 驱动原片时间线，Puppeteer 控制 Chromium 取帧，FFmpeg 封装。独立版本使用浏览器 Canvas 2D、指针与键盘事件及 requestAnimationFrame。 定稿按 4∶3、60 帧/秒录制，动作来自 1000×750 逻辑画布。独立预览按各自视口裁取，可离线运行。每包说明列有原片帧区间、可调参数与操作方法。
 
-[全部动效](README.md) · [技术规范](TECHNICAL.md) · [原创源码许可](LICENSE)
+[全部动效](../README.md) · [技术规范](../TECHNICAL.md) · [原创源码许可](../LICENSE)

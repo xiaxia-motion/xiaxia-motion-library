@@ -1,5 +1,7 @@
 # 展开方式
 
+> [✨ 在线展馆试玩本期](https://xiaxia-motion.github.io/xiaxia-motion-library/#note=6) · [← 返回全库首页](../README.md)
+
 《【AI教程】第6集：4种标签展开方式》 · 2026-11-09 · 夏夏的AI灵感
 
 本条笔记共 4 组。每一组有自己的源码和离线预览。
@@ -10,7 +12,7 @@
 
 ## 环形散开
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/06-rm01-01.zip) · [在线读主源码](source/06-rm01-01.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/06-rm01-01.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=06-rm01-01) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/06-rm01-01.zip) · [在线读主源码](../source/06-rm01-01.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/06-rm01-01.zip)
 
 单组件截取帧区间 [172, 467)，每秒 60 帧。可操作版的具体输入见下文。
 
@@ -30,7 +32,7 @@
 
 ## 墨滴展开
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/06-rm01-02.zip) · [在线读主源码](source/06-rm01-02.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/06-rm01-02.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=06-rm01-02) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/06-rm01-02.zip) · [在线读主源码](../source/06-rm01-02.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/06-rm01-02.zip)
 
 单组件截取帧区间 [497, 591)，每秒 60 帧。可操作版的具体输入见下文。
 
@@ -50,7 +52,7 @@
 
 ## 横向拉开
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/06-rm01-03.zip) · [在线读主源码](source/06-rm01-03.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/06-rm01-03.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=06-rm01-03) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/06-rm01-03.zip) · [在线读主源码](../source/06-rm01-03.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/06-rm01-03.zip)
 
 单组件截取帧区间 [670, 938)，每秒 60 帧。可操作版的具体输入见下文。
 
@@ -70,7 +72,7 @@
 
 ## 纵向滑选
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/06-rm01-04.zip) · [在线读主源码](source/06-rm01-04.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/06-rm01-04.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=06-rm01-04) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/06-rm01-04.zip) · [在线读主源码](../source/06-rm01-04.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/06-rm01-04.zip)
 
 单组件截取帧区间 [952, 1250)，每秒 60 帧。可操作版的具体输入见下文。
 
@@ -86,4 +88,4 @@
 
 真实操作版要让访客自己触发同样的反馈。点击加号展开四行素材。按住列表上下拖动，红色窗口跟随最近行。 松手确认当前行并收起；点击单行也可确认。 方向键预选、Enter/空格确认、Home/End到首尾、Escape取消；pointercancel恢复拖动前预选。 将操作、绘制与计时放在各自容器中，支持重新操作；照着 interactive 文件夹的输入处理实现。
 
-[回到全部笔记](README.md)
+[回到全部笔记](../README.md)

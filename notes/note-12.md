@@ -1,5 +1,7 @@
 # 蒲公英烟花
 
+> [✨ 在线展馆试玩本期](https://xiaxia-motion.github.io/xiaxia-motion-library/#note=12) · [← 返回全库首页](../README.md)
+
 《祝我自己30岁生日快乐！》 · 2026-11-15 · 夏夏的AI灵感
 
 本条笔记共 4 组。每一组有自己的源码和离线预览。
@@ -10,7 +12,7 @@
 
 ## 蒲公英弹性入场
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/12-elastic-stem.zip) · [在线读主源码](source/12-elastic-stem.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/12-elastic-stem.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=12-elastic-stem) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/12-elastic-stem.zip) · [在线读主源码](../source/12-elastic-stem.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/12-elastic-stem.zip)
 
 花茎以 1/240 秒子步积分。画面为 4:3；每秒 60 帧，预览 800×600。
 
@@ -28,7 +30,7 @@
 
 ## 十二次落瓣开花
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/12-petal-bursts.zip) · [在线读主源码](source/12-petal-bursts.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/12-petal-bursts.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=12-petal-bursts) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/12-petal-bursts.zip) · [在线读主源码](../source/12-petal-bursts.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/12-petal-bursts.zip)
 
 12 组 BURSTS，单次 156 片，阻力 5.8。画面为 4:3；每秒 60 帧，预览 800×600。
 
@@ -46,7 +48,7 @@
 
 ## 彩瓣分层飘落收尾
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/12-petal-fall.zip) · [在线读主源码](source/12-petal-fall.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/12-petal-fall.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=12-petal-fall) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/12-petal-fall.zip) · [在线读主源码](../source/12-petal-fall.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/12-petal-fall.zip)
 
 ending.start=11、ramp=2.4、extraFallSpeed=2.8。画面为 4:3；每秒 60 帧，预览 800×600。
 
@@ -64,7 +66,7 @@ ending.start=11、ramp=2.4、extraFallSpeed=2.8。画面为 4:3；每秒 60 帧�
 
 ## 彩瓣花球加速旋抛
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/12-seed-spin.zip) · [在线读主源码](source/12-seed-spin.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/12-seed-spin.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=12-seed-spin) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/12-seed-spin.zip) · [在线读主源码](../source/12-seed-spin.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/12-seed-spin.zip)
 
 158 颗种子、保留 26 颗、随机种子 2026111506。画面为 4:3；每秒 60 帧，预览 800×600。
 
@@ -78,4 +80,4 @@ ending.start=11、ramp=2.4、extraFallSpeed=2.8。画面为 4:3；每秒 60 帧�
 
 保留部分种子固定在花心，其余从花球表面按区带脱落，并延续原来的切线速度。 用花茎求解器、曲面花瓣几何及固定随机数生成器生成画面。
 
-[回到全部笔记](README.md)
+[回到全部笔记](../README.md)

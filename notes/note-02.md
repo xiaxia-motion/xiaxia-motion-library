@@ -1,5 +1,7 @@
 # 四种空间动效
 
+> [✨ 在线展馆试玩本期](https://xiaxia-motion.github.io/xiaxia-motion-library/#note=2) · [← 返回全库首页](../README.md)
+
 《【AI教程】第2集：用three.js实现粒子动效》 · 2026-11-07 · 夏夏的AI灵感
 
 本条笔记共 4 组。每一组有自己的源码和离线预览。
@@ -10,7 +12,7 @@
 
 ## 星尘成形
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/02-dust-to-mark.zip) · [在线读主源码](source/02-dust-to-mark.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/02-dust-to-mark.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=02-dust-to-mark) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/02-dust-to-mark.zip) · [在线读主源码](../source/02-dust-to-mark.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/02-dust-to-mark.zip)
 
 design.js / markPaths 三条轮廓决定粒子的终点。 光晕强度 .46、半径 .43、阈值 .72；设计分辨率 1440×1080，预览以 0.6 倍绘制。
 
@@ -28,7 +30,7 @@ design.js / markPaths 三条轮廓决定粒子的终点。 光晕强度 .46、�
 
 ## 星云旋涡
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/02-nebula-vortex.zip) · [在线读主源码](source/02-nebula-vortex.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/02-nebula-vortex.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=02-nebula-vortex) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/02-nebula-vortex.zip) · [在线读主源码](../source/02-nebula-vortex.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/02-nebula-vortex.zip)
 
 nebula.js / diskShader，配置盘内差速、内圈曝光与遮光。 光晕强度 .46、半径 .43、阈值 .72；设计分辨率 1440×1080，预览以 0.6 倍绘制。
 
@@ -46,7 +48,7 @@ nebula.js / diskShader，配置盘内差速、内圈曝光与遮光。 光晕强
 
 ## 神经传导
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/02-neural-signal.zip) · [在线读主源码](source/02-neural-signal.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/02-neural-signal.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=02-neural-signal) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/02-neural-signal.zip) · [在线读主源码](../source/02-neural-signal.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/02-neural-signal.zip)
 
 network.js / buildNetwork，改变节点密度和亮起衰减时保留路线连通。 光晕强度 .46、半径 .43、阈值 .72；设计分辨率 1440×1080，预览以 0.6 倍绘制。
 
@@ -64,7 +66,7 @@ network.js / buildNetwork，改变节点密度和亮起衰减时保留路线连�
 
 ## 脉冲扩散
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/02-spherical-pulse.zip) · [在线读主源码](source/02-spherical-pulse.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/02-spherical-pulse.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=02-spherical-pulse) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/02-spherical-pulse.zip) · [在线读主源码](../source/02-spherical-pulse.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/02-spherical-pulse.zip)
 
 particle-field.js 与 flight.js，控制波前半径与宽度。 光晕强度 .46、半径 .43、阈值 .72；设计分辨率 1440×1080，预览以 0.6 倍绘制。
 
@@ -78,4 +80,4 @@ particle-field.js 与 flight.js，控制波前半径与宽度。 光晕强度 .4
 
 由同一触发点发出领先的金色球面波和后续两道青色薄波，扫过星粒才发亮。 自建三维场景，使用给定的几何、着色器与镜头；从设置中指定的时间开始，循环这一组效果。
 
-[回到全部笔记](README.md)
+[回到全部笔记](../README.md)

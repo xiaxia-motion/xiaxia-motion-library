@@ -1,5 +1,7 @@
 # 5 种创意键盘 UI · 可交互源码合集
 
+> [✨ 在线展馆试玩本期](https://xiaxia-motion.github.io/xiaxia-motion-library/#note=22) · [← 返回全库首页](../README.md)
+
 夏夏的AI灵感 · 2026 年 11 月 27 日更新源码。按 23.00 秒定稿顺序收录高定复古打字机、小猫陪打字、字母花园、旋律键盘与激光输入框，每款均可单独下载。
 
 完整解压后双击 `index.html` 即可离线观看定稿动作，点「自己操作」可用鼠标点击屏幕键帽或直接用电脑实体键盘输入，点「开启声音」可体验零外部素材的浏览器实时拟音。
@@ -16,7 +18,7 @@
 
 ## 01　高定复古打字机
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/22-keyboard-typewriter.zip) · [在线读主源码](source/22-keyboard-typewriter.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=22-keyboard-typewriter) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/22-keyboard-typewriter.zip) · [在线读主源码](../source/22-keyboard-typewriter.js)
 
 直接点击屏幕 32 枚镀铬圆键，或用电脑键盘打字、空格、退格与回车（回车可切换第二行并触发暖金流光）。
 
@@ -30,7 +32,7 @@ INTRO_KEYS 控制 32 枚复古圆形键位，26 根拉丝金属连杆随按键�
 
 ## 02　小猫陪打字
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/22-keyboard-cat.zip) · [在线读主源码](source/22-keyboard-cat.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=22-keyboard-cat) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/22-keyboard-cat.zip) · [在线读主源码](../source/22-keyboard-cat.js)
 
 点击屏幕奶油方键或敲电脑键盘，三花小猫会追视键位并伸出左右毛绒爪拍键；按退格触发腮红慌张感叹号，拼出 MEOW 或按回车会开心眯眼冒爱心。
 
@@ -44,7 +46,7 @@ MAIN_KEYS 控制 32 枚奶油软糖方键，drawCatCharacter 绘制呼吸、追�
 
 ## 03　字母花园
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/22-keyboard-garden.zip) · [在线读主源码](source/22-keyboard-garden.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=22-keyboard-garden) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/22-keyboard-garden.zip) · [在线读主源码](../source/22-keyboard-garden.js)
 
 点击温润陶瓷方键或敲击字母键（最多并排 6 株），每个字母都会长出不同花型的水彩植物并随风轻摆；按退格让末株凋落飘瓣，按回车洒出暖金花粉。
 
@@ -58,7 +60,7 @@ drawPlantStemAndLeaves 与 drawBotanicalFlower 分别绘制弧形枝茎、叶脉
 
 ## 04　旋律键盘
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/22-keyboard-melody.zip) · [在线读主源码](source/22-keyboard-melody.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=22-keyboard-melody) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/22-keyboard-melody.zip) · [在线读主源码](../source/22-keyboard-melody.js)
 
 点击暗黑玻璃字母键或用实体键盘输入（4 个旋律槽循环写入），每个字母映射到 E♭ 大调音阶并点亮五线谱与虹彩声波；开启声音并按回车即可按节拍自动回奏。
 
@@ -72,7 +74,7 @@ drawPlantStemAndLeaves 与 drawBotanicalFlower 分别绘制弧形枝茎、叶脉
 
 ## 05　激光输入框
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/22-keyboard-laser.zip) · [在线读主源码](source/22-keyboard-laser.js)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=22-keyboard-laser) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/22-keyboard-laser.zip) · [在线读主源码](../source/22-keyboard-laser.js)
 
 点击翡翠霓虹键帽或敲击 A–Z 任意字母（4 格点阵终端），按下即发射三层弧线激光与火花点亮对应 6×7 像素字；按退格触发琥珀光逆向回吸消除末位，按回车触发全屏扫光锁定。
 
@@ -82,4 +84,4 @@ drawPlantStemAndLeaves 与 drawBotanicalFlower 分别绘制弧形枝茎、叶脉
 
 赛博暗黑工业终端，下方为翡翠霓虹描边虚拟键盘，上方为像素点阵显示屏。输入 B、O、O、X 时每个按下键帽都向目标点阵格射出弧线翡翠激光束并在落点炸出像素光粒；错字 X 亮红告警，按退格后触发红光逆向吸束将字符抽回键盘销毁，再输入 M 发射收尾激光并点亮完整 BOOM。
 
-定稿与独立版的工具、参数及许可详见各包 `README.md`。[全库入口](README.md)
+定稿与独立版的工具、参数及许可详见各包 `README.md`。[全库入口](../README.md)

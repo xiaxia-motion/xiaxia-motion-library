@@ -1,5 +1,7 @@
 # 黑白极简 UI · 14 组独立动效
 
+> [✨ 在线展馆试玩本期](https://xiaxia-motion.github.io/xiaxia-motion-library/#note=18) · [← 返回全库首页](../README.md)
+
 夏夏的AI灵感 · 源码更新于 2026-11-22。取自工作台 28.60 秒连续运镜版正文。十四个包保留各自的面板、原始绘制函数及操作节奏，独立展示时固定外框。
 
 点名称可跳到该项。下载 ZIP 并完整解压，双击 index.html 看原片动作，点「自己操作」试用。每组下方都能直接复制提示词。
@@ -10,7 +12,7 @@
 
 ## 黑白按压按钮
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/18-mono-button.zip) · [在线读主源码](source/18-mono-button.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/18-mono-button.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=18-mono-button) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/18-mono-button.zip) · [在线读主源码](../source/18-mono-button.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/18-mono-button.zip)
 
 点黑色「开始」键或按空格观察按下和松开。
 
@@ -26,7 +28,7 @@
 
 ## 三段加载与完成勾
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/18-mono-loader.zip) · [在线读主源码](source/18-mono-loader.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/18-mono-loader.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=18-mono-loader) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/18-mono-loader.zip) · [在线读主源码](../source/18-mono-loader.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/18-mono-loader.zip)
 
 点击或按回车重播加载到完成。
 
@@ -42,7 +44,7 @@
 
 ## 线性波形播放器
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/18-mono-player.zip) · [在线读主源码](source/18-mono-player.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/18-mono-player.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=18-mono-player) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/18-mono-player.zip) · [在线读主源码](../source/18-mono-player.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/18-mono-player.zip)
 
 点播放键切换波形运动，拖动时间线定位；左右键快退、快进。播放器为静音示例。
 
@@ -58,7 +60,7 @@
 
 ## 双端范围筛选
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/18-mono-slider.zip) · [在线读主源码](source/18-mono-slider.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/18-mono-slider.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=18-mono-slider) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/18-mono-slider.zip) · [在线读主源码](../source/18-mono-slider.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/18-mono-slider.zip)
 
 拖动左、右两个空心手柄，Tab 可通过下方的两个范围输入分别调整。
 
@@ -74,7 +76,7 @@
 
 ## 方形同步开关
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/18-mono-switch.zip) · [在线读主源码](source/18-mono-switch.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/18-mono-switch.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=18-mono-switch) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/18-mono-switch.zip) · [在线读主源码](../source/18-mono-switch.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/18-mono-switch.zip)
 
 点 ON / OFF 或按空格切换自动同步。
 
@@ -90,7 +92,7 @@
 
 ## 下划线导航
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/18-mono-tabs.zip) · [在线读主源码](source/18-mono-tabs.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/18-mono-tabs.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=18-mono-tabs) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/18-mono-tabs.zip) · [在线读主源码](../source/18-mono-tabs.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/18-mono-tabs.zip)
 
 点概览、趋势、详情，或按左右键切换。
 
@@ -106,7 +108,7 @@
 
 ## 命令搜索框
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/18-mono-search.zip) · [在线读主源码](source/18-mono-search.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/18-mono-search.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=18-mono-search) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/18-mono-search.zip) · [在线读主源码](../source/18-mono-search.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/18-mono-search.zip)
 
 点输入区打字，按回车或点右侧键提交。
 
@@ -122,7 +124,7 @@
 
 ## 搜索结果选中
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/18-mono-results.zip) · [在线读主源码](source/18-mono-results.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/18-mono-results.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=18-mono-results) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/18-mono-results.zip) · [在线读主源码](../source/18-mono-results.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/18-mono-results.zip)
 
 点击结果行。上下键移动选中项，回车确认。
 
@@ -138,7 +140,7 @@
 
 ## 七日趋势描线与查数
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/18-mono-chart.zip) · [在线读主源码](source/18-mono-chart.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/18-mono-chart.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=18-mono-chart) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/18-mono-chart.zip) · [在线读主源码](../source/18-mono-chart.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/18-mono-chart.zip)
 
 在图上左右移动或拖动查看数值，也可使用左右键。
 
@@ -154,7 +156,7 @@
 
 ## 横向日期带
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/18-mono-calendar.zip) · [在线读主源码](source/18-mono-calendar.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/18-mono-calendar.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=18-mono-calendar) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/18-mono-calendar.zip) · [在线读主源码](../source/18-mono-calendar.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/18-mono-calendar.zip)
 
 点击 14 至 20 日选择，左右键切日，回车确认。
 
@@ -170,7 +172,7 @@
 
 ## 黑底模式清单
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/18-mono-menu.zip) · [在线读主源码](source/18-mono-menu.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/18-mono-menu.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=18-mono-menu) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/18-mono-menu.zip) · [在线读主源码](../source/18-mono-menu.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/18-mono-menu.zip)
 
 点任意一行或按上下键选择模式。
 
@@ -186,7 +188,7 @@
 
 ## 复选与单选设置面板
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/18-mono-choices.zip) · [在线读主源码](source/18-mono-choices.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/18-mono-choices.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=18-mono-choices) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/18-mono-choices.zip) · [在线读主源码](../source/18-mono-choices.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/18-mono-choices.zip)
 
 点击左列独立勾选，点击右列选择一种提醒强度；Tab 可操作下方的同名选项。
 
@@ -202,7 +204,7 @@
 
 ## 确认与返回对话框
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/18-mono-dialog.zip) · [在线读主源码](source/18-mono-dialog.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/18-mono-dialog.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=18-mono-dialog) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/18-mono-dialog.zip) · [在线读主源码](../source/18-mono-dialog.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/18-mono-dialog.zip)
 
 点确认保存，点返回复位。回车和 Esc 也能操作。
 
@@ -218,7 +220,7 @@
 
 ## 三阶段细线进度
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/18-mono-progress.zip) · [在线读主源码](source/18-mono-progress.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/18-mono-progress.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=18-mono-progress) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/18-mono-progress.zip) · [在线读主源码](../source/18-mono-progress.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/18-mono-progress.zip)
 
 点击面板或按回车重新执行加载。
 
@@ -234,4 +236,4 @@
 
 原片使用 SVG、GSAP 3.14.2、Chromium 取帧和 FFmpeg 封装。独立预览使用浏览器原生 SVG、JavaScript、指针与键盘事件以及 requestAnimationFrame，可直接离线打开。 演示和手动操作分别有独立入口。播放器示例为静音。每包标明原片帧区间、逻辑尺寸和调参位置。
 
-[全部动效](README.md) · [技术规范](TECHNICAL.md) · [许可](LICENSE)
+[全部动效](../README.md) · [技术规范](../TECHNICAL.md) · [许可](../LICENSE)

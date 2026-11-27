@@ -1,5 +1,7 @@
 # 健身打卡
 
+> [✨ 在线展馆试玩本期](https://xiaxia-motion.github.io/xiaxia-motion-library/#note=5) · [← 返回全库首页](../README.md)
+
 《【AI教程】第5集：健身打卡平台的组件交互》 · 2026-11-08 · 夏夏的AI灵感
 
 本条笔记共 4 组。每一组有自己的源码和离线预览。
@@ -10,7 +12,7 @@
 
 ## 周历滑选
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/05-rm24-01.zip) · [在线读主源码](source/05-rm24-01.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/05-rm24-01.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=05-rm24-01) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/05-rm24-01.zip) · [在线读主源码](../source/05-rm24-01.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/05-rm24-01.zip)
 
 单组件截取帧区间 [166, 388)，每秒 60 帧。可操作版的具体输入见下文。
 
@@ -30,7 +32,7 @@
 
 ## 训练卡展开
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/05-rm24-02.zip) · [在线读主源码](source/05-rm24-02.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/05-rm24-02.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=05-rm24-02) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/05-rm24-02.zip) · [在线读主源码](../source/05-rm24-02.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/05-rm24-02.zip)
 
 单组件截取帧区间 [388, 724)，每秒 60 帧。可操作版的具体输入见下文。
 
@@ -50,7 +52,7 @@
 
 ## 次数滚轮
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/05-rm24-03.zip) · [在线读主源码](source/05-rm24-03.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/05-rm24-03.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=05-rm24-03) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/05-rm24-03.zip) · [在线读主源码](../source/05-rm24-03.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/05-rm24-03.zip)
 
 单组件截取帧区间 [724, 1064)，每秒 60 帧。可操作版的具体输入见下文。
 
@@ -70,7 +72,7 @@
 
 ## 长按打卡
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/05-rm24-04.zip) · [在线读主源码](source/05-rm24-04.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/05-rm24-04.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=05-rm24-04) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/05-rm24-04.zip) · [在线读主源码](../source/05-rm24-04.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/05-rm24-04.zip)
 
 单组件截取帧区间 [1064, 1394)，每秒 60 帧。可操作版的具体输入见下文。
 
@@ -86,4 +88,4 @@
 
 真实操作版要让访客自己触发同样的反馈。鼠标、触摸或键盘空格/回车按住1.2秒。提前松开、移出、失焦或离屏都会取消；完成后本周示例由3/4变4/4。 将操作、绘制与计时放在各自容器中，支持重新操作；照着 interactive 文件夹的输入处理实现。
 
-[回到全部笔记](README.md)
+[回到全部笔记](../README.md)

@@ -1,5 +1,7 @@
 # 复古橡皮管 UI
 
+> [✨ 在线展馆试玩本期](https://xiaxia-motion.github.io/xiaxia-motion-library/#note=15) · [← 返回全库首页](../README.md)
+
 《Astra6.2审美含量真的超标了！》 · 2026-11-18 · 夏夏的AI灵感
 
 本条笔记共 13 组。每一组有自己的源码和离线预览。
@@ -10,7 +12,7 @@
 
 ## 放映机拉远与错列控件展墙
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/15-cinema-gallery.zip) · [在线读主源码](source/15-cinema-gallery.cpp) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/15-cinema-gallery.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=15-cinema-gallery) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/15-cinema-gallery.zip) · [在线读主源码](../source/15-cinema-gallery.cpp) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/15-cinema-gallery.zip)
 
 跟踪银幕中心，放映机卷轴继续运转，同时把画面缩回左上的节目卡，已完成动作的控件错列显现。
 
@@ -28,7 +30,7 @@
 
 ## 心形收藏计数
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/15-favorite.zip) · [在线读主源码](source/15-favorite.cpp) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/15-favorite.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=15-favorite) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/15-favorite.zip) · [在线读主源码](../source/15-favorite.cpp) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/15-favorite.zip)
 
 光标、心形填充和计数从零到一共享同一时钟。 原角色时钟为 60 帧/秒和 128 BPM。离线图集为 24 帧/秒，原始函数支持任意时刻与目标分辨率。
 
@@ -46,7 +48,7 @@
 
 ## 喇叭音量推子
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/15-horn-slider.zip) · [在线读主源码](source/15-horn-slider.cpp) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/15-horn-slider.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=15-horn-slider) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/15-horn-slider.zip) · [在线读主源码](../source/15-horn-slider.cpp) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/15-horn-slider.zip)
 
 音量从 18% 到 80%，瞳孔与手套跟踪同一手柄。 原角色时钟为 60 帧/秒和 128 BPM。离线图集为 24 帧/秒，原始函数支持任意时刻与目标分辨率。
 
@@ -64,7 +66,7 @@
 
 ## 灯泡拨动开关
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/15-lamp-switch.zip) · [在线读主源码](source/15-lamp-switch.cpp) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/15-lamp-switch.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=15-lamp-switch) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/15-lamp-switch.zip) · [在线读主源码](../source/15-lamp-switch.cpp) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/15-lamp-switch.zip)
 
 滑柄横移 97 单位，到位后轻微弹过头，灯丝和放射线同步。 原角色时钟为 60 帧/秒和 128 BPM。离线图集为 24 帧/秒，原始函数支持任意时刻与目标分辨率。
 
@@ -82,7 +84,7 @@
 
 ## 放映机双卷盘开机
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/15-projector.zip) · [在线读主源码](source/15-projector.cpp) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/15-projector.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=15-projector) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/15-projector.zip) · [在线读主源码](../source/15-projector.cpp) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/15-projector.zip)
 
 相反方向的双卷盘从同一启动点展开，机身与橡皮管双手同步。 原角色时钟为 60 帧/秒和 128 BPM。离线图集为 24 帧/秒，原始函数支持任意时刻与目标分辨率。
 
@@ -100,7 +102,7 @@
 
 ## 下拉刷新与纸面回弹
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/15-pull-refresh.zip) · [在线读主源码](source/15-pull-refresh.cpp) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/15-pull-refresh.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=15-pull-refresh) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/15-pull-refresh.zip) · [在线读主源码](../source/15-pull-refresh.cpp) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/15-pull-refresh.zip)
 
 列表纸张跟随手指向下，在释放以后才回弹并显示更新时间。 原角色时钟为 60 帧/秒和 128 BPM。离线图集为 24 帧/秒，原始函数支持任意时刻与目标分辨率。
 
@@ -118,7 +120,7 @@
 
 ## 搜片双键与列表筛选
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/15-search-keys.zip) · [在线读主源码](source/15-search-keys.cpp) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/15-search-keys.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=15-search-keys) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/15-search-keys.zip) · [在线读主源码](../source/15-search-keys.cpp) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/15-search-keys.zip)
 
 手先触碰搜索框，再按月、夜两键；候选行在第二键后收窄。 原角色时钟为 60 帧/秒和 128 BPM。离线图集为 24 帧/秒，原始函数支持任意时刻与目标分辨率。
 
@@ -136,7 +138,7 @@
 
 ## 六个橡皮管控件亮相与戏票推近
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/15-six-controls-intro.zip) · [在线读主源码](source/15-six-controls-intro.cpp) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/15-six-controls-intro.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=15-six-controls-intro) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/15-six-controls-intro.zip) · [在线读主源码](../source/15-six-controls-intro.cpp) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/15-six-controls-intro.zip)
 
 标题逐字揭出，六件控件进入两排。1.20 秒开始向下排中央的戏票推进，其他角色与边框收起。
 
@@ -154,7 +156,7 @@
 
 ## 验票章盖印勾选
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/15-stamp-check.zip) · [在线读主源码](source/15-stamp-check.cpp) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/15-stamp-check.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=15-stamp-check) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/15-stamp-check.zip) · [在线读主源码](../source/15-stamp-check.cpp) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/15-stamp-check.zip)
 
 票根在印章接触时眯眼，抬起后显示勾选。 原角色时钟为 60 帧/秒和 128 BPM。离线图集为 24 帧/秒，原始函数支持任意时刻与目标分辨率。
 
@@ -172,7 +174,7 @@
 
 ## 跳跃星级评分
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/15-star-rating.zip) · [在线读主源码](source/15-star-rating.cpp) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/15-star-rating.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=15-star-rating) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/15-star-rating.zip) · [在线读主源码](../source/15-star-rating.cpp) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/15-star-rating.zip)
 
 四个拍点让星星逐格跳跃、触底形变、填色后回弹。 原角色时钟为 60 帧/秒和 128 BPM。离线图集为 24 帧/秒，原始函数支持任意时刻与目标分辨率。
 
@@ -190,7 +192,7 @@
 
 ## 戏票按压回弹
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/15-ticket.zip) · [在线读主源码](source/15-ticket.cpp) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/15-ticket.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=15-ticket) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/15-ticket.zip) · [在线读主源码](../source/15-ticket.cpp) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/15-ticket.zip)
 
 2.78 倍近景中，身体先压缩再回弹，手套后抬。 原角色时钟为 60 帧/秒和 128 BPM。离线图集为 24 帧/秒，原始函数支持任意时刻与目标分辨率。
 
@@ -208,7 +210,7 @@
 
 ## 打字机逐键输入 MOON
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/15-typewriter.zip) · [在线读主源码](source/15-typewriter.cpp) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/15-typewriter.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=15-typewriter) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/15-typewriter.zip) · [在线读主源码](../source/15-typewriter.cpp) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/15-typewriter.zip)
 
 四次字键动作各有独立按下、回程和落字时刻。 原角色时钟为 60 帧/秒和 128 BPM。离线图集为 24 帧/秒，原始函数支持任意时刻与目标分辨率。
 
@@ -226,7 +228,7 @@
 
 ## 切换到我的片单
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/15-watch-list.zip) · [在线读主源码](source/15-watch-list.cpp) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/15-watch-list.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=15-watch-list) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/15-watch-list.zip) · [在线读主源码](../source/15-watch-list.cpp) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/15-watch-list.zip)
 
 分段标签移动，刚收藏的电影沿原卡片进入片单。 原角色时钟为 60 帧/秒和 128 BPM。离线图集为 24 帧/秒，原始函数支持任意时刻与目标分辨率。
 
@@ -240,4 +242,4 @@
 
 分段标签移动，刚收藏的电影沿原卡片进入片单。 以暖纸、深咖轮廓、朱红和芥末黄建立旧戏院的橡皮管角色。身体轮廓、眼睛方向、手套接触点都依照 component.cpp 的动作求值。
 
-[回到全部笔记](README.md)
+[回到全部笔记](../README.md)

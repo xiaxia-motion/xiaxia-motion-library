@@ -1,5 +1,7 @@
 # 十二种设计风格
 
+> [✨ 在线展馆试玩本期](https://xiaxia-motion.github.io/xiaxia-motion-library/#note=11) · [← 返回全库首页](../README.md)
+
 《给AI换个审美，试试这些提示词！》 · 2026-11-14 · 夏夏的AI灵感
 
 本条笔记共 15 组。每一组有自己的源码和离线预览。
@@ -10,7 +12,7 @@
 
 ## 三张材质卡亮相与玻璃图标接力
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/11-card-gallery-intro.zip) · [在线读主源码](source/11-card-gallery-intro.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/11-card-gallery-intro.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-card-gallery-intro) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/11-card-gallery-intro.zip) · [在线读主源码](../source/11-card-gallery-intro.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/11-card-gallery-intro.zip)
 
 三张黏土、纸艺和玻璃卡依次进入。其余底板退去，第三张卡的同一图标向右上方移动并放大，接入玻璃网页。
 
@@ -28,7 +30,7 @@
 
 ## 同一四角星在不同材质间形变
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/11-icon-morph.zip) · [在线读主源码](source/11-icon-morph.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/11-icon-morph.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-icon-morph) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/11-icon-morph.zip) · [在线读主源码](../source/11-icon-morph.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/11-icon-morph.zip)
 
 对不同材质的同一个四角星沿极角采轮廓，插值边界和材质，背景页面独立原位淡入淡出。
 
@@ -46,7 +48,7 @@
 
 ## 包豪斯主图微晃
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/11-style-bauhaus.zip) · [在线读主源码](source/11-style-bauhaus.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/11-style-bauhaus.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-style-bauhaus) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/11-style-bauhaus.zip) · [在线读主源码](../source/11-style-bauhaus.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/11-style-bauhaus.zip)
 
 1440 × 884 页面；横向 1.8、纵向 2.8 像素；最大转角 1.35°；三个正弦周期分别为 3.2、2.8 和 3.8 秒；首尾缓入归零。
 
@@ -64,7 +66,7 @@
 
 ## 新粗野主义主图微晃
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/11-style-br.zip) · [在线读主源码](source/11-style-br.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/11-style-br.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-style-br) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/11-style-br.zip) · [在线读主源码](../source/11-style-br.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/11-style-br.zip)
 
 1440 × 884 页面；横向 1.8、纵向 2.8 像素；最大转角 1.35°；三个正弦周期分别为 3.2、2.8 和 3.8 秒；首尾缓入归零。
 
@@ -82,7 +84,7 @@
 
 ## 黏土风主图微晃
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/11-style-clay.zip) · [在线读主源码](source/11-style-clay.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/11-style-clay.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-style-clay) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/11-style-clay.zip) · [在线读主源码](../source/11-style-clay.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/11-style-clay.zip)
 
 1440 × 884 页面；横向 1.8、纵向 2.8 像素；最大转角 1.35°；三个正弦周期分别为 3.2、2.8 和 3.8 秒；首尾缓入归零。
 
@@ -100,7 +102,7 @@
 
 ## 赛博朋克主图微晃
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/11-style-cyber.zip) · [在线读主源码](source/11-style-cyber.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/11-style-cyber.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-style-cyber) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/11-style-cyber.zip) · [在线读主源码](../source/11-style-cyber.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/11-style-cyber.zip)
 
 1440 × 884 页面；横向 1.8、纵向 2.8 像素；最大转角 1.35°；三个正弦周期分别为 3.2、2.8 和 3.8 秒；首尾缓入归零。
 
@@ -118,7 +120,7 @@
 
 ## 杂志编辑主图微晃
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/11-style-ed.zip) · [在线读主源码](source/11-style-ed.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/11-style-ed.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-style-ed) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/11-style-ed.zip) · [在线读主源码](../source/11-style-ed.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/11-style-ed.zip)
 
 1440 × 884 页面；横向 1.8、纵向 2.8 像素；最大转角 1.35°；三个正弦周期分别为 3.2、2.8 和 3.8 秒；首尾缓入归零。
 
@@ -136,7 +138,7 @@
 
 ## 玻璃拟态主图微晃
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/11-style-gl.zip) · [在线读主源码](source/11-style-gl.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/11-style-gl.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-style-gl) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/11-style-gl.zip) · [在线读主源码](../source/11-style-gl.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/11-style-gl.zip)
 
 1440 × 884 页面；横向 1.8、纵向 2.8 像素；最大转角 1.35°；三个正弦周期分别为 3.2、2.8 和 3.8 秒；首尾缓入归零。
 
@@ -154,7 +156,7 @@
 
 ## 黑白极简主图微晃
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/11-style-minimal.zip) · [在线读主源码](source/11-style-minimal.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/11-style-minimal.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-style-minimal) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/11-style-minimal.zip) · [在线读主源码](../source/11-style-minimal.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/11-style-minimal.zip)
 
 1440 × 884 页面；横向 1.8、纵向 2.8 像素；最大转角 1.35°；三个正弦周期分别为 3.2、2.8 和 3.8 秒；首尾缓入归零。
 
@@ -172,7 +174,7 @@
 
 ## 新拟物主图微晃
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/11-style-neumorph.zip) · [在线读主源码](source/11-style-neumorph.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/11-style-neumorph.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-style-neumorph) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/11-style-neumorph.zip) · [在线读主源码](../source/11-style-neumorph.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/11-style-neumorph.zip)
 
 1440 × 884 页面；横向 1.8、纵向 2.8 像素；最大转角 1.35°；三个正弦周期分别为 3.2、2.8 和 3.8 秒；首尾缓入归零。
 
@@ -190,7 +192,7 @@
 
 ## 像素风主图微晃
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/11-style-pixel.zip) · [在线读主源码](source/11-style-pixel.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/11-style-pixel.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-style-pixel) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/11-style-pixel.zip) · [在线读主源码](../source/11-style-pixel.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/11-style-pixel.zip)
 
 1440 × 884 页面；横向 1.8、纵向 2.8 像素；最大转角 1.35°；三个正弦周期分别为 3.2、2.8 和 3.8 秒；首尾缓入归零。
 
@@ -208,7 +210,7 @@
 
 ## 手绘涂鸦主图微晃
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/11-style-sketch.zip) · [在线读主源码](source/11-style-sketch.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/11-style-sketch.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-style-sketch) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/11-style-sketch.zip) · [在线读主源码](../source/11-style-sketch.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/11-style-sketch.zip)
 
 1440 × 884 页面；横向 1.8、纵向 2.8 像素；最大转角 1.35°；三个正弦周期分别为 3.2、2.8 和 3.8 秒；首尾缓入归零。
 
@@ -226,7 +228,7 @@
 
 ## 瑞士平面主图微晃
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/11-style-swiss.zip) · [在线读主源码](source/11-style-swiss.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/11-style-swiss.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-style-swiss) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/11-style-swiss.zip) · [在线读主源码](../source/11-style-swiss.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/11-style-swiss.zip)
 
 1440 × 884 页面；横向 1.8、纵向 2.8 像素；最大转角 1.35°；三个正弦周期分别为 3.2、2.8 和 3.8 秒；首尾缓入归零。
 
@@ -244,7 +246,7 @@
 
 ## Y2K主图微晃
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/11-style-y2k.zip) · [在线读主源码](source/11-style-y2k.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/11-style-y2k.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-style-y2k) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/11-style-y2k.zip) · [在线读主源码](../source/11-style-y2k.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/11-style-y2k.zip)
 
 1440 × 884 页面；横向 1.8、纵向 2.8 像素；最大转角 1.35°；三个正弦周期分别为 3.2、2.8 和 3.8 秒；首尾缓入归零。
 
@@ -262,7 +264,7 @@
 
 ## 十二种风格收进作品墙
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/11-twelve-grid.zip) · [在线读主源码](source/11-twelve-grid.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/11-twelve-grid.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=11-twelve-grid) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/11-twelve-grid.zip) · [在线读主源码](../source/11-twelve-grid.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/11-twelve-grid.zip)
 
 主页和图标缩进四列三行展示墙，到位以后每一格以不同相位轻轻平移、转动。
 
@@ -276,4 +278,4 @@
 
 主页和图标缩进四列三行展示墙，到位以后每一格以不同相位轻轻平移、转动。 使用真实轮廓和同一组图标，保持版面可读，交付可拖动的独立组件。
 
-[回到全部笔记](README.md)
+[回到全部笔记](../README.md)

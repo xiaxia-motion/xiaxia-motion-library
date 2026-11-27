@@ -1,5 +1,7 @@
 # 番茄时钟
 
+> [✨ 在线展馆试玩本期](https://xiaxia-motion.github.io/xiaxia-motion-library/#note=4) · [← 返回全库首页](../README.md)
+
 《【AI教程】第4集：适用专注类小工具的设计》 · 2026-11-08 · 夏夏的AI灵感
 
 本条笔记共 4 组。每一组有自己的源码和离线预览。
@@ -10,7 +12,7 @@
 
 ## 旋转拨盘
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/04-rm23-01.zip) · [在线读主源码](source/04-rm23-01.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/04-rm23-01.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=04-rm23-01) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/04-rm23-01.zip) · [在线读主源码](../source/04-rm23-01.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/04-rm23-01.zip)
 
 单组件截取帧区间 [164, 388)，每秒 60 帧。可操作版的具体输入见下文。
 
@@ -30,7 +32,7 @@
 
 ## 磁吸任务
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/04-rm23-02.zip) · [在线读主源码](source/04-rm23-02.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/04-rm23-02.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=04-rm23-02) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/04-rm23-02.zip) · [在线读主源码](../source/04-rm23-02.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/04-rm23-02.zip)
 
 单组件截取帧区间 [388, 746)，每秒 60 帧。可操作版的具体输入见下文。
 
@@ -50,7 +52,7 @@
 
 ## 弹性声场
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/04-rm23-03.zip) · [在线读主源码](source/04-rm23-03.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/04-rm23-03.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=04-rm23-03) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/04-rm23-03.zip) · [在线读主源码](../source/04-rm23-03.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/04-rm23-03.zip)
 
 单组件截取帧区间 [746, 1084)，每秒 60 帧。可操作版的具体输入见下文。
 
@@ -70,7 +72,7 @@
 
 ## 悬浮专注
 
-[下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/04-rm23-04.zip) · [在线读主源码](source/04-rm23-04.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/04-rm23-04.zip)
+[在线试玩](https://xiaxia-motion.github.io/xiaxia-motion-library/#item=04-rm23-04) · [下载源码 ZIP](https://github.com/xiaxia-motion/xiaxia-motion-library/raw/refs/heads/main/zips/04-rm23-04.zip) · [在线读主源码](../source/04-rm23-04.js) · [分享这个文件](https://github.com/xiaxia-motion/xiaxia-motion-library/blob/main/zips/04-rm23-04.zip)
 
 单组件截取帧区间 [1084, 1394)，每秒 60 帧。可操作版的具体输入见下文。
 
@@ -86,4 +88,4 @@
 
 真实操作版要让访客自己触发同样的反馈。开始45分钟倒计时，可暂停、重置或收成胶囊。草稿可独立滚动并勾选；计时按可见时真实秒数，离屏停止累计。 将操作、绘制与计时放在各自容器中，支持重新操作；照着 interactive 文件夹的输入处理实现。
 
-[回到全部笔记](README.md)
+[回到全部笔记](../README.md)
